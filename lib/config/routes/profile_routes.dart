@@ -5,6 +5,6 @@ class ProfileRoutes {
   static const String profile = '/profile-route';
 
   final routes = [
-    createPage('/phone-route', () => const ProfilePage()),
+    createPage(profile, () => const ProfilePage()),
   ];
 }

@@ -8,7 +8,7 @@ class CustomAppTheme {
   ThemeData lightTheme = ThemeData(
       useMaterial3: true,
       textTheme: GoogleFonts.montserratTextTheme(),
-      appBarTheme: CustomAppbarTheme().lightAppbarTheme,
+      //appBarTheme: CustomAppbarTheme().lightAppbarTheme,
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue, brightness: Brightness.light),
       outlinedButtonTheme: CustomOutlinedButtonTheme.lightOutlinedButtonTheme,
       elevatedButtonTheme: CustomElevatedButtonTheme.lightElevatedButtonTheme);
@@ -16,7 +16,7 @@ class CustomAppTheme {
   ThemeData darkTheme = ThemeData(
       useMaterial3: true,
       textTheme: GoogleFonts.montserratTextTheme(),
-      appBarTheme: CustomAppbarTheme().darkAppbarTheme,
+      //appBarTheme: CustomAppbarTheme().darkAppbarTheme,
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber, brightness: Brightness.dark),
       outlinedButtonTheme: CustomOutlinedButtonTheme.darkOutlinedButtonTheme,
       elevatedButtonTheme: CustomElevatedButtonTheme.darkElevatedButtonTheme);

@@ -1,8 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:happy_cooking/config/theme/size.dart';
 import 'package:happy_cooking/features/profile/presentation/widgets/profile_info_widget.dart';
-import 'package:happy_cooking/features/profile/presentation/widgets/profile_list_menu_widget.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
+
+import '../widgets/profile_list_menu_widget.dart';
+
+final User user = FirebaseAuth.instance.currentUser!;
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -16,9 +20,9 @@ class _ProfilePage extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Profile',
-          style: Theme.of(context).textTheme.labelMedium!.copyWith(color: Colors.white),
+          style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
         actions: [
@@ -28,15 +32,17 @@ class _ProfilePage extends State<ProfilePage> {
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          padding: const EdgeInsets.all(defaultSize),
-          child: const Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              ProfileInfoWidget(),
-              ProfileListMenuWidget(),
-            ],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Container(
+            padding: const EdgeInsets.all(defaultSize),
+            child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                ProfileInfoWidget(),
+                ProfileListMenuWidget(),
+              ],
+            ),
           ),
         ),
       ),

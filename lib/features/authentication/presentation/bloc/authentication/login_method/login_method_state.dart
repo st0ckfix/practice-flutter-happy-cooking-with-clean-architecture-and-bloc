@@ -1,13 +1,12 @@
 part of 'login_method_bloc.dart';
 
-abstract class LoginMethodState extends Equatable {
+abstract class LoginMethodState<T> extends Equatable {
+  final T? data;
   final String? failedReason;
-  final DioException? dioException;
-
-  const LoginMethodState({this.failedReason, this.dioException});
+  const LoginMethodState({this.failedReason, this.data});
 
   @override
-  List<Object> get props => [failedReason!, dioException!];
+  List<Object> get props => [failedReason!, data!];
 }
 
 final class LoginMethodInitial extends LoginMethodState {
@@ -18,14 +17,10 @@ final class LoginMethodLoading extends LoginMethodState {
   const LoginMethodLoading();
 }
 
-final class LoginMethodSuccessful extends LoginMethodState {
-  const LoginMethodSuccessful() : super();
+final class LoginMethodSuccessful<T> extends LoginMethodState {
+  const LoginMethodSuccessful(T? data) : super(data: data);
 }
 
 final class LoginMethodFailed extends LoginMethodState {
   const LoginMethodFailed(String failedReason) : super(failedReason: failedReason);
-}
-
-final class LoginMethodException extends LoginMethodState {
-  const LoginMethodException(DioException exception) : super(dioException: exception);
 }

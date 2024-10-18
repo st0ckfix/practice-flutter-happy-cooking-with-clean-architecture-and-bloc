@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:happy_cooking/config/theme/size.dart';
 import 'package:happy_cooking/core/common_widget/custom_button.dart';
 import 'package:happy_cooking/core/constants/labels/sign_up_label.dart';
+import '../../../../../core/common_widget/double_password_field.dart';
+import '../../../../../core/common_widget/email_field.dart';
 import '../../../../../core/constants/tag.dart';
-import '../common_widget/double_password_field.dart';
-import '../common_widget/email_field.dart';
 import 'username_field.dart';
 
 class SignupTextfieldFormWidget extends StatelessWidget {
@@ -24,28 +24,36 @@ class SignupTextfieldFormWidget extends StatelessWidget {
       key: globalKey,
       child: Column(
         children: [
-          EmailField(
-            emailController: emailController,
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: formHeight),
+            child: EmailField(
+              emailController: emailController,
+            ),
           ),
-          const SizedBox(height: formHeight),
-          DoublePasswordField(
-            confirmController: confirmController,
-            passwordController: passwordController,
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: formHeight),
+            child: DoublePasswordField(
+              confirmController: confirmController,
+              passwordController: passwordController,
+            ),
           ),
-          const SizedBox(height: formHeight),
-          UsernameField(
-            usernameController: usernameController,
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: formHeight),
+            child: UsernameField(
+              usernameController: usernameController,
+            ),
           ),
-          const SizedBox(height: formHeight),
-          CustomButton(
-            key: const Key(signupTag),
-            isOutlined: false,
-            icon: const SizedBox.shrink(),
-            label: signupBtnLabel,
-            onClick: () {
-              if (!globalKey.currentState!.validate()) return;
-              callback(emailController.text, passwordController.text, usernameController.text);
-            },
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: formHeight),
+            child: CustomButton(
+              key: const Key(signupTag),
+              isOutlined: false,
+              title: signupBtnLabel,
+              onClick: () {
+                if (!globalKey.currentState!.validate()) return;
+                callback(emailController.text, passwordController.text, usernameController.text);
+              },
+            ),
           ),
         ],
       ),

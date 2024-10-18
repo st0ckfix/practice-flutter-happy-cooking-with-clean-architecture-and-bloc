@@ -5,7 +5,7 @@ class HeaderLabelWidget extends StatelessWidget {
   const HeaderLabelWidget({
     super.key,
     required this.title,
-    required this.subtitle,
+    this.subtitle,
     this.style,
     this.subStyle,
     this.textAlign,
@@ -15,7 +15,7 @@ class HeaderLabelWidget extends StatelessWidget {
   });
 
   final String title;
-  final String subtitle;
+  final String? subtitle;
   final TextStyle? style;
   final TextStyle? subStyle;
   final TextAlign? textAlign;
@@ -36,11 +36,9 @@ class HeaderLabelWidget extends StatelessWidget {
             style: style.let((it) => it.copyWith(height: 1)),
             textAlign: textAlign,
           ),
-          const SizedBox(
-            height: 8.0,
-          ),
+          if(subtitle != null)
           Text(
-            subtitle,
+            subtitle!,
             style: subStyle,
             textAlign: subTextAlign,
           ),

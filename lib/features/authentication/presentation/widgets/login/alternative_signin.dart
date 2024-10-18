@@ -8,7 +8,6 @@ class AlternativeSignin extends StatelessWidget {
   const AlternativeSignin({
     super.key,
     required this.isDarkmode,
-    required this.onGeust,
     required this.onGoogle,
     required this.onPhone,
   });
@@ -16,64 +15,41 @@ class AlternativeSignin extends StatelessWidget {
   final bool isDarkmode;
   final Function onGoogle;
   final Function onPhone;
-  final Function onGeust;
 
   @override
   Widget build(BuildContext context) {
     return Column(
-    children: [
-      Padding(
-        padding: const EdgeInsets.symmetric(vertical: buttonHeight),
-        child: Align(
-          alignment: Alignment.topCenter,
-          child: Text(
-            loginAlternativeLabel.toUpperCase(),
-            style: const TextStyle(fontWeight: FontWeight.bold),
+      children: [
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: buttonHeight),
+          child: Align(
+            alignment: Alignment.topCenter,
+            child: Text(
+              loginAlternativeLabel.toUpperCase(),
+              style: const TextStyle(fontWeight: FontWeight.w500),
+            ),
           ),
         ),
-      ),
-      SizedBox(
-        width: double.maxFinite,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            circleIcon(
-              isDarkmode,
-              googleIcon,
-              false,
-              onGoogle,
-            ),
-            const SizedBox(
-              width: 15,
-            ),
-            circleIcon(
-              isDarkmode,
-              phoneIcon,
-              false,
-              onPhone,
-            ),
-            const SizedBox(
-              width: 15,
-            ),
-            circleIcon(
-              isDarkmode,
-              personIcon,
-              true,
-              onGeust,
-            ),
-          ],
+        SizedBox(
+          width: double.maxFinite,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              circleIcon(isDarkmode, googleIcon, false, onGoogle),
+              circleIcon(isDarkmode, phoneIcon, false, onPhone),
+            ],
+          ),
         ),
-      ),
-    ],
-  );
+      ],
+    );
   }
 }
-
 
 Widget circleIcon(bool isDarkmode, String icon, bool conditionColor, Function onSelect) {
   Color mainColor = isDarkmode ? Colors.white : secondaryColor;
   Color subColor = isDarkmode ? secondaryColor : Colors.white;
   return Container(
+    padding: const EdgeInsets.symmetric(horizontal: formHeight),
     decoration: BoxDecoration(
       shape: BoxShape.circle,
       border: Border.fromBorderSide(

@@ -1,41 +1,90 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,
-    this.tag,
     required this.isOutlined,
-    required this.icon,
-    required this.label,
+    this.width,
+    this.height,
+    this.padding = EdgeInsets.zero,
+    this.leading,
+    this.trailing,
+    this.title,
+    this.fontWeight = FontWeight.bold,
+    this.fontStyle = FontStyle.normal,
+    this.fontSize = 13,
+    this.fontColor = Colors.white,
     required this.onClick,
   });
 
-  final String? tag;
   final bool isOutlined;
-  final String label;
-  final Widget icon;
+  final double? width;
+  final double? height;
+  final EdgeInsets? padding;
+  final Widget? leading;
+  final Widget? trailing;
+  final String? title;
+  final FontWeight? fontWeight;
+  final FontStyle? fontStyle;
+  final double? fontSize;
+  final Color? fontColor;
   final Function onClick;
 
   @override
   Widget build(BuildContext context) {
-    return Hero(
-      tag: tag ?? Random().nextInt(1000000),
-      child: SizedBox(
-        width: double.maxFinite,
-        child: isOutlined
-            ? OutlinedButton.icon(
-                icon: icon,
-                onPressed: () => onClick(),
-                label: Text(label),
-              )
-            : ElevatedButton.icon(
-                icon: icon,
-                onPressed: () => onClick(),
-                label: Text(label),
+    return SizedBox(
+      width: width,
+      child: isOutlined
+          ? OutlinedButton(
+              style: OutlinedButton.styleFrom(
+                padding: padding,
+                minimumSize: Size.zero,
               ),
-      ),
+              onPressed: () => onClick(),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (leading != null) leading!,
+                  if (title != null)
+                    Text(
+                      title!,
+                      style: TextStyle(
+                        fontWeight: fontWeight,
+                        fontStyle: fontStyle,
+                        fontSize: fontSize,
+                        color: fontColor,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  if (trailing != null) trailing!,
+                ],
+              ),
+            )
+          : ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                padding: padding,
+                minimumSize: Size.zero,
+              ),
+              onPressed: () => onClick(),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (leading != null) leading!,
+                  if (title != null)
+                    Text(
+                      title!,
+                      style: TextStyle(
+                        fontWeight: fontWeight,
+                        fontStyle: fontStyle,
+                        fontSize: fontSize,
+                        color: fontColor,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  if (trailing != null) trailing!,
+                ],
+              ),
+            ),
     );
   }
 }

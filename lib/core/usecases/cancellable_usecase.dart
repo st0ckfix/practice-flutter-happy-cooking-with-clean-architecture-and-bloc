@@ -1,17 +1,14 @@
 import 'dart:async';
 import 'package:dartz/dartz.dart';
 
-import '../class/failure.dart';
-
-
 /// Abstract class representing a cancellable use case.
 /// This class should be extended by use cases that may need to be cancelled.
 abstract class CancellableUseCase<Type, T> {
   /// Method that executes the use case and can be cancelled via [completer].
   ///
   /// [T] can represents the input parameters required to run the use case.
-  /// Returns an [Either] with [Failure] on the left and [Type] on the right side in case of success.
-  Future<Either<Failure, Type>> call(T params, {required CancelableCompleter completer});
+  /// Returns an [Either] with [String] on the left and [Type] on the right side in case of success.
+  Future<Either<String, Type>> call(T params, {required CancelableCompleter completer});
 }
 
 /// A CancelableCompleter that can be used to cancel asynchronous operations.

@@ -1,50 +1,46 @@
-import 'package:dio/dio.dart';
+import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../../../core/resource/data_state.dart';
-import '../../../../domain/usecases/user_authentication.dart';
+import '../../../../domain/usecases/login_with_email_use_case.dart';
+import '../../../../domain/usecases/request_google_credential_use_case.dart';
+import '../../../../domain/usecases/login_with_phone_use_case.dart';
 
 part 'login_method_event.dart';
 part 'login_method_state.dart';
 
 class LoginMethodBloc extends Bloc<LoginMethodEvent, LoginMethodState> {
   final LoginWithEmailUseCase loginWithEmailUserCase;
-  final LoginWithGoogleUseCase loginWithGoogleUseCase;
-  final LoginAsGuestUseCase loginAsGuestUseCase;
+  final RequestGoogleCredentialUseCase requestGoogleCredentialUseCase;
+  final LoginWithPhoneUseCase loginWithPhoneUseCase;
 
-  LoginMethodBloc(this.loginWithEmailUserCase, this.loginAsGuestUseCase, this.loginWithGoogleUseCase) : super(const LoginMethodInitial()) {
+  LoginMethodBloc(
+    this.loginWithEmailUserCase,
+    this.requestGoogleCredentialUseCase,
+    this.loginWithPhoneUseCase,
+  ) : super(const LoginMethodInitial()) {
     on<LoginWithEmailEvent>(
-      (event, emit) async => await onLoginEvent(
-        emit,
-        loginWithEmailUserCase(
-          params: (event.email, event.password),
-        ),
-      ),
+      (event, emit) async => await onLoginEvent(emit, loginWithEmailUserCase(params: (email: event.email, password: event.password))),
     );
     on<LoginWithGoogleEvent>(
-      (event, emit) async => await onLoginEvent(
-        emit,
-        loginWithGoogleUseCase(),
-      ),
+      (event, emit) async => await onLoginEvent(emit, requestGoogleCredentialUseCase()),
     );
-    on<LoginAsGuestEvent>(
-      (event, emit) async => await onLoginEvent(
-        emit,
-        loginAsGuestUseCase(),
-      ),
+    on<LoginWithPhoneEvent>(
+      (event, emit) async => await onLoginEvent(emit, loginWithPhoneUseCase(params: event.phoneAuthCredential)),
     );
   }
 
-  Future<void> onLoginEvent(Emitter emit, Future<DataState> fuction) async {
+  Future<void> onLoginEvent(Emitter emit, Future<Either<String, dynamic>> fuction) async {
     emit(const LoginMethodLoading());
     final dataState = await fuction;
-    if (dataState is DataSuccess) {
-      emit(const LoginMethodSuccessful());
-    } else if (dataState is DataFailed) {
-      emit(LoginMethodFailed(dataState.data as String));
-    } else {
-      emit(LoginMethodException(dataState.exception!));
-    }
+    dataState.fold(
+      (error) {
+        emit(LoginMethodFailed(error));
+      },
+      (data) {
+        emit(LoginMethodSuccessful(data));
+      },
+    );
   }
 }

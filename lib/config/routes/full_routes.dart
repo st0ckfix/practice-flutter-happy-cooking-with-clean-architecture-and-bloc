@@ -10,7 +10,7 @@ GetPage createPage(String name, Widget Function() page, {Transition? transition,
     name: name,
     page: page,
     transition: transition ?? Transition.fade,
-    transitionDuration: duration ?? const Duration(milliseconds: 300),
+    transitionDuration: duration ?? const Duration(milliseconds: 1000),
     curve: curve ?? Curves.easeInOut,
   );
 }

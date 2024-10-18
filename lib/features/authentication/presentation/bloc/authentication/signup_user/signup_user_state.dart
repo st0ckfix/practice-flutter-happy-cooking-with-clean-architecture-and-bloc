@@ -2,11 +2,10 @@ part of 'signup_user_bloc.dart';
 
 abstract class SignupUserState extends Equatable {
   final String? failedReason;
-  final DioException? dioException;
-  const SignupUserState({this.failedReason, this.dioException});
+  const SignupUserState({this.failedReason});
 
   @override
-  List<Object> get props => [failedReason!, dioException!];
+  List<Object> get props => [failedReason!];
 }
 
 final class SignupUserInitial extends SignupUserState {
@@ -23,8 +22,4 @@ final class SignupUserSuccessful extends SignupUserState {
 
 final class SignupUserFailed extends SignupUserState {
   const SignupUserFailed(String failedReason) : super(failedReason: failedReason);
-}
-
-final class SignupUserException extends SignupUserState {
-  const SignupUserException(DioException exception) : super(dioException: exception);
 }

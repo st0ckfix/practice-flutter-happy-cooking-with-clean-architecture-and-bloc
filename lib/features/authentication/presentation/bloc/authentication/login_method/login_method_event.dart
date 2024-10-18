@@ -19,7 +19,10 @@ final class LoginWithEmailEvent extends LoginMethodEvent {
 final class LoginWithGoogleEvent extends LoginMethodEvent {
   const LoginWithGoogleEvent();
 }
+final class LoginWithPhoneEvent extends LoginMethodEvent {
+  final PhoneAuthCredential phoneAuthCredential;
+  const LoginWithPhoneEvent(this.phoneAuthCredential);
 
-final class LoginAsGuestEvent extends LoginMethodEvent {
-  const LoginAsGuestEvent();
+  @override
+  List<Object> get props => [phoneAuthCredential];
 }

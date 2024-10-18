@@ -1,4 +1,7 @@
+import 'dart:developer';
+
 String getErrorMessage(String errorCode) {
+  log(errorCode);
   const errorMessages = {
     'invalid-email': 'The email address is badly formatted.',
     'user-disabled': 'The user account has been disabled by an administrator.',

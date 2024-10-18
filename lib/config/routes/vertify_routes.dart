@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import '../../features/phone_vertify/presentation/pages/code_verify_screen.dart';
-import '../../features/phone_vertify/presentation/pages/vertify_page.dart';
-import '../../features/phone_vertify/presentation/pages/vertify_screen.dart';
+import '../../features/vertify/presentation/pages/code_verify_screen.dart';
+import '../../features/vertify/presentation/pages/vertify_page.dart';
+import '../../features/vertify/presentation/pages/vertify_screen.dart';
 import 'full_routes.dart';
 
 class VertifyRoutes {
@@ -15,16 +15,22 @@ class VertifyRoutes {
     createPage(
       '/vertify-route',
       () => VertifyScreen(
+        form: Get.arguments['form'],
         email: Get.arguments['email'],
-        fieldValidator: Get.arguments['fieldValidator'],
+        callbackEmail: Get.arguments['callbackEmail'],
+        callbackPhone: Get.arguments['callbackPhone'],
+        fieldValidator: Get.arguments['fieldValidator'],   
       ),
+      duration: const Duration(milliseconds: 500),
       transition: Transition.rightToLeft,
     ),
     createPage(
       '/sms-vertify-route',
       () => PhoneVertifySMSCodeScreen(
+        callbackEmail: Get.arguments['callbackEmail'],
+        callbackPhone: Get.arguments['callbackPhone'],
         agrument: Get.arguments['agrument'],
-        resendSMS: Get.arguments['resendSMS'],
+        emailCode: Get.arguments['emailCode'],
       ),
       transition: Transition.fadeIn,
     ),

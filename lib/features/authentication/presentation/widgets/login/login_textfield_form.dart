@@ -6,8 +6,8 @@ import 'package:happy_cooking/core/constants/labels/log_in_label.dart';
 import 'package:happy_cooking/features/authentication/presentation/widgets/common_widget/single_password_filed.dart';
 
 import '../../../../../config/theme/size.dart';
+import '../../../../../core/common_widget/email_field.dart';
 import '../../../../../core/constants/tag.dart';
-import '../common_widget/email_field.dart';
 import 'login_more_option.dart';
 
 class LoginTextfieldFormWidget extends StatelessWidget {
@@ -34,32 +34,39 @@ class LoginTextfieldFormWidget extends StatelessWidget {
         key: globalKey,
         child: Column(
           children: [
-            EmailField(
-              emailController: emailController,
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: formHeight),
+              child: EmailField(
+                emailController: emailController,
+              ),
             ),
-            const SizedBox(height: formHeight),
-            SinglePasswordField(
-              passwordController: passwordController,
-              label: passwordLabel,
-              validator: (text) {
-                return text == null || text.isEmpty ? errorEmptyLabel : null;
-              },
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: formHeight),
+              child: SinglePasswordField(
+                passwordController: passwordController,
+                label: passwordLabel,
+                validator: (text) {
+                  return text == null || text.isEmpty ? errorEmptyLabel : null;
+                },
+              ),
             ),
-            const SizedBox(height: formHeight),
-            LoginOptionWidget(
-              onCheckRemember: (bool value) => onRemember(value),
-              onForgetPassword: () => onForget(),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: formHeight),
+              child: LoginOptionWidget(
+                onForgetPassword: () => onForget(),
+              ),
             ),
-            const SizedBox(height: formHeight),
-            CustomButton(
-              key: const Key(loginTag),
-              isOutlined: true,
-              icon: const SizedBox.shrink(),
-              label: loginBtnLabel.toUpperCase(),
-              onClick: () {
-                if (!globalKey.currentState!.validate()) return;
-                callback(emailController.text, passwordController.text);
-              },
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: formHeight),
+              child: CustomButton(
+                key: const Key(loginTag),
+                isOutlined: true,
+                title: loginBtnLabel.toUpperCase(),
+                onClick: () {
+                  if (!globalKey.currentState!.validate()) return;
+                  callback(emailController.text, passwordController.text);
+                },
+              ),
             ),
           ],
         ),

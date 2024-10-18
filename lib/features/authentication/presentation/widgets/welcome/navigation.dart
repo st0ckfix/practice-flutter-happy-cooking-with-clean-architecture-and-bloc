@@ -19,8 +19,7 @@ class WelcomeNavigation extends StatelessWidget {
           child: CustomButton(
             key: const Key(loginTag),
             isOutlined: true,
-            label: loginBtnLabel.toUpperCase(),
-            icon: const SizedBox.shrink(),
+            title: loginBtnLabel.toUpperCase(),
             onClick: () {
               Get.to(() => const LoginScreen());
             },
@@ -33,8 +32,7 @@ class WelcomeNavigation extends StatelessWidget {
           child: CustomButton(
             isOutlined: false,
             key: const Key(signupTag),
-            label: signupBtnLabel.toUpperCase(),
-            icon: const SizedBox.shrink(),
+            title: signupBtnLabel.toUpperCase(),
             onClick: () {
               Get.to(() => const SignupScreen());
             },
