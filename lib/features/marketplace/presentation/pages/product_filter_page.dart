@@ -7,11 +7,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
 import 'package:happy_cooking/features/marketplace/presentation/bloc/product/product_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product_select_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_cart_page.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_detail_page.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
-
-import '../cubit/discount_value_cubit.dart';
 import '../cubit/product_manager_cubit.dart';
 
 class ProductFilterPage extends StatefulWidget {
@@ -126,7 +125,7 @@ class _ProductFilterPageState extends State<ProductFilterPage> {
                   final item = listProduct[index];
                   return InkWell(
                     onTap: () {
-                      context.read<ProductSelectCubit>().updateValue(
+                      context.read<ProductSelectCubit>().updateProduct(
                             ProductSelect(
                               product: item,
                               select: 0,

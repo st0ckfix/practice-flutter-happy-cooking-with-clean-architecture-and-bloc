@@ -2,24 +2,25 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/delivery_cost_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/delivery_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/membership_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product_select_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_filter_page.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 
-import '../../cubit/discount_value_cubit.dart';
 import '../../cubit/product_manager_cubit.dart';
-
-final hasMemberShip = Random().nextBool();
 
 class DeliveryMethodAndProductSummaryWidget extends StatelessWidget {
   const DeliveryMethodAndProductSummaryWidget({super.key, this.select});
   final int? select;
   @override
   Widget build(BuildContext context) {
+    final membership = context.read<MembershipCubit>().state;
     final deliveryToday = DeliveryOption.today();
     final deliveryLater = DeliveryOption.later();
     return BlocBuilder<DeliveryCostCubit, DeliveryOption>(
       builder: (context, deliveryOption) {
-        final deliveryDiscount = context.watch<DeliveryDiscountCubit>().state;
         return Column(
           children: [
             ListTile(
@@ -46,10 +47,7 @@ class DeliveryMethodAndProductSummaryWidget extends StatelessWidget {
                         value: deliveryToday.cost,
                         groupValue: deliveryOption.cost,
                         onChanged: (value) {
-                          context.read<DeliveryCostCubit>().updateValue(deliveryToday);
-                          if (hasMemberShip) {
-                            context.read<DeliveryDiscountCubit>().updateValue(1.00);
-                          }
+                          context.read<DeliveryCostCubit>().updateDelivery(deliveryToday);
                         },
                       ),
                     ),
@@ -62,10 +60,7 @@ class DeliveryMethodAndProductSummaryWidget extends StatelessWidget {
                         value: deliveryLater.cost,
                         groupValue: deliveryOption.cost,
                         onChanged: (value) {
-                          context.read<DeliveryCostCubit>().updateValue(deliveryLater);
-                          if (hasMemberShip) {
-                            context.read<DeliveryDiscountCubit>().updateValue(1.00);
-                          }
+                          context.read<DeliveryCostCubit>().updateDelivery(deliveryLater);
                         },
                       ),
                     ),
@@ -83,33 +78,55 @@ class DeliveryMethodAndProductSummaryWidget extends StatelessWidget {
               ),
               child: Column(
                 children: [
-                  ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    title: Text(deliveryOption.message),
-                    subtitle: Row(
-                      children: [
-                        const Text('Delivery Cost'),
-                        const Spacer(),
-                        Text(
-                          '${deliveryOption.cost}\$',
-                          style: TextStyle(
-                            decoration: deliveryDiscount != 0.0 ? TextDecoration.lineThrough : TextDecoration.none,
-                          ),
-                        ),
-                        if (deliveryDiscount != 0.0)
-                          Row(
-                            children: [
-                              const SizedBox(width: 5),
-                              Text(
-                                '${deliveryOption.cost - deliveryDiscount}\$',
+                  BlocBuilder<DeliveryDiscountCubit, double>(
+                    builder: (context, deliveryDiscount) {
+                      return ListTile(
+                        contentPadding: EdgeInsets.zero,
+                        title: Text(deliveryOption.message),
+                        subtitle: Row(
+                          children: [
+                            const Text('Delivery Cost'),
+                            Container(
+                              margin: const EdgeInsets.only(left: 5),
+                              padding: const EdgeInsets.symmetric(horizontal: 5),
+                              decoration: BoxDecoration(
+                                color: membership.memberType == MemberType.gold
+                                    ? const Color(0xFFFFD700)
+                                    : membership.memberType == MemberType.platinum
+                                        ? const Color(0xFFE5E4E2)
+                                        : const Color(0xFFB9F2FF),
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                              alignment: Alignment.center,
+                              child: Text(
+                                membership.memberType == MemberType.gold
+                                    ? 'GOLD'
+                                    : membership.memberType == MemberType.platinum
+                                        ? 'PLATIUM'
+                                        : 'DIAMOND',
                                 style: const TextStyle(
+                                  color: Colors.white,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                            ],
-                          ),
-                      ],
-                    ),
+                            ),
+                            const Spacer(),
+                            if (membership.memberType == MemberType.none)
+                              Text(
+                                '${deliveryOption.cost}\$',
+                              )
+                            else
+                              Text(
+                                '${max(0, deliveryOption.cost - membership.deliveryDiscount).toStringAsFixed(2)}\$',
+                                style: const TextStyle(
+                                  color: Colors.red,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              )
+                          ],
+                        ),
+                      );
+                    },
                   ),
                   ConfirmSelectListWidget(select: select)
                 ],
@@ -130,7 +147,7 @@ class ConfirmSelectListWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return select == null
-        ? BlocBuilder<InSelectProductCubit, List<String>>(
+        ? BlocBuilder<InSelectListProductCubit, List<String>>(
             builder: (context, listId) {
               final inQueueListProduct = context.read<InQueueListProductCubit<InQueueProduct>>().state;
               return ListView.separated(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/product_discount_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/cost_review_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/delivery_address_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/delivery_method_and_product_summary_widget.dart';
@@ -19,8 +18,7 @@ class ProductConfirmDeliveryPage extends StatelessWidget {
     return PopScope(
       onPopInvoked: (didPop) {
         if (select != null) {
-          context.read<InSelectProductCubit>().removeListProducts();
-          context.read<ProductDiscountCubit>().removeMultiDiscount();
+          context.read<InSelectListProductCubit>().removeListProducts();
         }
       },
       child: Scaffold(

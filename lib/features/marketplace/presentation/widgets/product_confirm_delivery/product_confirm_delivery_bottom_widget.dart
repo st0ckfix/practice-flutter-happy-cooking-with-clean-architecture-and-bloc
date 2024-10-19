@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:chips_choice/chips_choice.dart';
 import 'package:coupon_uikit/coupon_uikit.dart';
 import 'package:flutter/material.dart';
@@ -8,12 +6,11 @@ import 'package:form_validator/form_validator.dart';
 import 'package:get/get.dart';
 import 'package:happy_cooking/core/common_widget/custom_button.dart';
 import 'package:happy_cooking/core/common_widget/custom_text_field.dart';
-import 'package:happy_cooking/features/marketplace/domain/entities/app_coupon_entity.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/app_coupon/app_coupon_cubit.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/product_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/domain/entities/coupon_entity.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/coupon/coupon_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/coupon_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/delivery_discount_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/cubit/total_cost_cubit.dart';
-
-import '../../cubit/discount_value_cubit.dart';
 
 class ProductConfirmDeliveryBottomWidget extends StatelessWidget {
   const ProductConfirmDeliveryBottomWidget({super.key, required this.inCart});
@@ -41,15 +38,15 @@ class ProductConfirmDeliveryBottomWidget extends StatelessWidget {
                       children: [
                         const Icon(Icons.discount_sharp),
                         const SizedBox(width: 10),
-                        BlocBuilder<AppDiscountCubit, AppCouponEntity?>(
-                          builder: (context, appDiscount) {
-                            if (appDiscount == null) return const SizedBox.shrink();
+                        BlocBuilder<CouponProductDiscountCubit, CouponProductEntity?>(
+                          builder: (context, coupon) {
+                            if (coupon == null) return const SizedBox.shrink();
                             return Padding(
                               padding: const EdgeInsets.symmetric(horizontal: 5),
                               child: Container(
                                 padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                                 child: Text(
-                                  appDiscount.lable,
+                                  coupon.couponLable,
                                   style: const TextStyle(fontSize: 16, color: Colors.blue, fontWeight: FontWeight.bold),
                                 ),
                               ),
@@ -73,16 +70,13 @@ class ProductConfirmDeliveryBottomWidget extends StatelessWidget {
                   children: [
                     BlocBuilder<TotalCostCubit, InCountProduct>(
                       builder: (context, inCount) {
-                        log(context.read<ProductDiscountCubit>().state.toString());
-                        final finalTotal = inCart ? (inCount.subtotal - context.read<ProductDiscountCubit>().state) : inCount.total;
-                        final finalSave = inCart ? context.read<ProductDiscountCubit>().state : inCount.subtotal + context.read<DeliveryCostCubit>().state.cost - inCount.total;
                         return Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(inCart ? 'Subtotal' : 'Total'),
                             Text(
-                              '${finalTotal.toStringAsFixed(2)}\$',
+                              '${(inCount.subtotal - inCount.productSave).toStringAsFixed(2)}\$',
                               style: Theme.of(context).textTheme.titleLarge!.copyWith(
                                     color: Colors.red,
                                     fontWeight: FontWeight.bold,
@@ -91,7 +85,7 @@ class ProductConfirmDeliveryBottomWidget extends StatelessWidget {
                             inCount.total == 0.0
                                 ? const SizedBox.shrink()
                                 : Text(
-                                    'Save ${finalSave.toStringAsFixed(2)}\$',
+                                    'Save ${(inCart ? inCount.productSave : (inCount.totalSave + context.read<DeliveryDiscountCubit>().state)).toStringAsFixed(2)}\$',
                                     style: Theme.of(context).textTheme.titleSmall!.copyWith(
                                           color: Colors.green,
                                         ),
@@ -128,8 +122,9 @@ class AppDiscountFragment extends StatelessWidget {
   const AppDiscountFragment({super.key});
   @override
   Widget build(BuildContext context) {
-    AppCouponEntity? currentCoupon = context.read<AppDiscountCubit>().state;
-    context.read<AppCouponCubit>().fetchListCoupon();
+    CouponProductEntity? currentProductCoupon = context.read<CouponProductDiscountCubit>().state;
+    //CouponDeliveryEntity? currentDeliverCoupon = context.read<CouponDeliveryDiscountCubit>().state;
+    context.read<CouponCubit>().fetchListCoupon();
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
@@ -188,9 +183,10 @@ class AppDiscountFragment extends StatelessWidget {
                   ),
                 ),
                 SliverToBoxAdapter(
-                  child: BlocBuilder<AppCouponCubit, AppCouponState>(
+                  child: BlocBuilder<CouponCubit, CouponState>(
                     builder: (context, state) {
                       final inCount = context.read<TotalCostCubit>().state;
+                      final listCounpon = state.list!.$2;
                       if (state is AppCouponLoading) {
                         return const Center(
                           child: CircularProgressIndicator(),
@@ -203,17 +199,17 @@ class AppDiscountFragment extends StatelessWidget {
                               mainAxisSize: MainAxisSize.min,
                               direction: Axis.vertical,
                               wrapped: true,
-                              value: currentCoupon?.id ?? '',
+                              value: currentProductCoupon?.couponId ?? '',
                               choiceBuilder: (_, i) {
-                                final item = state.list![i];
-                                final matchCondition = inCount.total <= item.conditionValue;
+                                final item = listCounpon[i];
+                                final matchCondition = inCount.total <= item.couponCondition!;
                                 return Column(
                                   children: [
                                     InkWell(
                                       onTap: () {
                                         if (matchCondition) return;
                                         stateful(() {
-                                          currentCoupon = item;
+                                          currentProductCoupon = item;
                                         });
                                       },
                                       child: Container(
@@ -223,7 +219,7 @@ class AppDiscountFragment extends StatelessWidget {
                                           curveAxis: Axis.vertical,
                                           curvePosition: 120,
                                           backgroundColor: Colors.white,
-                                          border: currentCoupon?.id == item.id ? const BorderSide(width: 7, color: Color.fromARGB(255, 4, 135, 241)) : null,
+                                          border: currentProductCoupon?.couponId == item.couponId ? const BorderSide(width: 7, color: Color.fromARGB(255, 4, 135, 241)) : null,
                                           firstChild: Container(
                                             margin: const EdgeInsets.only(right: 1),
                                             color: const Color(0xFF368f8b),
@@ -291,7 +287,7 @@ class AppDiscountFragment extends StatelessWidget {
                               },
                               onChanged: (value) {},
                               choiceItems: C2Choice.listFrom<String, String>(
-                                source: state.list!.map((e) => e.id).toList(),
+                                source: state.list!.$2.map((e) => e.couponId).toList(),
                                 value: (index, item) => item,
                                 label: (index, item) => '',
                               ),
@@ -320,7 +316,7 @@ class AppDiscountFragment extends StatelessWidget {
                 isOutlined: false,
                 title: 'Confirm',
                 onClick: () {
-                  context.read<AppDiscountCubit>().updateValue(currentCoupon);
+                  context.read<CouponProductDiscountCubit>().updateCoupon(currentProductCoupon);
                 },
               ),
             ),

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:happy_cooking/features/marketplace/domain/entities/app_coupon_entity.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/another_discount_cubit.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/product_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/delivery_cost_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/delivery_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/membership_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/token_discount_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/cubit/total_cost_cubit.dart';
-
-import '../../cubit/discount_value_cubit.dart';
 
 bool isOpen = false;
 
@@ -14,12 +13,13 @@ class CostReviewWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final membership = context.read<MembershipCubit>().state;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Container(
           padding: const EdgeInsets.symmetric(
-            vertical: 10,
+            vertical: 5,
             horizontal: 15,
           ),
           child: Row(
@@ -28,7 +28,6 @@ class CostReviewWidget extends StatelessWidget {
               const Spacer(),
               BlocBuilder<TotalCostCubit, InCountProduct>(
                 builder: (context, inCount) {
-                  
                   return Text(
                     '${inCount.subtotal.toStringAsFixed(2)}\$',
                     style: Theme.of(context).textTheme.titleSmall!.copyWith(
@@ -76,6 +75,27 @@ class CostReviewWidget extends StatelessWidget {
                 'Delivery discount',
                 style: Theme.of(context).textTheme.titleSmall,
               ),
+              if (membership.memberType != MemberType.none)
+                Container(
+                  margin: const EdgeInsets.only(left: 5),
+                  padding: const EdgeInsets.symmetric(horizontal: 5),
+                  decoration: BoxDecoration(
+                    color: membership.memberType == MemberType.gold
+                        ? const Color(0xFFFFD700)
+                        : membership.memberType == MemberType.platinum
+                            ? const Color(0xFFE5E4E2)
+                            : const Color(0xFFB9F2FF),
+                    borderRadius: BorderRadius.circular(5),
+                  ),
+                  alignment: Alignment.center,
+                  child: Text(
+                    '-${membership.deliveryDiscount.toStringAsFixed(2)}\$',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
               const Spacer(),
               BlocBuilder<DeliveryDiscountCubit, double>(
                 builder: (context, deliveryDiscount) {
@@ -118,10 +138,10 @@ class CostReviewWidget extends StatelessWidget {
                       ),
                     ),
                     const Spacer(),
-                    BlocBuilder<AnotherDiscountCubit, double>(
-                      builder: (context, anotherDiscount) {
+                    BlocBuilder<TotalCostCubit, InCountProduct>(
+                      builder: (context, totalCost) {
                         return Text(
-                          '-${anotherDiscount.toStringAsFixed(2)}\$',
+                          '-${totalCost.totalSave.toStringAsFixed(2)}\$',
                           style: Theme.of(context).textTheme.titleSmall!.copyWith(
                                 color: Colors.green,
                                 fontWeight: FontWeight.bold,
@@ -134,74 +154,51 @@ class CostReviewWidget extends StatelessWidget {
                 if (isOpen)
                   Column(
                     children: [
-                      Container(
-                        padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
-                        child: Row(
-                          children: [
-                            Text(
-                              'App discount',
-                              style: Theme.of(context).textTheme.labelMedium,
-                            ),
-                            const Spacer(),
-                            BlocBuilder<AppDiscountCubit, AppCouponEntity?>(
-                              builder: (context, appCoupon) {
-                                return Text(
-                                  '-${(appCoupon?.cost ?? .0).toStringAsFixed(2)}\$',
-                                  style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                                        color: Colors.green,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                );
-                              },
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
-                        child: Row(
-                          children: [
-                            Text(
-                              'Product discount',
-                              style: Theme.of(context).textTheme.labelMedium,
-                            ),
-                            const Spacer(),
-                            BlocBuilder<ProductDiscountCubit, double>(
-                              builder: (context, productDiscount) {
-                                return Text(
-                                  '-${productDiscount.toStringAsFixed(2)}\$',
-                                  style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                                        color: Colors.green,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                );
-                              },
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
-                        child: Row(
-                          children: [
-                            Text(
-                              'Sale discount',
-                              style: Theme.of(context).textTheme.labelMedium,
-                            ),
-                            const Spacer(),
-                            BlocBuilder<SaleDiscountCubit, double>(
-                              builder: (context, saleDiscount) {
-                                return Text(
-                                  '-${saleDiscount.toStringAsFixed(2)}\$',
-                                  style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                                        color: Colors.green,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                );
-                              },
-                            ),
-                          ],
-                        ),
+                      BlocBuilder<TotalCostCubit, InCountProduct>(
+                        builder: (context, inCount) {
+                          return Column(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
+                                child: Row(
+                                  children: [
+                                    Text(
+                                      'Coupon discount',
+                                      style: Theme.of(context).textTheme.labelMedium,
+                                    ),
+                                    const Spacer(),
+                                    Text(
+                                      '-${inCount.couponSave.toStringAsFixed(2)}\$',
+                                      style: Theme.of(context).textTheme.labelMedium!.copyWith(
+                                            color: Colors.green,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
+                                child: Row(
+                                  children: [
+                                    Text(
+                                      'Product discount',
+                                      style: Theme.of(context).textTheme.labelMedium,
+                                    ),
+                                    const Spacer(),
+                                    Text(
+                                      '-${inCount.productSave.toStringAsFixed(2)}\$',
+                                      style: Theme.of(context).textTheme.labelMedium!.copyWith(
+                                            color: Colors.green,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          );
+                        },
                       ),
                       Container(
                         padding: const EdgeInsets.only(top: 5, right: 0, left: 10),
@@ -212,10 +209,10 @@ class CostReviewWidget extends StatelessWidget {
                               style: Theme.of(context).textTheme.labelMedium,
                             ),
                             const Spacer(),
-                            BlocBuilder<TokenDiscountCubit, double>(
+                            BlocBuilder<TokenDiscountCubit, int>(
                               builder: (context, tokenDiscount) {
                                 return Text(
-                                  '-${tokenDiscount.toStringAsFixed(2)}\$',
+                                  '-${(tokenDiscount / 100).toStringAsFixed(2)}\$',
                                   style: Theme.of(context).textTheme.labelMedium!.copyWith(
                                         color: Colors.green,
                                         fontWeight: FontWeight.bold,
@@ -232,6 +229,64 @@ class CostReviewWidget extends StatelessWidget {
             ),
           );
         }),
+        Container(
+          padding: const EdgeInsets.symmetric(
+            vertical: 5,
+            horizontal: 15,
+          ),
+          child: Row(
+            children: [
+              Text(
+                'Bonus Tokens',
+                style: Theme.of(context).textTheme.titleSmall,
+              ),
+              if (membership.memberType != MemberType.none)
+                Container(
+                  margin: const EdgeInsets.only(left: 5),
+                  padding: const EdgeInsets.symmetric(horizontal: 5),
+                  decoration: BoxDecoration(
+                    color: membership.memberType == MemberType.gold
+                        ? const Color(0xFFFFD700)
+                        : membership.memberType == MemberType.platinum
+                            ? const Color(0xFFE5E4E2)
+                            : const Color(0xFFB9F2FF),
+                    borderRadius: BorderRadius.circular(5),
+                  ),
+                  alignment: Alignment.center,
+                  child: Text(
+                    'x${membership.tokenScale}',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              const Spacer(),
+              BlocBuilder<TotalCostCubit, InCountProduct>(
+                builder: (context, inCount) {
+                  return Row(
+                    children: [
+                      Text(
+                        '+${(inCount.tokenBonus * membership.tokenScale).round().toString()}',
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              color: Colors.yellow.shade700,
+                              fontWeight: FontWeight.bold,
+                            ),
+                      ),
+                      const SizedBox(width: 3),
+                      Image.asset(
+                        'assets/images/token.png',
+                        height: 16,
+                        width: 16,
+                        color: Colors.yellow.shade700,
+                      ),
+                    ],
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
         const Divider(thickness: 2, height: 5),
         Container(
           padding: const EdgeInsets.only(

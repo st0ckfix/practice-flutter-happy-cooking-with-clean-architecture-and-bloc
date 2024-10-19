@@ -1,5 +1,5 @@
 import 'dart:math';
-
+import 'dart:developer' as dev;
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -7,25 +7,29 @@ abstract class ProductManagerCubit<T> extends Cubit<List<T>> {
   ProductManagerCubit(super.initialState);
 
   void insertProduct(T id) {
+    dev.log('insert');
     final list = List<T>.from(state);
     emit(list..add(id));
   }
 
   void removeProduct(T id) {
+    dev.log('remove');
     final list = List<T>.from(state);
     emit(list..remove(id));
   }
 
   void removeListProducts() {
+    dev.log('remove all');
     emit([]);
   }
 }
 
-class InSelectProductCubit extends ProductManagerCubit<String> {
+class InSelectListProductCubit extends ProductManagerCubit<String> {
   final InQueueListProductCubit<InQueueProduct> inQueueListProductCubit;
-  InSelectProductCubit({required this.inQueueListProductCubit}) : super([]);
+  InSelectListProductCubit({required this.inQueueListProductCubit}) : super([]);
 
   void insertListProducts() {
+    dev.log('insert all');
     emit(inQueueListProductCubit.state.map((e) => e.id).toList());
   }
 }

@@ -1,9 +1,8 @@
 import 'package:custom_rating_bar/custom_rating_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product_select_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_detail/control_button_widget.dart';
-
-import '../../cubit/discount_value_cubit.dart';
 
 class ProductHeaderLabelWidget extends StatelessWidget {
   const ProductHeaderLabelWidget({super.key});

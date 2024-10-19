@@ -5,10 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:happy_cooking/core/common_widget/custom_button.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/product_discount_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product_select_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_confirm_delivery_page.dart';
 
-import '../../cubit/discount_value_cubit.dart';
 import '../../cubit/product_manager_cubit.dart';
 
 class ControlButtonWidget extends StatelessWidget {
@@ -82,11 +81,7 @@ class ControlButtonWidget extends StatelessWidget {
               fontSize: 16,
               onClick: () {
                 final productSelect = context.read<ProductSelectCubit>().state!;
-                final product = productSelect.product!;
-                if (product.discountPercent != 0.0) {
-                  context.read<ProductDiscountCubit>().addValueDiscount(product.listClassification[productSelect.select!].cost * product.discountPercent);
-                }
-                context.read<InSelectProductCubit>().insertProduct(Random().nextInt(1000000).toString());
+                context.read<InSelectListProductCubit>().insertProduct(Random().nextInt(1000000).toString());
                 Get.to(() => ProductConfirmDeliveryPage(select: productSelect.select));
               },
             ),
@@ -214,7 +209,7 @@ class OptionSelectBottomSheet extends StatelessWidget {
                 title: 'SELECT',
                 onClick: () {
                   if (selectItem != select) {
-                    context.read<ProductSelectCubit>().updateValue(
+                    context.read<ProductSelectCubit>().updateProduct(
                           ProductSelect(
                             product: product,
                             select: selectItem,

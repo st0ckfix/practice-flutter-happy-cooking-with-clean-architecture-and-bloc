@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/product_discount_cubit.dart';
+import 'package:get/get.dart';
 import 'package:happy_cooking/features/marketplace/presentation/cubit/total_cost_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_filter_page.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/product_confirm_delivery_bottom_widget.dart';
@@ -13,8 +13,7 @@ class ProductCartPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final InSelectProductCubit inSelectProductCubit = context.read<InSelectProductCubit>();
-    final ProductDiscountCubit productDiscountCubit = context.read<ProductDiscountCubit>();
+    final InSelectListProductCubit inSelectProductCubit = context.read<InSelectListProductCubit>();
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(onPressed: () {}, icon: const Icon(Icons.clear)),
@@ -34,17 +33,15 @@ class ProductCartPage extends StatelessWidget {
                   children: [
                     queueShoppingList.isEmpty
                         ? Checkbox(value: false, onChanged: (value) {})
-                        : BlocBuilder<InSelectProductCubit, List<String>>(
+                        : BlocBuilder<InSelectListProductCubit, List<String>>(
                             builder: (context, listSelect) {
                               return Checkbox(
                                 value: queueShoppingList.length == listSelect.length,
                                 onChanged: (value) {
                                   if (value!) {
                                     inSelectProductCubit.insertListProducts();
-                                    productDiscountCubit.addMultiDiscount();
                                   } else {
                                     inSelectProductCubit.removeListProducts();
-                                    productDiscountCubit.removeMultiDiscount();
                                   }
                                 },
                               );
@@ -74,139 +71,134 @@ class ProductCartPage extends StatelessWidget {
                     ? const Center(
                         child: Text('Empty Shopping Cart'),
                       )
-                    : Builder(builder: (context) {
-                        return BlocBuilder<InSelectProductCubit, List<String>>(
-                          builder: (context, listSelect) {
-                            return ListView.separated(
-                              itemCount: queueShoppingList.length,
-                              itemBuilder: (context, index) {
-                                final queue = queueShoppingList[index];
-                                final product = listProduct.firstWhere((element) => element.productId == queue.productId);
-                                final classification = product.listClassification[queue.select];
-                                final hasDiscount = product.discountPercent != .0;
-                                final perValueDiscount = product.discountPercent * classification.cost;
-                                final isCheck = listSelect.contains(queue.id);
+                    : Builder(
+                        builder: (context) {
+                          return BlocBuilder<InSelectListProductCubit, List<String>>(
+                            builder: (context, listSelect) {
+                              return ListView.separated(
+                                itemCount: queueShoppingList.length,
+                                itemBuilder: (context, index) {
+                                  final queue = queueShoppingList[index];
+                                  final product = listProduct.firstWhereOrNull((element) => element.productId == queue.productId);
 
-                                return Column(
-                                  children: [
-                                    Row(
-                                      children: [
-                                        Checkbox(
-                                          value: isCheck,
-                                          onChanged: (value) {
-                                            if (value!) {
-                                              inSelectProductCubit.insertProduct(queue.id);
-                                              if (hasDiscount) {
-                                                productDiscountCubit.addSingleDiscount(queue.id);
+                                  if (product == null) {
+                                    return const Text('Some product has not been found');
+                                  }
+
+                                  final classification = product.listClassification[queue.select];
+                                  final hasDiscount = product.discountPercent != .0;
+                                  final perValueDiscount = product.discountPercent * classification.cost;
+                                  final isCheck = listSelect.contains(queue.id);
+
+                                  return Column(
+                                    children: [
+                                      Row(
+                                        children: [
+                                          Checkbox(
+                                            value: isCheck,
+                                            onChanged: (value) {
+                                              if (value!) {
+                                                inSelectProductCubit.insertProduct(queue.id);
+                                              } else {
+                                                inSelectProductCubit.removeProduct(queue.id);
                                               }
-                                            } else {
-                                              inSelectProductCubit.removeProduct(queue.id);
-                                              if (hasDiscount) {
-                                                productDiscountCubit.removeSingleDiscount(queue.id);
-                                              }
-                                            }
-                                          },
-                                        ),
-                                        Container(
-                                          margin: const EdgeInsets.only(right: 10),
-                                          height: 100,
-                                          width: 100,
-                                          color: Colors.red,
-                                        ),
-                                        Expanded(
-                                          child: Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Text(product.label, maxLines: 2, overflow: TextOverflow.ellipsis),
-                                              Text(classification.label),
-                                              Row(
-                                                children: [
-                                                  Text(
-                                                    '${(classification.cost - perValueDiscount).toStringAsFixed(2)}\$',
-                                                    style: TextStyle(
-                                                      color: hasDiscount ? Colors.red : Colors.black,
-                                                      fontSize: 16,
+                                            },
+                                          ),
+                                          Container(
+                                            margin: const EdgeInsets.only(right: 10),
+                                            height: 100,
+                                            width: 100,
+                                            color: Colors.red,
+                                          ),
+                                          Expanded(
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              children: [
+                                                Text(product.label, maxLines: 2, overflow: TextOverflow.ellipsis),
+                                                Text(classification.label),
+                                                Row(
+                                                  children: [
+                                                    Text(
+                                                      '${(classification.cost - perValueDiscount).toStringAsFixed(2)}\$',
+                                                      style: TextStyle(
+                                                        color: hasDiscount ? Colors.red : Colors.black,
+                                                        fontSize: 16,
+                                                      ),
                                                     ),
-                                                  ),
-                                                  if (hasDiscount)
-                                                    Row(
-                                                      children: [
-                                                        Container(
-                                                          margin: const EdgeInsets.symmetric(horizontal: 10),
-                                                          padding: const EdgeInsets.symmetric(horizontal: 5),
-                                                          decoration: BoxDecoration(
-                                                            borderRadius: BorderRadius.circular(5),
-                                                            color: Colors.grey.withOpacity(.5),
-                                                          ),
-                                                          child: Text(
-                                                            '-${(product.discountPercent * 100).toStringAsFixed(0)}%',
-                                                            style: const TextStyle(
-                                                              fontSize: 12,
+                                                    if (hasDiscount)
+                                                      Row(
+                                                        children: [
+                                                          Container(
+                                                            margin: const EdgeInsets.symmetric(horizontal: 10),
+                                                            padding: const EdgeInsets.symmetric(horizontal: 5),
+                                                            decoration: BoxDecoration(
+                                                              borderRadius: BorderRadius.circular(5),
+                                                              color: Colors.grey.withOpacity(.5),
+                                                            ),
+                                                            child: Text(
+                                                              '-${(product.discountPercent * 100).toStringAsFixed(0)}%',
+                                                              style: const TextStyle(
+                                                                fontSize: 12,
+                                                              ),
                                                             ),
                                                           ),
-                                                        ),
-                                                        const SizedBox(width: 5),
-                                                        Text(
-                                                          '${classification.cost.toStringAsFixed(2)}\$',
-                                                          style: const TextStyle(decoration: TextDecoration.lineThrough, fontSize: 12),
-                                                        ),
-                                                      ],
+                                                          const SizedBox(width: 5),
+                                                          Text(
+                                                            '${classification.cost.toStringAsFixed(2)}\$',
+                                                            style: const TextStyle(decoration: TextDecoration.lineThrough, fontSize: 12),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                  ],
+                                                ),
+                                                Row(
+                                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                                  children: [
+                                                    IconButton(
+                                                      onPressed: () {
+                                                        context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity - 1);
+                                                        if (isCheck) {
+                                                          context.read<TotalCostCubit>().updateList();
+                                                        }
+                                                      },
+                                                      icon: const Icon(
+                                                        Icons.remove,
+                                                      ),
                                                     ),
-                                                ],
-                                              ),
-                                              Row(
-                                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                                children: [
-                                                  IconButton(
-                                                    onPressed: () {
-                                                      context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity - 1);
-                                                      if (hasDiscount) {
-                                                        productDiscountCubit.addValueDiscount(-perValueDiscount);
-                                                      }
-                                                      if (isCheck) {
-                                                        context.read<TotalCostCubit>().updateTotal();
-                                                      }
-                                                    },
-                                                    icon: const Icon(
-                                                      Icons.remove,
+                                                    Text(queue.quantity.toString()),
+                                                    IconButton(
+                                                      onPressed: () {
+                                                        context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity + 1);
+                                                        if (isCheck) {
+                                                          context.read<TotalCostCubit>().updateList();
+                                                        }
+                                                      },
+                                                      icon: const Icon(
+                                                        Icons.add,
+                                                      ),
                                                     ),
-                                                  ),
-                                                  Text(queue.quantity.toString()),
-                                                  IconButton(
-                                                    onPressed: () {
-                                                      context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity + 1);
-                                                      if (hasDiscount) {
-                                                        productDiscountCubit.addValueDiscount(perValueDiscount);
-                                                      }
-                                                      if (isCheck) {
-                                                        context.read<TotalCostCubit>().updateTotal();
-                                                      }
-                                                    },
-                                                    icon: const Icon(
-                                                      Icons.add,
-                                                    ),
-                                                  ),
-                                                ],
-                                              )
-                                            ],
+                                                  ],
+                                                )
+                                              ],
+                                            ),
                                           ),
-                                        ),
-                                      ],
-                                    ),
-                                  ],
-                                );
-                              },
-                              separatorBuilder: (context, index) {
-                                return const Padding(
-                                  padding: EdgeInsets.symmetric(horizontal: 5.0),
-                                  child: Divider(height: 15, thickness: 1),
-                                );
-                              },
-                            );
-                          },
-                        );
-                      }),
+                                        ],
+                                      ),
+                                    ],
+                                  );
+                                },
+                                separatorBuilder: (context, index) {
+                                  return const Padding(
+                                    padding: EdgeInsets.symmetric(horizontal: 5.0),
+                                    child: Divider(height: 15, thickness: 1),
+                                  );
+                                },
+                              );
+                            },
+                          );
+                        },
+                      ),
               ),
               const Positioned(
                 left: 0,
