@@ -1,9 +1,7 @@
 import 'package:chips_choice/chips_choice.dart';
 import 'package:custom_rating_bar/custom_rating_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_detail/comment_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_detail/detail_rating_full_widget.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
@@ -40,7 +38,7 @@ class CommentFragment extends StatelessWidget {
                 ],
               ),
             ),
-            const Expanded(child: DetailRatingFullWidget())
+            const Expanded(child: DetailRatingFullWidget(listReviews: []))
           ],
         ),
       ),
@@ -296,13 +294,13 @@ class CommentFragment extends StatelessWidget {
               ],
             ),
           ),
-          CommentWidget(
-            imageLength: 7,
-            imageSize: 250,
-            imageLimit: 5,
-            crossAxisCount: 3,
-            axis: Axis.vertical,
-          )
+          // CommentWidget(
+          //   imageLength: 7,
+          //   imageSize: 250,
+          //   imageLimit: 5,
+          //   crossAxisCount: 3,
+          //   axis: Axis.vertical,
+          // )
         ],
       ),
     ];

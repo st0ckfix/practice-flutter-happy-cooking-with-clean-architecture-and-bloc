@@ -1,0 +1,2701 @@
+{
+  "apple-pie": {
+    "recipeId": "apple-pie",
+    "recipeImage": "assets/images/recipes/apple-pie.jpg",
+    "recipeTitle": "Apple Pie",
+    "recipeType": "cake",
+    "recipeDescription": "A classic apple pie with a flaky crust and spiced filling.",
+    "recipeServingSize": 8,
+    "recipePrepTime": "0:30:00.000000",
+    "recipeCookTime": "1:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Prepare pie crust with flour and butter.",
+        "duration": "0:20:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "flour-wheat",
+            "quantity": 200,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Fill with sliced apples, sugar, and cinnamon.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "apple",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "sliced"
+          },
+          {
+            "ingredientId": "sugar",
+            "quantity": 50,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake in oven until golden brown.",
+        "duration": "1:00:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1712079",
+      "user-1824277",
+      "user-1029134",
+      "user-1752549",
+      "user-1686532",
+      "user-1016493",
+      "user-1789306",
+      "user-1435607",
+      "user-1109827",
+      "user-1990866",
+      "user-1351525",
+      "user-1410832",
+      "user-1561195",
+      "user-1627407",
+      "user-1317285",
+      "user-1263321",
+      "user-1292080",
+      "user-1343835",
+      "user-1068685",
+      "user-1088604",
+      "user-1737787",
+      "user-1135453",
+      "user-1387869"
+    ],
+    "recipeTags": [
+      "dessert",
+      "apple",
+      "pie",
+      "baked"
+    ]
+  },
+  "carrot-cake": {
+    "recipeId": "carrot-cake",
+    "recipeImage": "assets/images/recipes/carrot-cake.jpg",
+    "recipeTitle": "Carrot Cake",
+    "recipeType": "cake",
+    "recipeDescription": "Moist carrot cake with cream cheese frosting.",
+    "recipeServingSize": 8,
+    "recipePrepTime": "0:20:00.000000",
+    "recipeCookTime": "0:45:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix flour, sugar, and grated carrots.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "flour-wheat",
+            "quantity": 200,
+            "unit": "g",
+            "state": "sifted"
+          },
+          {
+            "ingredientId": "sugar",
+            "quantity": 100,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "carrot",
+            "quantity": 3,
+            "unit": "pcs",
+            "state": "grated"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Bake in preheated oven until a toothpick comes out clean.",
+        "duration": "0:45:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1713715",
+      "user-1678102",
+      "user-1804945",
+      "user-1222995",
+      "user-1520870",
+      "user-1252300",
+      "user-1042403",
+      "user-1921805",
+      "user-1272295",
+      "user-1327712",
+      "user-1291570",
+      "user-1772849",
+      "user-1254728",
+      "user-1915740",
+      "user-1967078",
+      "user-1681665",
+      "user-1427339",
+      "user-1244840",
+      "user-1027422",
+      "user-1631288",
+      "user-1390629",
+      "user-1178943",
+      "user-1508977",
+      "user-1115360",
+      "user-1884029",
+      "user-1138664"
+    ],
+    "recipeTags": [
+      "dessert",
+      "cake",
+      "carrot",
+      "baked"
+    ]
+  },
+  "chocolate-cake": {
+    "recipeId": "chocolate-cake",
+    "recipeImage": "assets/images/recipes/chocolate-cake.jpg",
+    "recipeTitle": "Chocolate Cake",
+    "recipeType": "cake",
+    "recipeDescription": "Rich chocolate cake with a creamy chocolate frosting.",
+    "recipeServingSize": 8,
+    "recipePrepTime": "0:20:00.000000",
+    "recipeCookTime": "0:35:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix flour, cocoa powder, sugar, and eggs.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "flour-wheat",
+            "quantity": 200,
+            "unit": "g",
+            "state": "sifted"
+          },
+          {
+            "ingredientId": "sugar",
+            "quantity": 150,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "egg-chicken",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "beaten"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour batter into pan and bake in preheated oven.",
+        "duration": "0:35:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1665815",
+      "user-1465210",
+      "user-1853415",
+      "user-1216222",
+      "user-1644471",
+      "user-1015946",
+      "user-1237400",
+      "user-1007337",
+      "user-1868184",
+      "user-1615935",
+      "user-1056165",
+      "user-1536076",
+      "user-1370592",
+      "user-1930477",
+      "user-1976936",
+      "user-1727239",
+      "user-1496180",
+      "user-1324521",
+      "user-1906752",
+      "user-1180887",
+      "user-1664454",
+      "user-1979417",
+      "user-1757391",
+      "user-1721589",
+      "user-1121965",
+      "user-1103044",
+      "user-1833555",
+      "user-1642348",
+      "user-1221982",
+      "user-1520922",
+      "user-1511283",
+      "user-1393894",
+      "user-1642310",
+      "user-1484193"
+    ],
+    "recipeTags": [
+      "dessert",
+      "chocolate",
+      "cake",
+      "baked"
+    ]
+  },
+  "beef-soup": {
+    "recipeId": "beef-soup",
+    "recipeImage": "assets/images/recipes/beef-soup.jpg",
+    "recipeTitle": "Beef Soup",
+    "recipeType": "soup",
+    "recipeDescription": "A light and nutritious soup made with beef and vegetables.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "1:30:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut beef ribs into pieces and blanch briefly in boiling water.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-rib",
+            "quantity": 500,
+            "unit": "g",
+            "state": "cut into pieces"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Transfer beef to a pot, add water, and bring to a simmer.",
+        "duration": "0:05:00.000000"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add chopped carrots, potatoes, and season with salt and pepper.",
+        "duration": "1:00:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "carrot",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "potato",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1873006",
+      "user-1811795",
+      "user-1502831",
+      "user-1741183",
+      "user-1028054",
+      "user-1971625",
+      "user-1302938",
+      "user-1766796",
+      "user-1602487",
+      "user-1638392",
+      "user-1726955",
+      "user-1865927",
+      "user-1615026",
+      "user-1943452",
+      "user-1045354",
+      "user-1815953",
+      "user-1227754",
+      "user-1460684",
+      "user-1415928",
+      "user-1310967",
+      "user-1690462",
+      "user-1861138",
+      "user-1167378",
+      "user-1018656",
+      "user-1327608",
+      "user-1468898",
+      "user-1663250",
+      "user-1819939",
+      "user-1899714",
+      "user-1036494",
+      "user-1539967",
+      "user-1642693",
+      "user-1160598",
+      "user-1162188",
+      "user-1886589",
+      "user-1559609",
+      "user-1016486"
+    ],
+    "recipeTags": [
+      "beef",
+      "soup",
+      "comfort",
+      "winter"
+    ]
+  },
+  "chicken-soup": {
+    "recipeId": "chicken-soup",
+    "recipeImage": "assets/images/recipes/chicken-soup.jpg",
+    "recipeTitle": "Chicken Soup",
+    "recipeType": "soup",
+    "recipeDescription": "A warm, comforting chicken soup.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "1:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Boil chicken drumsticks in water to create a broth.",
+        "duration": "0:15:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "chicken-drumstick",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "boiled"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add diced carrots, potatoes, and salt to the broth and simmer.",
+        "duration": "0:30:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "carrot",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          },
+          {
+            "ingredientId": "potato",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Serve hot with chopped parsley.",
+        "duration": "0:05:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1269013",
+      "user-1392245",
+      "user-1161263",
+      "user-1127473",
+      "user-1812664",
+      "user-1568481",
+      "user-1743090",
+      "user-1628567",
+      "user-1000007",
+      "user-1439146",
+      "user-1643509",
+      "user-1240196",
+      "user-1727599",
+      "user-1661551",
+      "user-1558055",
+      "user-1116610",
+      "user-1586745",
+      "user-1449281",
+      "user-1838120",
+      "user-1917542",
+      "user-1144372",
+      "user-1492724",
+      "user-1285263",
+      "user-1226971",
+      "user-1087484",
+      "user-1266981",
+      "user-1895555",
+      "user-1225798",
+      "user-1058974",
+      "user-1161692",
+      "user-1302464",
+      "user-1522947",
+      "user-1427450",
+      "user-1185734",
+      "user-1514158",
+      "user-1997201",
+      "user-1060067",
+      "user-1177594",
+      "user-1598336",
+      "user-1424261"
+    ],
+    "recipeTags": [
+      "chicken",
+      "soup",
+      "comfort",
+      "healthy"
+    ]
+  },
+  "clam-chowder": {
+    "recipeId": "clam-chowder",
+    "recipeImage": "assets/images/recipes/clam-chowder.jpg",
+    "recipeTitle": "Clam Chowder",
+    "recipeType": "soup",
+    "recipeDescription": "A creamy clam chowder with potatoes and herbs.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:30:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sauté onions and celery in oil until soft.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "onion",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add clams, potatoes, and broth. Simmer until tender.",
+        "duration": "0:20:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "clam",
+            "quantity": 200,
+            "unit": "g",
+            "state": "cleaned"
+          },
+          {
+            "ingredientId": "potato",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "cubed"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1104763",
+      "user-1138968",
+      "user-1882280",
+      "user-1611031",
+      "user-1404061",
+      "user-1738683",
+      "user-1828968",
+      "user-1920011",
+      "user-1612527",
+      "user-1974088",
+      "user-1743172",
+      "user-1186708",
+      "user-1170655",
+      "user-1299579",
+      "user-1171632",
+      "user-1203680",
+      "user-1266068",
+      "user-1466456",
+      "user-1402997",
+      "user-1599501",
+      "user-1603916",
+      "user-1245723",
+      "user-1829871",
+      "user-1841600"
+    ],
+    "recipeTags": [
+      "soup",
+      "seafood",
+      "creamy",
+      "clam"
+    ]
+  },
+  "egg-drop-soup": {
+    "recipeId": "egg-drop-soup",
+    "recipeImage": "assets/images/recipes/egg-drop-soup.jpg",
+    "recipeTitle": "Egg Drop Soup",
+    "recipeType": "soup",
+    "recipeDescription": "A light Chinese soup with silky egg ribbons.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:05:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Boil broth and slowly add whisked eggs to form ribbons.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "egg-chicken",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "whisked"
+          },
+          {
+            "ingredientId": "beef-broth",
+            "quantity": 400,
+            "unit": "ml",
+            "state": "boiled"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1464277",
+      "user-1677186",
+      "user-1756712",
+      "user-1085062",
+      "user-1105433",
+      "user-1279188",
+      "user-1289732",
+      "user-1165659",
+      "user-1424733",
+      "user-1079410",
+      "user-1228740",
+      "user-1296777",
+      "user-1594416",
+      "user-1927159",
+      "user-1532399",
+      "user-1005504"
+    ],
+    "recipeTags": [
+      "soup",
+      "egg",
+      "chinese",
+      "light"
+    ]
+  },
+  "pumpkin-soup": {
+    "recipeId": "pumpkin-soup",
+    "recipeImage": "assets/images/recipes/pumpkin-soup.jpg",
+    "recipeTitle": "Pumpkin Soup",
+    "recipeType": "soup",
+    "recipeDescription": "Creamy pumpkin soup with spices.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:30:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cook pumpkin with broth and seasonings until soft.",
+        "duration": "0:25:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "pumpkin",
+            "quantity": 400,
+            "unit": "g",
+            "state": "cubed"
+          },
+          {
+            "ingredientId": "beef-broth",
+            "quantity": 500,
+            "unit": "ml",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Blend soup until smooth and creamy.",
+        "duration": "0:05:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1926318",
+      "user-1596648",
+      "user-1105807",
+      "user-1961832",
+      "user-1796898",
+      "user-1074601",
+      "user-1419885",
+      "user-1939341",
+      "user-1002210",
+      "user-1238473",
+      "user-1406904",
+      "user-1465757",
+      "user-1885044",
+      "user-1461974",
+      "user-1762083",
+      "user-1353943",
+      "user-1736627",
+      "user-1296775",
+      "user-1719806",
+      "user-1293360",
+      "user-1609834",
+      "user-1354559",
+      "user-1986288",
+      "user-1242810",
+      "user-1300904",
+      "user-1363646",
+      "user-1358514",
+      "user-1267400",
+      "user-1534951",
+      "user-1414877",
+      "user-1045353",
+      "user-1070826",
+      "user-1236688",
+      "user-1810983",
+      "user-1542306",
+      "user-1818656",
+      "user-1287637",
+      "user-1800342",
+      "user-1403756",
+      "user-1307581"
+    ],
+    "recipeTags": [
+      "soup",
+      "pumpkin",
+      "creamy",
+      "autumn"
+    ]
+  },
+  "beef-bourguignon": {
+    "recipeId": "beef-bourguignon",
+    "recipeImage": "assets/images/recipes/beef-bourguignon.jpg",
+    "recipeTitle": "Beef Bourguignon",
+    "recipeType": "main",
+    "recipeDescription": "A rich, French beef stew with red wine and vegetables.",
+    "recipeServingSize": 6,
+    "recipePrepTime": "0:30:00.000000",
+    "recipeCookTime": "3:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Marinate beef in red wine, garlic, and herbs overnight.",
+        "duration": "24:00:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-chuck",
+            "quantity": 500,
+            "unit": "g",
+            "state": "marinated"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Brown beef and vegetables, then simmer with wine and stock.",
+        "duration": "2:30:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "carrot",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "onion",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          },
+          {
+            "ingredientId": "beef-broth",
+            "quantity": 500,
+            "unit": "ml",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1604691",
+      "user-1397749",
+      "user-1647837",
+      "user-1734449",
+      "user-1578788",
+      "user-1964828",
+      "user-1582954",
+      "user-1367189",
+      "user-1995644",
+      "user-1841248",
+      "user-1497162",
+      "user-1969998",
+      "user-1878724",
+      "user-1770265",
+      "user-1638364",
+      "user-1170801",
+      "user-1505199",
+      "user-1870911",
+      "user-1497978",
+      "user-1960400",
+      "user-1862587",
+      "user-1690562",
+      "user-1050263",
+      "user-1351609",
+      "user-1918903",
+      "user-1216475",
+      "user-1651476",
+      "user-1376569",
+      "user-1600625",
+      "user-1594545",
+      "user-1045941"
+    ],
+    "recipeTags": [
+      "stew",
+      "French",
+      "beef",
+      "rich"
+    ]
+  },
+  "beef-stew": {
+    "recipeId": "recipe1",
+    "recipeImage": "assets/images/recipes/beef-stew.jpg",
+    "recipeTitle": "Beef Stew",
+    "recipeType": "main",
+    "recipeDescription": "A hearty beef stew with vegetables and spices.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:20:00.000000",
+    "recipeCookTime": "2:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut beef chuck into bite-sized pieces and season with salt and pepper.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-chuck",
+            "quantity": 500,
+            "unit": "g",
+            "state": "cut into chunks"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sear the beef chunks in a pot until browned.",
+        "duration": "0:10:00.000000"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add chopped vegetables and beef stock. Simmer until tender.",
+        "duration": "1:30:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "potato",
+            "quantity": 3,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "carrot",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 15,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1284607",
+      "user-1449430",
+      "user-1467818",
+      "user-1527172",
+      "user-1684032",
+      "user-1867833",
+      "user-1155637",
+      "user-1634426",
+      "user-1215858",
+      "user-1502630",
+      "user-1808759",
+      "user-1717831",
+      "user-1165666",
+      "user-1137081",
+      "user-1374250",
+      "user-1885819",
+      "user-1523465",
+      "user-1189241",
+      "user-1067906",
+      "user-1039545",
+      "user-1183829",
+      "user-1570720",
+      "user-1122775",
+      "user-1653468",
+      "user-1624622",
+      "user-1839909",
+      "user-1676296",
+      "user-1778347",
+      "user-1776293",
+      "user-1574800",
+      "user-1449039",
+      "user-1714446",
+      "user-1586701"
+    ],
+    "recipeTags": [
+      "hearty",
+      "stew",
+      "beef",
+      "winter"
+    ]
+  },
+  "beef-tacos": {
+    "recipeId": "beef-tacos",
+    "recipeImage": "assets/images/recipes/beef-tacos.jpg",
+    "recipeTitle": "Beef Tacos",
+    "recipeType": "main",
+    "recipeDescription": "Classic beef tacos with ground beef and fresh toppings.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cook ground beef with salt, pepper, and paprika until browned.",
+        "duration": "0:08:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-ground",
+            "quantity": 300,
+            "unit": "g",
+            "state": "cooked"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "black-pepper",
+            "quantity": 2,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "paprika",
+            "quantity": 1,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Assemble tacos with beef, lettuce, and diced tomatoes.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "lettuce",
+            "quantity": 50,
+            "unit": "g",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "tomato",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1485141",
+      "user-1471310",
+      "user-1835366",
+      "user-1204882",
+      "user-1893141",
+      "user-1984031",
+      "user-1668898",
+      "user-1158513",
+      "user-1328799",
+      "user-1820613",
+      "user-1281491",
+      "user-1470133",
+      "user-1508014",
+      "user-1822551",
+      "user-1342880",
+      "user-1768180",
+      "user-1133264",
+      "user-1216514"
+    ],
+    "recipeTags": [
+      "tacos",
+      "mexican",
+      "beef",
+      "easy"
+    ]
+  },
+  "chicken-parmigiana": {
+    "recipeId": "chicken-parmigiana",
+    "recipeImage": "assets/images/recipes/chicken-parmigiana.jpg",
+    "recipeTitle": "Chicken Parmigiana",
+    "recipeType": "main",
+    "recipeDescription": "Breaded chicken breast topped with marinara sauce and melted cheese.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:25:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Coat chicken breasts in breadcrumbs and fry until golden.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "chicken-breast",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "breaded"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Top with marinara sauce and cheese, then bake until cheese melts.",
+        "duration": "0:15:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1320230",
+      "user-1067808",
+      "user-1667497",
+      "user-1165551",
+      "user-1543210",
+      "user-1441343",
+      "user-1732058",
+      "user-1446222",
+      "user-1816994",
+      "user-1912079",
+      "user-1819647",
+      "user-1969847",
+      "user-1987995",
+      "user-1043079",
+      "user-1176952",
+      "user-1611476",
+      "user-1934509",
+      "user-1289367",
+      "user-1803818",
+      "user-1973144",
+      "user-1092284",
+      "user-1886049",
+      "user-1041317",
+      "user-1660617",
+      "user-1101986",
+      "user-1909437",
+      "user-1646055",
+      "user-1186519",
+      "user-1299376",
+      "user-1497619",
+      "user-1217046"
+    ],
+    "recipeTags": [
+      "italian",
+      "chicken",
+      "baked",
+      "cheese"
+    ]
+  },
+  "grilled-chicken": {
+    "recipeId": "grilled-chicken",
+    "recipeImage": "assets/images/recipes/grilled-chicken.jpg",
+    "recipeTitle": "Grilled Chicken",
+    "recipeType": "main",
+    "recipeDescription": "Juicy grilled chicken with herbs and spices.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:20:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Marinate chicken breasts with oil, salt, pepper, and herbs.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "chicken-breast",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "marinated"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 10,
+            "unit": "ml",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grill chicken on medium heat until cooked through.",
+        "duration": "0:20:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1147682",
+      "user-1337130",
+      "user-1713331",
+      "user-1709439",
+      "user-1332954",
+      "user-1144596",
+      "user-1848624",
+      "user-1983462",
+      "user-1134335",
+      "user-1064645",
+      "user-1292960",
+      "user-1603910",
+      "user-1667889",
+      "user-1609228",
+      "user-1033713",
+      "user-1649950",
+      "user-1681297",
+      "user-1918486",
+      "user-1289055",
+      "user-1782145",
+      "user-1166924",
+      "user-1536922",
+      "user-1803895",
+      "user-1519877",
+      "user-1715176",
+      "user-1256379",
+      "user-1951499",
+      "user-1495219",
+      "user-1941698",
+      "user-1352647",
+      "user-1613635",
+      "user-1309654",
+      "user-1745382",
+      "user-1682951",
+      "user-1453518",
+      "user-1242325",
+      "user-1344770",
+      "user-1464535"
+    ],
+    "recipeTags": [
+      "grilled",
+      "chicken",
+      "healthy",
+      "protein"
+    ]
+  },
+  "grilled-salmon": {
+    "recipeId": "grilled-salmon",
+    "recipeImage": "assets/images/recipes/grilled-salmon.jpg",
+    "recipeTitle": "Grilled Salmon",
+    "recipeType": "main",
+    "recipeDescription": "A simple and flavorful grilled salmon with herbs.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:15:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Season salmon fillets with salt, pepper, and oil.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "salmon",
+            "quantity": 400,
+            "unit": "g",
+            "state": "filleted"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "black-pepper",
+            "quantity": 2,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 10,
+            "unit": "ml",
+            "state": "brushed"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Grill the salmon on high heat until cooked through.",
+        "duration": "0:10:00.000000"
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Serve hot with lemon wedges and fresh herbs.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "lemon",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1745250",
+      "user-1149875",
+      "user-1458754",
+      "user-1928174",
+      "user-1726235",
+      "user-1460195",
+      "user-1698729",
+      "user-1686970",
+      "user-1305097",
+      "user-1604056",
+      "user-1729716",
+      "user-1680986",
+      "user-1422876",
+      "user-1726983",
+      "user-1718129",
+      "user-1643500",
+      "user-1271683",
+      "user-1848828",
+      "user-1923748",
+      "user-1112653",
+      "user-1826878",
+      "user-1386300",
+      "user-1560575",
+      "user-1174717",
+      "user-1758270",
+      "user-1380230",
+      "user-1408628",
+      "user-1055142",
+      "user-1786817",
+      "user-1745015",
+      "user-1727763",
+      "user-1335699",
+      "user-1233100",
+      "user-1290677",
+      "user-1375006",
+      "user-1777535",
+      "user-1183294",
+      "user-1026271"
+    ],
+    "recipeTags": [
+      "seafood",
+      "grilled",
+      "salmon",
+      "healthy"
+    ]
+  },
+  "mushroom-risotto": {
+    "recipeId": "mushroom-risotto",
+    "recipeImage": "assets/images/recipes/mushroom-risotto.jpg",
+    "recipeTitle": "Mushroom Risotto",
+    "recipeType": "main",
+    "recipeDescription": "Creamy risotto with mushrooms and Parmesan cheese.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:30:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sauté mushrooms and onions in oil until soft.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "mushroom",
+            "quantity": 200,
+            "unit": "g",
+            "state": "sliced"
+          },
+          {
+            "ingredientId": "onion",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add rice and cook with broth until creamy.",
+        "duration": "0:25:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "rice",
+            "quantity": 200,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1885897",
+      "user-1773869",
+      "user-1639836",
+      "user-1525285",
+      "user-1380403",
+      "user-1320589",
+      "user-1645298",
+      "user-1559384",
+      "user-1258957",
+      "user-1331651",
+      "user-1230673",
+      "user-1496871",
+      "user-1031200",
+      "user-1731167",
+      "user-1202646",
+      "user-1791640",
+      "user-1954155",
+      "user-1117886",
+      "user-1280758",
+      "user-1842183",
+      "user-1586114",
+      "user-1362347",
+      "user-1183609",
+      "user-1662993",
+      "user-1456685",
+      "user-1474543",
+      "user-1464818",
+      "user-1517643",
+      "user-1434410",
+      "user-1602193",
+      "user-1090880",
+      "user-1811091",
+      "user-1064295",
+      "user-1713300",
+      "user-1418509",
+      "user-1698916",
+      "user-1625230",
+      "user-1750789",
+      "user-1457691",
+      "user-1796179",
+      "user-1494227",
+      "user-1648544"
+    ],
+    "recipeTags": [
+      "vegetarian",
+      "mushroom",
+      "rice",
+      "creamy"
+    ]
+  },
+  "seafood-paella": {
+    "recipeId": "seafood-paella",
+    "recipeImage": "assets/images/recipes/seafood-paella.jpg",
+    "recipeTitle": "Seafood Paella",
+    "recipeType": "main",
+    "recipeDescription": "A traditional Spanish rice dish with seafood and vegetables.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:30:00.000000",
+    "recipeCookTime": "0:40:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cook onion, garlic, and peppers in a pan with olive oil until soft.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "onion",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "black-pepper",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 2,
+            "unit": "tbsp",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add rice and stir to coat in oil.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "rice",
+            "quantity": 300,
+            "unit": "g",
+            "state": "uncooked"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add seafood and cook until done.",
+        "duration": "0:20:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "shrimp",
+            "quantity": 200,
+            "unit": "g",
+            "state": "peeled"
+          },
+          {
+            "ingredientId": "clam",
+            "quantity": 100,
+            "unit": "g",
+            "state": "washed"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1444047",
+      "user-1474827",
+      "user-1904153",
+      "user-1661217",
+      "user-1909075",
+      "user-1630263",
+      "user-1635577",
+      "user-1106442",
+      "user-1503074",
+      "user-1602909",
+      "user-1933302",
+      "user-1669540",
+      "user-1117766",
+      "user-1527352",
+      "user-1342470",
+      "user-1849464",
+      "user-1331966",
+      "user-1529751",
+      "user-1635054",
+      "user-1833220",
+      "user-1111402",
+      "user-1302114",
+      "user-1590757",
+      "user-1473535",
+      "user-1691229",
+      "user-1828695",
+      "user-1750262",
+      "user-1330953",
+      "user-1547917",
+      "user-1561225",
+      "user-1569369",
+      "user-1879114",
+      "user-1245975"
+    ],
+    "recipeTags": [
+      "Spanish",
+      "seafood",
+      "rice",
+      "paella"
+    ]
+  },
+  "shakshuka": {
+    "recipeId": "shakshuka",
+    "recipeImage": "assets/images/recipes/shakshuka.jpg",
+    "recipeTitle": "Shakshuka",
+    "recipeType": "main",
+    "recipeDescription": "Eggs poached in a spicy tomato and pepper sauce.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:20:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cook peppers, tomatoes, and spices until soft.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "bell-pepper",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "tomato",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "chopped"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Make wells in the sauce, then crack eggs into wells and cook until whites are set.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "egg-chicken",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1449989",
+      "user-1702214",
+      "user-1489702",
+      "user-1056452",
+      "user-1440707",
+      "user-1048191",
+      "user-1904001",
+      "user-1575938",
+      "user-1867501",
+      "user-1208085",
+      "user-1187085",
+      "user-1002803",
+      "user-1780812",
+      "user-1507381",
+      "user-1671837",
+      "user-1911825",
+      "user-1336800",
+      "user-1391965",
+      "user-1337753",
+      "user-1916819",
+      "user-1420004",
+      "user-1969317",
+      "user-1911426",
+      "user-1173484"
+    ],
+    "recipeTags": [
+      "middle-eastern",
+      "spicy",
+      "egg",
+      "vegetarian"
+    ]
+  },
+  "steak-dinner": {
+    "recipeId": "steak-dinner",
+    "recipeImage": "assets/images/recipes/steak-dinner.jpg",
+    "recipeTitle": "Steak Dinner",
+    "recipeType": "main",
+    "recipeDescription": "Pan-seared steak with roasted potatoes and steamed vegetables.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:20:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Season steak with salt and pepper, then sear in a hot pan.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-steak",
+            "quantity": 300,
+            "unit": "g",
+            "state": "seasoned"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Roast potatoes in the oven with oil and salt.",
+        "duration": "0:20:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "potato",
+            "quantity": 2,
+            "unit": "pcs",
+            "state": "quartered"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 10,
+            "unit": "ml",
+            "state": "drizzled"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Steam vegetables and serve alongside steak and potatoes.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "broccoli",
+            "quantity": 100,
+            "unit": "g",
+            "state": "steamed"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1812347",
+      "user-1016973",
+      "user-1758880",
+      "user-1725836",
+      "user-1655598",
+      "user-1221764",
+      "user-1132328",
+      "user-1029324",
+      "user-1861697",
+      "user-1399709",
+      "user-1147803",
+      "user-1335096",
+      "user-1218753",
+      "user-1058212",
+      "user-1230248",
+      "user-1025139",
+      "user-1597943",
+      "user-1769915",
+      "user-1694078",
+      "user-1303823",
+      "user-1214022",
+      "user-1358244",
+      "user-1760600",
+      "user-1528292",
+      "user-1190723",
+      "user-1119166",
+      "user-1536524"
+    ],
+    "recipeTags": [
+      "dinner",
+      "steak",
+      "comfort",
+      "simple"
+    ]
+  },
+  "shrimp-scampi": {
+    "recipeId": "shrimp-scampi",
+    "recipeImage": "assets/images/recipes/shrimp-scampi.jpg",
+    "recipeTitle": "Shrimp Scampi",
+    "recipeType": "main",
+    "recipeDescription": "Garlic butter shrimp served over pasta.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sauté garlic and shrimp in butter until pink.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "shrimp",
+            "quantity": 200,
+            "unit": "g",
+            "state": "peeled"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 5,
+            "unit": "ml",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Serve shrimp over pasta with lemon and parsley.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "lemon",
+            "quantity": 0.5,
+            "unit": "pcs",
+            "state": "squeezed"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1461134",
+      "user-1668098",
+      "user-1026089",
+      "user-1102248",
+      "user-1020595",
+      "user-1739116",
+      "user-1006027",
+      "user-1452181",
+      "user-1204061",
+      "user-1771406",
+      "user-1113277",
+      "user-1015752",
+      "user-1840236",
+      "user-1136097",
+      "user-1666264",
+      "user-1312036",
+      "user-1323729"
+    ],
+    "recipeTags": [
+      "shrimp",
+      "seafood",
+      "pasta",
+      "easy"
+    ]
+  },
+  "spinach-quiche": {
+    "recipeId": "spinach-quiche",
+    "recipeImage": "assets/images/recipes/spinach-quiche.jpg",
+    "recipeTitle": "Spinach Quiche",
+    "recipeType": "main",
+    "recipeDescription": "A savory quiche with a flaky crust, filled with spinach and cheese.",
+    "recipeServingSize": 8,
+    "recipePrepTime": "0:20:00.000000",
+    "recipeCookTime": "0:45:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Prepare and bake the pie crust.",
+        "duration": "0:10:00.000000"
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Mix spinach, eggs, and cheese, then pour into crust.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "spinach",
+            "quantity": 100,
+            "unit": "g",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "egg-chicken",
+            "quantity": 3,
+            "unit": "pcs",
+            "state": "beaten"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Bake until filling is set and golden.",
+        "duration": "0:25:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1044511",
+      "user-1982005",
+      "user-1825483",
+      "user-1867458",
+      "user-1229252",
+      "user-1072012",
+      "user-1790512",
+      "user-1010396",
+      "user-1260284",
+      "user-1588895",
+      "user-1783212",
+      "user-1079264",
+      "user-1590662",
+      "user-1427252",
+      "user-1309986",
+      "user-1074078",
+      "user-1785673",
+      "user-1057093",
+      "user-1843416",
+      "user-1282792",
+      "user-1132151",
+      "user-1941055",
+      "user-1094698",
+      "user-1281492",
+      "user-1382834",
+      "user-1647901",
+      "user-1886010",
+      "user-1906125",
+      "user-1669138",
+      "user-1027175",
+      "user-1352388",
+      "user-1285969",
+      "user-1377009",
+      "user-1365970",
+      "user-1415904",
+      "user-1558101",
+      "user-1910050",
+      "user-1584101",
+      "user-1183446",
+      "user-1579473",
+      "user-1648616",
+      "user-1425239",
+      "user-1473163",
+      "user-1865150",
+      "user-1062656",
+      "user-1487248",
+      "user-1858530",
+      "user-1800293",
+      "user-1395605"
+    ],
+    "recipeTags": [
+      "french",
+      "baked",
+      "savory",
+      "vegetarian"
+    ]
+  },
+  "stuffed-bell-peppers": {
+    "recipeId": "stuffed-bell-peppers",
+    "recipeImage": "assets/images/recipes/stuffed-bell-peppers.jpg",
+    "recipeTitle": "Stuffed Bell Peppers",
+    "recipeType": "main",
+    "recipeDescription": "Bell peppers stuffed with a flavorful mixture of ground beef, rice, and spices.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:20:00.000000",
+    "recipeCookTime": "0:45:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Cut tops off bell peppers and remove seeds.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "bell-pepper",
+            "quantity": 4,
+            "unit": "pcs",
+            "state": "whole"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sauté ground beef and rice with spices.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "beef-ground",
+            "quantity": 250,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "rice",
+            "quantity": 100,
+            "unit": "g",
+            "state": "cooked"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Stuff peppers with beef mixture and bake until tender.",
+        "duration": "0:30:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1330794",
+      "user-1027707",
+      "user-1363479",
+      "user-1354177",
+      "user-1873406",
+      "user-1322236",
+      "user-1355588",
+      "user-1667207",
+      "user-1852912",
+      "user-1804414",
+      "user-1089791",
+      "user-1308542",
+      "user-1672099",
+      "user-1244479",
+      "user-1710385",
+      "user-1994335",
+      "user-1203637",
+      "user-1554235",
+      "user-1045385",
+      "user-1242782",
+      "user-1220921",
+      "user-1923827",
+      "user-1200025",
+      "user-1589832",
+      "user-1456714"
+    ],
+    "recipeTags": [
+      "stuffed",
+      "baked",
+      "vegetable",
+      "bell-pepper"
+    ]
+  },
+  "vegetable-curry": {
+    "recipeId": "vegetable-curry",
+    "recipeImage": "assets/images/recipes/vegetable-curry.jpg",
+    "recipeTitle": "Vegetable Curry",
+    "recipeType": "main",
+    "recipeDescription": "A flavorful vegetarian curry with seasonal vegetables.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:20:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Sauté onions, garlic, and bell peppers in oil until soft.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "onion",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          },
+          {
+            "ingredientId": "bell-pepper",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "diced"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add spices, coconut milk, and vegetables, simmer until tender.",
+        "duration": "0:15:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "coconut",
+            "quantity": 200,
+            "unit": "ml",
+            "state": "milk"
+          },
+          {
+            "ingredientId": "sweet-potato",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "cubed"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1466296",
+      "user-1907071",
+      "user-1040177",
+      "user-1186379",
+      "user-1950848",
+      "user-1592358",
+      "user-1477029",
+      "user-1707895",
+      "user-1097071",
+      "user-1672328",
+      "user-1744022",
+      "user-1683747",
+      "user-1057840",
+      "user-1455789",
+      "user-1599777",
+      "user-1502934",
+      "user-1721331",
+      "user-1630474",
+      "user-1653321",
+      "user-1132502",
+      "user-1271575",
+      "user-1535744",
+      "user-1273307",
+      "user-1933821",
+      "user-1465740",
+      "user-1300996",
+      "user-1495211",
+      "user-1796130",
+      "user-1117743",
+      "user-1097944",
+      "user-1131235",
+      "user-1402141",
+      "user-1948916",
+      "user-1176051",
+      "user-1516220",
+      "user-1715655",
+      "user-1324207",
+      "user-1263094",
+      "user-1246521",
+      "user-1597378",
+      "user-1796053",
+      "user-1852407",
+      "user-1792772",
+      "user-1145790",
+      "user-1225968",
+      "user-1529053",
+      "user-1770122",
+      "user-1290652"
+    ],
+    "recipeTags": [
+      "vegetarian",
+      "curry",
+      "spicy",
+      "vegetable"
+    ]
+  },
+  "vegetable-stir-fry": {
+    "recipeId": "vegetable-stir-fry",
+    "recipeImage": "assets/images/recipes/vegetable-stir-fry.jpg",
+    "recipeTitle": "Vegetable Stir Fry",
+    "recipeType": "main",
+    "recipeDescription": "A quick and healthy stir fry with mixed vegetables.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Heat oil in a pan and add vegetables.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "broccoli",
+            "quantity": 100,
+            "unit": "g",
+            "state": "cut into florets"
+          },
+          {
+            "ingredientId": "carrot",
+            "quantity": 50,
+            "unit": "g",
+            "state": "sliced"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Add soy sauce and stir-fry until vegetables are tender.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "salt",
+            "quantity": 15,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1631978",
+      "user-1965327",
+      "user-1415488",
+      "user-1463856",
+      "user-1565976",
+      "user-1225002",
+      "user-1588464",
+      "user-1379422",
+      "user-1442371",
+      "user-1886311",
+      "user-1751257",
+      "user-1112619",
+      "user-1175217",
+      "user-1641942",
+      "user-1725073",
+      "user-1449056",
+      "user-1951766",
+      "user-1125212",
+      "user-1262872",
+      "user-1784768",
+      "user-1431537",
+      "user-1878027",
+      "user-1120994",
+      "user-1826151",
+      "user-1731572",
+      "user-1575981",
+      "user-1132871",
+      "user-1544909",
+      "user-1673099",
+      "user-1923531",
+      "user-1288539",
+      "user-1365116",
+      "user-1606536",
+      "user-1620607",
+      "user-1964814",
+      "user-1271926",
+      "user-1895027",
+      "user-1354725",
+      "user-1139518",
+      "user-1727052",
+      "user-1617607",
+      "user-1270512"
+    ],
+    "recipeTags": [
+      "stir-fry",
+      "vegetarian",
+      "quick",
+      "healthy"
+    ]
+  },
+  "avocado-toast": {
+    "recipeId": "avocado-toast",
+    "recipeImage": "assets/images/recipes/avocado-toast.jpg",
+    "recipeTitle": "Avocado Toast",
+    "recipeType": "salad",
+    "recipeDescription": "A simple avocado toast with seasonings.",
+    "recipeServingSize": 1,
+    "recipePrepTime": "0:05:00.000000",
+    "recipeCookTime": "0:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mash avocado and season with salt and pepper.",
+        "duration": "0:02:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "avocado",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "mashed"
+          },
+          {
+            "ingredientId": "salt",
+            "quantity": 1,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "black-pepper",
+            "quantity": 1,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Spread avocado on toasted bread.",
+        "duration": "0:03:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1800903",
+      "user-1723757",
+      "user-1799323",
+      "user-1310024",
+      "user-1386608",
+      "user-1598315",
+      "user-1879073",
+      "user-1191625",
+      "user-1938993",
+      "user-1330108",
+      "user-1546477",
+      "user-1846764",
+      "user-1427133",
+      "user-1996820",
+      "user-1759310",
+      "user-1475302",
+      "user-1753966",
+      "user-1960207",
+      "user-1979024",
+      "user-1355018",
+      "user-1682203",
+      "user-1556368",
+      "user-1301921",
+      "user-1303097",
+      "user-1983014",
+      "user-1907570",
+      "user-1030486",
+      "user-1257950",
+      "user-1862812",
+      "user-1598677",
+      "user-1533530",
+      "user-1369808",
+      "user-1447656",
+      "user-1255663",
+      "user-1087529",
+      "user-1380154",
+      "user-1832208",
+      "user-1802614",
+      "user-1089604",
+      "user-1434553",
+      "user-1758439"
+    ],
+    "recipeTags": [
+      "breakfast",
+      "avocado",
+      "toast",
+      "healthy"
+    ]
+  },
+  "chicken-salad": {
+    "recipeId": "chicken-salad",
+    "recipeImage": "assets/images/recipes/chicken-salad.jpg",
+    "recipeTitle": "Chicken Salad",
+    "recipeType": "salad",
+    "recipeDescription": "A refreshing salad with grilled chicken, greens, and a light vinaigrette.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Grill the chicken breast until fully cooked, then slice.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "chicken-breast",
+            "quantity": 200,
+            "unit": "g",
+            "state": "grilled and sliced"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Combine mixed greens, sliced tomatoes, and cucumbers in a bowl.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "lettuce",
+            "quantity": 100,
+            "unit": "g",
+            "state": "washed"
+          },
+          {
+            "ingredientId": "tomato",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          },
+          {
+            "ingredientId": "cucumber",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1393760",
+      "user-1377105",
+      "user-1098689",
+      "user-1543536",
+      "user-1833930",
+      "user-1760313",
+      "user-1062709",
+      "user-1025810",
+      "user-1270184",
+      "user-1809469",
+      "user-1155903",
+      "user-1063267",
+      "user-1210254",
+      "user-1690997",
+      "user-1169749",
+      "user-1364881",
+      "user-1752783",
+      "user-1160954",
+      "user-1321715",
+      "user-1113915",
+      "user-1636770",
+      "user-1636466",
+      "user-1270890",
+      "user-1263680",
+      "user-1424296",
+      "user-1893282",
+      "user-1140476",
+      "user-1923179",
+      "user-1916449",
+      "user-1383431",
+      "user-1737231",
+      "user-1203841",
+      "user-1652810",
+      "user-1252166",
+      "user-1615166",
+      "user-1876421",
+      "user-1700149",
+      "user-1159333",
+      "user-1024109",
+      "user-1375184",
+      "user-1744681",
+      "user-1142064",
+      "user-1553802",
+      "user-1276739",
+      "user-1056863"
+    ],
+    "recipeTags": [
+      "salad",
+      "chicken",
+      "healthy",
+      "low-carb"
+    ]
+  },
+  "tuna-salad": {
+    "recipeId": "tuna-salad",
+    "recipeImage": "assets/images/recipes/tuna-salad.jpg",
+    "recipeTitle": "Tuna Salad",
+    "recipeType": "salad",
+    "recipeDescription": "A fresh and easy tuna salad with vegetables.",
+    "recipeServingSize": 2,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Combine tuna, diced vegetables, and dressing in a bowl.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "tuna",
+            "quantity": 150,
+            "unit": "g",
+            "state": "canned"
+          },
+          {
+            "ingredientId": "cucumber",
+            "quantity": 50,
+            "unit": "g",
+            "state": "diced"
+          },
+          {
+            "ingredientId": "lettuce",
+            "quantity": 50,
+            "unit": "g",
+            "state": "chopped"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1128906",
+      "user-1560804",
+      "user-1627469",
+      "user-1468618",
+      "user-1469687",
+      "user-1589276",
+      "user-1398865",
+      "user-1561368",
+      "user-1135389",
+      "user-1143738",
+      "user-1733153",
+      "user-1936850",
+      "user-1796782",
+      "user-1184818",
+      "user-1517774",
+      "user-1272408",
+      "user-1589525",
+      "user-1148981"
+    ],
+    "recipeTags": [
+      "salad",
+      "tuna",
+      "healthy",
+      "quick"
+    ]
+  },
+  "fruit-salad": {
+    "recipeId": "fruit-salad",
+    "recipeImage": "assets/images/recipes/fruit-salad.jpg",
+    "recipeTitle": "Fruit Salad",
+    "recipeType": "salad",
+    "recipeDescription": "A refreshing fruit salad with a variety of seasonal fruits.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:00:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Chop fruits into bite-sized pieces and combine.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "apple",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "banana",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          },
+          {
+            "ingredientId": "grapes",
+            "quantity": 50,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "orange",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "sliced"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1171497",
+      "user-1212126",
+      "user-1505037",
+      "user-1438985",
+      "user-1891857",
+      "user-1322597",
+      "user-1412415",
+      "user-1274201",
+      "user-1158227",
+      "user-1984641",
+      "user-1889822",
+      "user-1237130",
+      "user-1068798",
+      "user-1405189",
+      "user-1126569",
+      "user-1682209",
+      "user-1864921",
+      "user-1244875",
+      "user-1676266",
+      "user-1442985",
+      "user-1957971",
+      "user-1478886",
+      "user-1851478",
+      "user-1568634",
+      "user-1922155",
+      "user-1248852",
+      "user-1036575",
+      "user-1404945",
+      "user-1013860",
+      "user-1545951",
+      "user-1957132",
+      "user-1517748",
+      "user-1897608",
+      "user-1400242",
+      "user-1453903",
+      "user-1908168",
+      "user-1375804",
+      "user-1754345",
+      "user-1601877",
+      "user-1923400",
+      "user-1777516",
+      "user-1927419",
+      "user-1842988",
+      "user-1103045",
+      "user-1834114",
+      "user-1398567",
+      "user-1038501",
+      "user-1917290"
+    ],
+    "recipeTags": [
+      "dessert",
+      "fruit",
+      "healthy",
+      "refreshing"
+    ]
+  },
+  "fettuccine-alfredo": {
+    "recipeId": "fettuccine-alfredo",
+    "recipeImage": "assets/images/recipes/fettuccine-alfredo.jpg",
+    "recipeTitle": "Fettuccine Alfredo",
+    "recipeType": "pasta",
+    "recipeDescription": "A creamy and cheesy pasta dish with fettuccine noodles.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:15:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Boil fettuccine until al dente.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "flour-wheat",
+            "quantity": 250,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Melt butter, add cream and Parmesan cheese, then mix with fettuccine.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "all-purpose",
+            "quantity": 50,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1449793",
+      "user-1016495",
+      "user-1331020",
+      "user-1000343",
+      "user-1680589",
+      "user-1981289",
+      "user-1524967",
+      "user-1901269",
+      "user-1256850",
+      "user-1105136",
+      "user-1766914",
+      "user-1600845",
+      "user-1146905",
+      "user-1272604",
+      "user-1308631",
+      "user-1737947",
+      "user-1875413",
+      "user-1915016",
+      "user-1389429",
+      "user-1912000"
+    ],
+    "recipeTags": [
+      "italian",
+      "pasta",
+      "creamy",
+      "quick"
+    ]
+  },
+  "veggie-pasta": {
+    "recipeId": "veggie-pasta",
+    "recipeImage": "assets/images/recipes/veggie-pasta.jpg",
+    "recipeTitle": "Veggie Pasta",
+    "recipeType": "pasta",
+    "recipeDescription": "A delicious pasta loaded with fresh vegetables.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:20:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Boil pasta until al dente and set aside.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "rice",
+            "quantity": 200,
+            "unit": "g",
+            "state": "cooked"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Sauté bell peppers, broccoli, and carrots in a pan with olive oil.",
+        "duration": "0:10:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "bell-pepper",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "broccoli",
+            "quantity": 100,
+            "unit": "g",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "carrot",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "chopped"
+          },
+          {
+            "ingredientId": "cooking-oil",
+            "quantity": 10,
+            "unit": "ml",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 3,
+        "instruction": "Add cooked pasta, salt, pepper, and mix well.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "salt",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "black-pepper",
+            "quantity": 2,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      }
+    ],
+    "recipeLikes": [
+      "user-1532455",
+      "user-1160715",
+      "user-1531678",
+      "user-1984299",
+      "user-1747122",
+      "user-1982462",
+      "user-1330688",
+      "user-1976011",
+      "user-1320262",
+      "user-1142873",
+      "user-1198545",
+      "user-1806888",
+      "user-1496608",
+      "user-1018333",
+      "user-1504517",
+      "user-1147712",
+      "user-1461712",
+      "user-1686591",
+      "user-1781171",
+      "user-1134064",
+      "user-1709700",
+      "user-1371627",
+      "user-1715977",
+      "user-1669000",
+      "user-1747157",
+      "user-1185660",
+      "user-1668984",
+      "user-1848282",
+      "user-1425190",
+      "user-1489917",
+      "user-1092976"
+    ],
+    "recipeTags": [
+      "vegetarian",
+      "pasta",
+      "dinner",
+      "easy"
+    ]
+  },
+  "crab-cake": {
+    "recipeId": "crab-cake",
+    "recipeImage": "assets/images/recipes/crab-cake.jpg",
+    "recipeTitle": "Crab Cake",
+    "recipeType": "appetizer",
+    "recipeDescription": "Crispy and golden crab cakes served with a zesty sauce.",
+    "recipeServingSize": 4,
+    "recipePrepTime": "0:15:00.000000",
+    "recipeCookTime": "0:10:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix crab meat with breadcrumbs, egg, and spices.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "crab",
+            "quantity": 200,
+            "unit": "g",
+            "state": "shredded"
+          },
+          {
+            "ingredientId": "egg-chicken",
+            "quantity": 1,
+            "unit": "pcs",
+            "state": "beaten"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Form mixture into cakes and pan-fry until golden.",
+        "duration": "0:10:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1139476",
+      "user-1136189",
+      "user-1470732",
+      "user-1031518",
+      "user-1137867",
+      "user-1152899",
+      "user-1406280",
+      "user-1785156",
+      "user-1670624",
+      "user-1466244",
+      "user-1246244",
+      "user-1787712",
+      "user-1261359",
+      "user-1672097",
+      "user-1663737",
+      "user-1441216",
+      "user-1628984",
+      "user-1543816",
+      "user-1502037",
+      "user-1291226",
+      "user-1416619",
+      "user-1428859",
+      "user-1202411",
+      "user-1644655",
+      "user-1544348",
+      "user-1997305",
+      "user-1716665",
+      "user-1371954",
+      "user-1670936",
+      "user-1914683"
+    ],
+    "recipeTags": [
+      "seafood",
+      "fried",
+      "crab",
+      "appetizer"
+    ]
+  },
+  "cornbread": {
+    "recipeId": "cornbread",
+    "recipeImage": "assets/images/recipes/cornbread.jpg",
+    "recipeTitle": "Cornbread",
+    "recipeType": "appetizer",
+    "recipeDescription": "A soft, buttery cornbread with a golden crust.",
+    "recipeServingSize": 6,
+    "recipePrepTime": "0:10:00.000000",
+    "recipeCookTime": "0:25:00.000000",
+    "recipeSteps": [
+      {
+        "stepNumber": 1,
+        "instruction": "Mix corn flour, baking powder, and milk to form a batter.",
+        "duration": "0:05:00.000000",
+        "ingredient": [
+          {
+            "ingredientId": "corn-flour",
+            "quantity": 100,
+            "unit": "g",
+            "state": "none"
+          },
+          {
+            "ingredientId": "baking-powder",
+            "quantity": 5,
+            "unit": "g",
+            "state": "none"
+          }
+        ]
+      },
+      {
+        "stepNumber": 2,
+        "instruction": "Pour into pan and bake until golden brown.",
+        "duration": "0:25:00.000000"
+      }
+    ],
+    "recipeLikes": [
+      "user-1703489",
+      "user-1093781",
+      "user-1370443",
+      "user-1335313",
+      "user-1681711",
+      "user-1289266",
+      "user-1795170",
+      "user-1682768",
+      "user-1025279",
+      "user-1986436",
+      "user-1371386",
+      "user-1395937",
+      "user-1931244",
+      "user-1447350",
+      "user-1944439",
+      "user-1730658",
+      "user-1781020",
+      "user-1620616",
+      "user-1600795",
+      "user-1373415",
+      "user-1382555",
+      "user-1281468",
+      "user-1512387",
+      "user-1438043",
+      "user-1282120",
+      "user-1833745",
+      "user-1640387",
+      "user-1517869",
+      "user-1711731",
+      "user-1864823",
+      "user-1005815",
+      "user-1957204",
+      "user-1367854",
+      "user-1694140",
+      "user-1773049"
+    ],
+    "recipeTags": [
+      "bread",
+      "corn",
+      "baked",
+      "comfort"
+    ]
+  }
+}

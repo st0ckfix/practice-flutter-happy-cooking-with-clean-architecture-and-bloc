@@ -1,25 +1,44 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/main.dart';
 
-import 'product_manager_cubit.dart';
 
 class ProductSelectCubit extends Cubit<ProductSelect?> {
-  ProductSelectCubit() : super(null);
+  ProductSelectCubit() : super(null) {
+    logg('Product Select', 'Initial', state == null ? 'Nothing Select' : 'Label: ${state!.productId}, Option: ${state?.option}');
+  }
 
-  void updateProduct(ProductSelect productSelect) {
-    emit(productSelect);
+  void updateOption(int option) {
+    logg('Product Select', 'Update Option', 'Last: ${state?.option ?? 0}, New: $option');
+    if (state == null || state?.option == option) return;
+    emit(state!.copyWith(option: option));
+  }
+
+  void updateProduct(String productId) {
+    logg('Product Select', 'Update Product', 'Id: $productId');
+    emit(ProductSelect(productId: productId));
   }
 }
 
 class ProductSelect extends Equatable {
-  final Product? product;
-  final int? select;
+  final String productId;
+  final int? option;
 
   const ProductSelect({
-    required this.product,
-    required this.select,
+    required this.productId,
+    this.option = 0,
   });
 
+  ProductSelect copyWith({
+    String? productId,
+    int? option,
+  }) {
+    return ProductSelect(
+      productId: productId ?? this.productId,
+      option: option ?? this.option,
+    );
+  }
+
   @override
-  List<Object?> get props => [product, select];
+  List<Object?> get props => [productId, option];
 }

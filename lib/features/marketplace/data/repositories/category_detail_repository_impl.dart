@@ -5,7 +5,7 @@ import 'package:happy_cooking/features/marketplace/domain/repositories/category_
 
 class CategoryDetailRepositoryImpl extends CategoryDetailRepository {
   final ReadListFireStore readListFireStore;
-  CategoryDetailRepositoryImpl(this.readListFireStore);
+  CategoryDetailRepositoryImpl({required this.readListFireStore});
   @override
   Future<Either<String, List<CategoryDetailModel>>> getCategoryDetail() async {
     // final data = await readListFireStore.readDocument(params: 'categoryDetail');
@@ -20,17 +20,16 @@ class CategoryDetailRepositoryImpl extends CategoryDetailRepository {
 Future fetchListCate() async {
   await Future.delayed(const Duration(seconds: 2));
   return [
-    CategoryDetailModel(id: 'cate_beef', label: 'Beef', image: 'assets/images/cate_detail/cate_detail/cate_beef.jpg'),
-    CategoryDetailModel(id: 'cate_pork', label: 'Pork', image: 'assets/images/cate_detail/cate_detail/cate_pork.jpg'),
-    CategoryDetailModel(id: 'cate_chicken', label: 'Chicken', image: 'assets/images/cate_detail/cate_detail/cate_chicken.png'),
-    CategoryDetailModel(id: 'cate_fish', label: 'Fish', image: 'assets/images/cate_detail/cate_detail/cate_fish.jpg'),
-    CategoryDetailModel(id: 'cate_crab', label: 'Crab', image: 'assets/images/cate_detail/cate_detail/cate_crab.jpg'),
-    CategoryDetailModel(id: 'cate_seafood', label: 'Seafood', image: 'assets/images/cate_detail/cate_detail/cate_seafood.jpg'),
-    CategoryDetailModel(id: 'cate_egg', label: 'Egg', image: 'assets/images/cate_detail/cate_detail/cate_egg.jpg'),
-    CategoryDetailModel(id: 'cate_fruit', label: 'Fruit', image: 'assets/images/cate_detail/cate_detail/cate_fruit.jpg'),
-    CategoryDetailModel(id: 'cate_vegetable', label: 'Vegetable', image: 'assets/images/cate_detail/cate_detail/cate_vegetable.jpg'),
-    CategoryDetailModel(id: 'cate_mushroom', label: 'Mushroom', image: 'assets/images/cate_detail/cate_detail/cate_mushroom.jpg'),
-    CategoryDetailModel(id: 'cate_powder', label: 'Grain/Powder', image: 'assets/images/cate_detail/cate_detail/cate_powder.jpg'),
-    CategoryDetailModel(id: 'cate_seasoning', label: 'Seasoning', image: 'assets/images/cate_detail/cate_detail/cate_seasoning.jpg'),
+    CategoryDetailModel(id: 'beef', label: 'Beef', image: 'assets/images/cate-detail/cate-detail/cate-beef.jpg'),
+    CategoryDetailModel(id: 'pork', label: 'Pork', image: 'assets/images/cate-detail/cate-detail/cate-pork.jpg'),
+    CategoryDetailModel(id: 'chicken', label: 'Chicken', image: 'assets/images/cate-detail/cate-detail/cate-chicken.png'),
+    CategoryDetailModel(id: 'fish', label: 'Fish', image: 'assets/images/cate-detail/cate-detail/cate-fish.jpg'),
+    CategoryDetailModel(id: 'seafood', label: 'Seafood', image: 'assets/images/cate-detail/cate-detail/cate-seafood.jpg'),
+    CategoryDetailModel(id: 'egg', label: 'Egg', image: 'assets/images/cate-detail/cate-detail/cate-egg.jpg'),
+    CategoryDetailModel(id: 'fruit', label: 'Fruit', image: 'assets/images/cate-detail/cate-detail/cate-fruit.jpg'),
+    CategoryDetailModel(id: 'vegetable', label: 'Vegetable', image: 'assets/images/cate-detail/cate-detail/cate-vegetable.jpg'),
+    CategoryDetailModel(id: 'mushroom', label: 'Mushroom', image: 'assets/images/cate-detail/cate-detail/cate-mushroom.jpg'),
+    CategoryDetailModel(id: 'dry', label: 'Grain/Flour', image: 'assets/images/cate-detail/cate-detail/cate-dry.jpg'),
+    CategoryDetailModel(id: 'seasoning', label: 'Seasoning', image: 'assets/images/cate-detail/cate-detail/cate-seasoning.jpg'),
   ];
 }

@@ -5,117 +5,123 @@ import 'package:happy_cooking/features/marketplace/domain/repositories/category_
 
 class CategoryDetailItemRepositoryImpl extends CategoryDetailItemRepository {
   final ReadListFireStore readListFireStore;
-  CategoryDetailItemRepositoryImpl(this.readListFireStore);
+  CategoryDetailItemRepositoryImpl({required this.readListFireStore});
   @override
-  Future<Either<String, List<CategoryDetailItemModel>>> getCategoryDetailItem(String? categoryId) async {
+  Future<Either<String, List<CategoryDetailItemModel>>> getCategoryDetailItem(String? category) async {
     // final data = await readListFireStore.readDocument(params: categoryId);
     // if (data.isEmpty) {
     //   return const Left('Empty List');
     // }
     // return Right(data.map((e) => CategoryDetailItemModel.fromJson(e.data()!)).toList());
-    return Right(await fetchListCate(categoryId!));
+    return Right(await fetchListCate(category));
   }
 }
 
-Future<List<CategoryDetailItemModel>> fetchListCate(String id) async {
+Future<List<CategoryDetailItemModel>> fetchListCate(String? category) async {
   await Future.delayed(const Duration(seconds: 2));
   return <String, List<CategoryDetailItemModel>>{
-    'cate_beef': cateBeef,
-    'cate_pork': catePork,
-    'cate_chicken': cateChicken,
-    'cate_fish': cateFish,
-    'cate_crab': cateCrab,
-    'cate_seafood': cateSeafood,
-    'cate_egg': cateEgg,
-    'cate_fruit': cateFruit,
-    'cate_vegetable': cateVegetable,
-    'cate_mushroom': cateMushroom,
-    'cate_powder': catePowder,
-    'cate_seasoning': cateSeasoning,
-  }[id]!;
+    'beef': cateBeef,
+    'chicken': cateChicken,
+    'dry': cateDry,
+    'egg': cateEgg,
+    'fish': cateFish,
+    'fruit': cateFruit,
+    'mushroom': cateMushroom,
+    'pork': catePork,
+    'seafood': cateSeafood,
+    'seasoning': cateSeasoning,
+    'vegetable': cateVegetable,
+  }[category]!;
 }
 
 const cateBeef = [
-  CategoryDetailItemModel(id: 'beef_chuck', label: 'Chuck', image: 'assets/images/cate_detail/cate_beef/beef_chuck.png'),
-  CategoryDetailItemModel(id: 'beef_ground', label: 'Ground', image: 'assets/images/cate_detail/cate_beef/beef_ground.png'),
-  CategoryDetailItemModel(id: 'beef_rib', label: 'Ribs', image: 'assets/images/cate_detail/cate_beef/beef_rib.png'),
-  CategoryDetailItemModel(id: 'beef_shortplate', label: 'Plate', image: 'assets/images/cate_detail/cate_beef/beef_shortplate.png'),
-  CategoryDetailItemModel(id: 'beef_tenderloin', label: 'Tenderloin', image: 'assets/images/cate_detail/cate_beef/beef_tenderloin.png'),
+  CategoryDetailItemModel(id: 'beef-bone', label: 'Bone', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-bone.png'),
+  CategoryDetailItemModel(id: 'beef-brisket', label: 'Brisket', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-brisket.png'),
+  CategoryDetailItemModel(id: 'beef-chuck', label: 'Chuck', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-chuck.png'),
+  CategoryDetailItemModel(id: 'beef-diced', label: 'Diced', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-diced.png'),
+  CategoryDetailItemModel(id: 'beef-flank', label: 'Flank', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-flank.png'),
+  CategoryDetailItemModel(id: 'beef-ground', label: 'Ground', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-ground.png'),
+  CategoryDetailItemModel(id: 'beef-rib', label: 'Rib', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-rib.png'),
+  CategoryDetailItemModel(id: 'beef-shabu-shabu', label: 'Shabu Shabu', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-shabu-shabu.png'),
+  CategoryDetailItemModel(id: 'beef-shortplate', label: 'Plate', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-shortplate.png'),
+  CategoryDetailItemModel(id: 'beef-steak', label: 'Steak', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-steak.png'),
+  CategoryDetailItemModel(id: 'beef-tbone', label: 'Tbone', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-tbone.png'),
+  CategoryDetailItemModel(id: 'beef-tenderloin', label: 'Tenderloin', type: 'beef', image: 'assets/images/cate-detail/cate-beef/beef-tenderloin.png'),
 ];
 
 const cateChicken = [
-  CategoryDetailItemModel(id: 'chicken_breast', label: 'Breast', image: 'assets/images/cate_detail/cate_chicken/chicken_breast.png'),
-  CategoryDetailItemModel(id: 'chicken_drumstick', label: 'Drumstick', image: 'assets/images/cate_detail/cate_chicken/chicken_drumstick.png'),
-  CategoryDetailItemModel(id: 'chicken_wing', label: 'Wing', image: 'assets/images/cate_detail/cate_chicken/chicken_wing.png'),
+  CategoryDetailItemModel(id: 'chicken-bone', label: 'Bone', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-bone.png'),
+  CategoryDetailItemModel(id: 'chicken-breast', label: 'Breast', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-breast.png'),
+  CategoryDetailItemModel(id: 'chicken-drumstick', label: 'Drumstick', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-drumstick.png'),
+  CategoryDetailItemModel(id: 'chicken-ground', label: 'Ground', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-ground.png'),
+  CategoryDetailItemModel(id: 'chicken-thigh', label: 'Thigh', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-thigh.png'),
+  CategoryDetailItemModel(id: 'chicken-whole', label: 'Whole Bird', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-whole.png'),
+  CategoryDetailItemModel(id: 'chicken-wing', label: 'Wings', type: 'chicken', image: 'assets/images/cate-detail/cate-chicken/chicken-wing.png'),
 ];
 
-const cateCrab = [
-  CategoryDetailItemModel(id: 'crab_whole', label: 'Whole Crab', image: 'assets/images/cate_detail/cate_crab/crab_whole.png'),
-  CategoryDetailItemModel(id: 'crab_claw', label: 'Claw', image: 'assets/images/cate_detail/cate_crab/crab_claw.png'),
-  CategoryDetailItemModel(id: 'crab_leg', label: 'Leg', image: 'assets/images/cate_detail/cate_crab/crab_leg.png'),
-  CategoryDetailItemModel(id: 'crab_stick', label: 'Stick', image: 'assets/images/cate_detail/cate_crab/crab_stick.png'),
+const cateDry = [
+  CategoryDetailItemModel(id: 'flour', label: 'Flour', type: 'dry', image: 'assets/images/cate-detail/cate-dry/flour.png'),
+  CategoryDetailItemModel(id: 'rice', label: 'Rice', type: 'dry', image: 'assets/images/cate-detail/cate-dry/rice.png'),
 ];
 
 const cateEgg = [
-  CategoryDetailItemModel(id: 'egg_chicken', label: 'Chicken', image: 'assets/images/cate_detail/cate_egg/egg_chicken.png'),
-  CategoryDetailItemModel(id: 'egg_duck', label: 'Duck', image: 'assets/images/cate_detail/cate_egg/egg_duck.png'),
-  CategoryDetailItemModel(id: 'egg_quail', label: 'Quail', image: 'assets/images/cate_detail/cate_egg/egg_quail.png'),
+  CategoryDetailItemModel(id: 'egg-chicken', label: 'Chicken', type: 'egg', image: 'assets/images/cate-detail/cate-egg/egg-chicken.png'),
+  CategoryDetailItemModel(id: 'egg-duck', label: 'Duck', type: 'egg', image: 'assets/images/cate-detail/cate-egg/egg-duck.png'),
+  CategoryDetailItemModel(id: 'egg-quail', label: 'Quail', type: 'egg', image: 'assets/images/cate-detail/cate-egg/egg-quail.png'),
 ];
 
 const cateFish = [
-  CategoryDetailItemModel(id: 'fish_salmon', label: 'Salmon', image: 'assets/images/cate_detail/cate_fish/fish_salmon.png'),
-  CategoryDetailItemModel(id: 'fish_tuna', label: 'Tuna', image: 'assets/images/cate_detail/cate_fish/fish_tuna.png'),
-  CategoryDetailItemModel(id: 'fish_tilapia', label: 'Tilapia', image: 'assets/images/cate_detail/cate_fish/fish_tilapia.png'),
+  CategoryDetailItemModel(id: 'fish-catfish', label: 'Catfish', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-catfish.png'),
+  CategoryDetailItemModel(id: 'fish-marlin', label: 'Marlin', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-marlin.png'),
+  CategoryDetailItemModel(id: 'fish-salmon', label: 'Salmon', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-salmon.png'),
+  CategoryDetailItemModel(id: 'fish-shark', label: 'Shark', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-shark.png'),
+  CategoryDetailItemModel(id: 'fish-tilapia', label: 'Tilapia', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-tilapia.png'),
+  CategoryDetailItemModel(id: 'fish-trout', label: 'Trout', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-trout.png'),
+  CategoryDetailItemModel(id: 'fish-tuna', label: 'Tuna', type: 'fish', image: 'assets/images/cate-detail/cate-fish/fish-tuna.png'),
 ];
 
 const cateFruit = [
-  CategoryDetailItemModel(id: 'fruit_pome', label: 'Pome', image: 'assets/images/cate_detail/cate_fruit/fruit_pome.png'),
-  CategoryDetailItemModel(id: 'fruit_hesperidium', label: 'Hesperidium', image: 'assets/images/cate_detail/cate_fruit/fruit_hesperidium.png'),
-  CategoryDetailItemModel(id: 'fruit_berry', label: 'Berry', image: 'assets/images/cate_detail/cate_fruit/fruit_berry.png'),
-  CategoryDetailItemModel(id: 'fruit_drupe', label: 'Drupe', image: 'assets/images/cate_detail/cate_fruit/fruit_drupe.png'),
-  CategoryDetailItemModel(id: 'fruit_pepo', label: 'Pepo', image: 'assets/images/cate_detail/cate_fruit/fruit_pepo.png'),
-  CategoryDetailItemModel(id: 'fruit_tropical', label: 'Tropical', image: 'assets/images/cate_detail/cate_fruit/fruit_tropical.png'),
+  CategoryDetailItemModel(id: 'fruit-pome', label: 'Pome', type: 'fruit', image: 'assets/images/cate-detail/cate-fruit/fruit-pome.png'),
+  CategoryDetailItemModel(id: 'fruit-hesperidium', label: 'Hesperidium', type: 'fruit', image: 'assets/images/cate-detail/cate-fruit/fruit-hesperidium.png'),
+  CategoryDetailItemModel(id: 'fruit-berry', label: 'Berry', type: 'fruit', image: 'assets/images/cate-detail/cate-fruit/fruit-berry.png'),
+  CategoryDetailItemModel(id: 'fruit-drupe', label: 'Drupe', type: 'fruit', image: 'assets/images/cate-detail/cate-fruit/fruit-drupe.png'),
+  CategoryDetailItemModel(id: 'fruit-pepo', label: 'Pepo', type: 'fruit', image: 'assets/images/cate-detail/cate-fruit/fruit-pepo.png'),
 ];
 
 const cateMushroom = [
-  CategoryDetailItemModel(id: 'nam_enoki_mushroom', label: 'Enoki Mushroom', image: 'assets/images/cate_detail/cate_mushroom/nam_enoki_mushroom.png'),
-  CategoryDetailItemModel(id: 'nam_mushroom', label: 'Mushroom', image: 'assets/images/cate_detail/cate_mushroom/nam_mushroom.png'),
-  CategoryDetailItemModel(id: 'nam_oyster_mushroom', label: 'Oyster Mushroom', image: 'assets/images/cate_detail/cate_mushroom/nam_oyster_mushroom.png'),
+  CategoryDetailItemModel(id: 'enoki', label: 'Enoki', type: 'enoki', image: 'assets/images/cate-detail/cate-mushroom/enoki.png'),
+  CategoryDetailItemModel(id: 'mushroom', label: 'Mushroom', type: 'mushroom', image: 'assets/images/cate-detail/cate-mushroom/mushroom.png'),
 ];
 
 const catePork = [
-  CategoryDetailItemModel(id: 'pork_belly', label: 'Belly', image: 'assets/images/cate_detail/cate_pork/pork_belly.png'),
-  CategoryDetailItemModel(id: 'pork_ground', label: 'Ground', image: 'assets/images/cate_detail/cate_pork/pork_ground.png'),
-  CategoryDetailItemModel(id: 'pork_ham', label: 'Ham', image: 'assets/images/cate_detail/cate_pork/pork_ham.png'),
-  CategoryDetailItemModel(id: 'pork_lean', label: 'Lean', image: 'assets/images/cate_detail/cate_pork/pork_lean.png'),
-];
-
-const catePowder = [
-  CategoryDetailItemModel(id: 'powder_baking_soda', label: 'Baking Soda', image: 'assets/images/cate_detail/cate_powder/powder_baking_soda.png'),
-  CategoryDetailItemModel(id: 'powder_flour', label: 'Flour', image: 'assets/images/cate_detail/cate_powder/powder_flour.png'),
-  CategoryDetailItemModel(id: 'powder_rice', label: 'Rice', image: 'assets/images/cate_detail/cate_powder/powder_rice.png'),
+  CategoryDetailItemModel(id: 'pork-belly', label: 'Belly', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-belly.png'),
+  CategoryDetailItemModel(id: 'pork-ground', label: 'Ground', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-ground.png'),
+  CategoryDetailItemModel(id: 'pork-ham', label: 'Ham', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-ham.png'),
+  CategoryDetailItemModel(id: 'pork-lean', label: 'Lean', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-lean.png'),
+  CategoryDetailItemModel(id: 'pork-rib', label: 'Ribs', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-rib.png'),
+  CategoryDetailItemModel(id: 'pork-tray', label: 'Tray', type: 'pork', image: 'assets/images/cate-detail/cate-pork/pork-tray.png'),
 ];
 
 const cateSeafood = [
-  CategoryDetailItemModel(id: 'sea_clam', label: 'Clam', image: 'assets/images/cate_detail/cate_seafood/sea_clam.png'),
-  CategoryDetailItemModel(id: 'sea_lobster', label: 'Lobster', image: 'assets/images/cate_detail/cate_seafood/sea_lobster.png'),
-  CategoryDetailItemModel(id: 'sea_octopus', label: 'Octopus', image: 'assets/images/cate_detail/cate_seafood/sea_octopus.png'),
-  CategoryDetailItemModel(id: 'sea_shrimp', label: 'Shrimp', image: 'assets/images/cate_detail/cate_seafood/sea_shrimp.png'),
-  CategoryDetailItemModel(id: 'sea_squid', label: 'Squid', image: 'assets/images/cate_detail/cate_seafood/sea_squid.png'),
+  CategoryDetailItemModel(id: 'caviar', label: 'Clam', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/caviar.png'),
+  CategoryDetailItemModel(id: 'clam', label: 'Clam', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/clam.png'),
+  CategoryDetailItemModel(id: 'crab', label: 'Clam', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/crab.png'),
+  CategoryDetailItemModel(id: 'lobster', label: 'Lobster', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/lobster.png'),
+  CategoryDetailItemModel(id: 'octopus', label: 'Octopus', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/octopus.png'),
+  CategoryDetailItemModel(id: 'shrimp', label: 'Shrimp', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/shrimp.png'),
+  CategoryDetailItemModel(id: 'squid', label: 'Squid', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/squid.png'),
+  CategoryDetailItemModel(id: 'unagi', label: 'Squid', type: 'seafood', image: 'assets/images/cate-detail/cate-seafood/unagi.png'),
 ];
 
 const cateSeasoning = [
-  CategoryDetailItemModel(id: 'ssn_saline', label: 'Saline', image: 'assets/images/cate_detail/cate_seasoning/ssn_saline.png'),
-  CategoryDetailItemModel(id: 'ssn_saccharine', label: 'Saccharine', image: 'assets/images/cate_detail/cate_seasoning/ssn_saccharine.png'),
-  CategoryDetailItemModel(id: 'ssn_hot', label: 'Hot', image: 'assets/images/cate_detail/cate_seasoning/ssn_hot.png'),
-  CategoryDetailItemModel(id: 'ssn_acid', label: 'Acid', image: 'assets/images/cate_detail/cate_seasoning/ssn_acid.png'),
-  CategoryDetailItemModel(id: 'ssn_oil', label: 'Oil', image: 'assets/images/cate_detail/cate_seasoning/ssn_oil.png'),
+  CategoryDetailItemModel(id: 'grain', label: 'Grain', type: 'seasoning', image: 'assets/images/cate-detail/cate-seasoning/grain.png'),
+  CategoryDetailItemModel(id: 'sauce', label: 'Sauce', type: 'seasoning', image: 'assets/images/cate-detail/cate-seasoning/sauce.png'),
+  CategoryDetailItemModel(id: 'liquid', label: 'Liquid', type: 'seasoning', image: 'assets/images/cate-detail/cate-seasoning/liquid.png'),
 ];
 
 const cateVegetable = [
-  CategoryDetailItemModel(id: 'vegetable_dark_green', label: 'Dark/Green', image: 'assets/images/cate_detail/cate_vegetable/vegetable_dark_green.png'),
-  CategoryDetailItemModel(id: 'vegetable_red_orange', label: 'Red/Orage', image: 'assets/images/cate_detail/cate_vegetable/vegetable_red_orange.png'),
-  CategoryDetailItemModel(id: 'vegetable_starchy', label: 'Starchy', image: 'assets/images/cate_detail/cate_vegetable/vegetable_starchy.png'),
-  CategoryDetailItemModel(id: 'vegetable_beans_peas_and_lentils', label: 'Bean/Pea/Lentil', image: 'assets/images/cate_detail/cate_vegetable/vegetable_beans_peas_and_lentils.png'),
-  CategoryDetailItemModel(id: 'vegetable_other', label: 'Others', image: 'assets/images/cate_detail/cate_vegetable/vegetable_other.png'),
+  CategoryDetailItemModel(id: 'dark-green', label: 'Dark/Green', type: 'vegetable', image: 'assets/images/cate-detail/cate-vegetable/dark-green.png'),
+  CategoryDetailItemModel(id: 'red-orange', label: 'Red/Orage', type: 'vegetable', image: 'assets/images/cate-detail/cate-vegetable/red-orange.png'),
+  CategoryDetailItemModel(id: 'bean-pea', label: 'Starchy', type: 'vegetable', image: 'assets/images/cate-detail/cate-vegetable/bean-pea.png'),
+  CategoryDetailItemModel(id: 'others', label: 'Bean/Pea/Lentil', type: 'vegetable', image: 'assets/images/cate-detail/cate-vegetable/others.png'),
 ];

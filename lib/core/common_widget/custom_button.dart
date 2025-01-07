@@ -14,6 +14,7 @@ class CustomButton extends StatelessWidget {
     this.fontStyle = FontStyle.normal,
     this.fontSize = 13,
     this.fontColor = Colors.white,
+    this.shape,
     required this.onClick,
   });
 
@@ -28,6 +29,7 @@ class CustomButton extends StatelessWidget {
   final FontStyle? fontStyle;
   final double? fontSize;
   final Color? fontColor;
+  final OutlinedBorder? shape;
   final Function onClick;
 
   @override
@@ -39,6 +41,7 @@ class CustomButton extends StatelessWidget {
               style: OutlinedButton.styleFrom(
                 padding: padding,
                 minimumSize: Size.zero,
+                shape: shape,
               ),
               onPressed: () => onClick(),
               child: Row(
@@ -64,6 +67,7 @@ class CustomButton extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 padding: padding,
                 minimumSize: Size.zero,
+                shape: shape,
               ),
               onPressed: () => onClick(),
               child: Row(

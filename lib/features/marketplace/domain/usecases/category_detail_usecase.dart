@@ -5,7 +5,7 @@ import 'package:happy_cooking/features/marketplace/domain/repositories/category_
 
 class CategoryDetailUseCase extends UseCase<Either<String, List<CategoryDetailEntity>>, void> {
   CategoryDetailRepository categoryDetailRepository;
-  CategoryDetailUseCase(this.categoryDetailRepository);
+  CategoryDetailUseCase({required this.categoryDetailRepository});
   @override
   Future<Either<String, List<CategoryDetailEntity>>> call({void params}) {
     return categoryDetailRepository.getCategoryDetail();

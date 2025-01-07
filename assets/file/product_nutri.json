@@ -1,0 +1,7102 @@
+{
+  "beef-chuck-1": {
+    "nutritionId": "nutri-beef-chuck-1",
+    "productId": "beef-chuck-1",
+    "nutritionValue": {
+      "ca": 12.2,
+      "calo": 109,
+      "carbohydrat": 5.6,
+      "cholesterol": 98.9,
+      "fe": 38,
+      "ka": 26,
+      "lipid": 5.8,
+      "mg": 25.9,
+      "na": 30.3,
+      "protein": 44.5,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-chuck-2": {
+    "nutritionId": "nutri-beef-chuck-2",
+    "productId": "beef-chuck-2",
+    "nutritionValue": {
+      "ca": 29.9,
+      "calo": 168,
+      "carbohydrat": 2.9,
+      "cholesterol": 61.6,
+      "fe": 32.9,
+      "ka": 41.1,
+      "lipid": 5.4,
+      "mg": 16.1,
+      "na": 8.8,
+      "protein": 40.3,
+      "vitaC": 0.9,
+      "vitaD": 0.61,
+      "vitaB6": 0.71,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-chuck-3": {
+    "nutritionId": "nutri-beef-chuck-3",
+    "productId": "beef-chuck-3",
+    "nutritionValue": {
+      "ca": 1.5,
+      "calo": 101,
+      "carbohydrat": 2.1,
+      "cholesterol": 53,
+      "fe": 41.1,
+      "ka": 7.1,
+      "lipid": 0.4,
+      "mg": 38.5,
+      "na": 20.8,
+      "protein": 42.3,
+      "vitaC": 0.4,
+      "vitaD": 0.2,
+      "vitaB6": 0.4,
+      "vitaB12": 0.61
+    }
+  },
+  "beef-chuck-4": {
+    "nutritionId": "nutri-beef-chuck-4",
+    "productId": "beef-chuck-4",
+    "nutritionValue": {
+      "ca": 20.8,
+      "calo": 101,
+      "carbohydrat": 5.4,
+      "cholesterol": 97.5,
+      "fe": 11.4,
+      "ka": 18.9,
+      "lipid": 1,
+      "mg": 41.1,
+      "na": 31.6,
+      "protein": 42.5,
+      "vitaC": 0.34,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-chuck-5": {
+    "nutritionId": "nutri-beef-chuck-5",
+    "productId": "beef-chuck-5",
+    "nutritionValue": {
+      "ca": 49.3,
+      "calo": 188,
+      "carbohydrat": 3.7,
+      "cholesterol": 88.1,
+      "fe": 8.6,
+      "ka": 7.8,
+      "lipid": 0.9,
+      "mg": 15.7,
+      "na": 29.2,
+      "protein": 43.1,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.61,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-bone-1": {
+    "nutritionId": "nutri-beef-bone-1",
+    "productId": "beef-bone-1",
+    "nutritionValue": {
+      "ca": 37.4,
+      "calo": 145,
+      "carbohydrat": 0.1,
+      "cholesterol": 64.9,
+      "fe": 6.9,
+      "ka": 13.5,
+      "lipid": 1.4,
+      "mg": 39.5,
+      "na": 9.6,
+      "protein": 40.4,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-bone-2": {
+    "nutritionId": "nutri-beef-bone-2",
+    "productId": "beef-bone-2",
+    "nutritionValue": {
+      "ca": 5.3,
+      "calo": 126,
+      "carbohydrat": 9.2,
+      "cholesterol": 95.9,
+      "fe": 5.4,
+      "ka": 11.7,
+      "lipid": 6.1,
+      "mg": 29.4,
+      "na": 45.8,
+      "protein": 41.4,
+      "vitaC": 0.34,
+      "vitaD": 0.61,
+      "vitaB6": 0.5,
+      "vitaB12": 0.5
+    }
+  },
+  "beef-bone-3": {
+    "nutritionId": "nutri-beef-bone-3",
+    "productId": "beef-bone-3",
+    "nutritionValue": {
+      "ca": 31.2,
+      "calo": 110,
+      "carbohydrat": 9,
+      "cholesterol": 81.5,
+      "fe": 44.5,
+      "ka": 47.9,
+      "lipid": 1,
+      "mg": 38.6,
+      "na": 20.2,
+      "protein": 42.2,
+      "vitaC": 0.9,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-brisket-1": {
+    "nutritionId": "nutri-beef-brisket-1",
+    "productId": "beef-brisket-1",
+    "nutritionValue": {
+      "ca": 14.4,
+      "calo": 118,
+      "carbohydrat": 6.3,
+      "cholesterol": 71.2,
+      "fe": 23.8,
+      "ka": 35.6,
+      "lipid": 0.9,
+      "mg": 39.5,
+      "na": 4.6,
+      "protein": 40.7,
+      "vitaC": 0,
+      "vitaD": 0.61,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-brisket-2": {
+    "nutritionId": "nutri-beef-brisket-2",
+    "productId": "beef-brisket-2",
+    "nutritionValue": {
+      "ca": 22.9,
+      "calo": 143,
+      "carbohydrat": 3.3,
+      "cholesterol": 61.3,
+      "fe": 12.8,
+      "ka": 14.9,
+      "lipid": 4.9,
+      "mg": 12.7,
+      "na": 6.9,
+      "protein": 46.3,
+      "vitaC": 0.61,
+      "vitaD": 0,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "beef-brisket-3": {
+    "nutritionId": "nutri-beef-brisket-3",
+    "productId": "beef-brisket-3",
+    "nutritionValue": {
+      "ca": 36.8,
+      "calo": 118,
+      "carbohydrat": 1.8,
+      "cholesterol": 85.9,
+      "fe": 25.2,
+      "ka": 17.3,
+      "lipid": 2.3,
+      "mg": 32.8,
+      "na": 23.8,
+      "protein": 42.4,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.34,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-diced-1": {
+    "nutritionId": "nutri-beef-diced-1",
+    "productId": "beef-diced-1",
+    "nutritionValue": {
+      "ca": 22.9,
+      "calo": 161,
+      "carbohydrat": 9.7,
+      "cholesterol": 73.6,
+      "fe": 25.6,
+      "ka": 46.1,
+      "lipid": 3.5,
+      "mg": 36.6,
+      "na": 18.7,
+      "protein": 44.5,
+      "vitaC": 0.9,
+      "vitaD": 0,
+      "vitaB6": 0.61,
+      "vitaB12": 0.5
+    }
+  },
+  "beef-diced-2": {
+    "nutritionId": "nutri-beef-diced-2",
+    "productId": "beef-diced-2",
+    "nutritionValue": {
+      "ca": 6.2,
+      "calo": 144,
+      "carbohydrat": 7.8,
+      "cholesterol": 93.1,
+      "fe": 0.8,
+      "ka": 14.2,
+      "lipid": 4.9,
+      "mg": 25.2,
+      "na": 45,
+      "protein": 42.2,
+      "vitaC": 0.61,
+      "vitaD": 0.34,
+      "vitaB6": 0.5,
+      "vitaB12": 0.1
+    }
+  },
+  "beef-diced-3": {
+    "nutritionId": "nutri-beef-diced-3",
+    "productId": "beef-diced-3",
+    "nutritionValue": {
+      "ca": 16.7,
+      "calo": 135,
+      "carbohydrat": 1.4,
+      "cholesterol": 50.4,
+      "fe": 48,
+      "ka": 13.9,
+      "lipid": 5.2,
+      "mg": 33.5,
+      "na": 42.2,
+      "protein": 42.5,
+      "vitaC": 0,
+      "vitaD": 0.61,
+      "vitaB6": 0.2,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-diced-4": {
+    "nutritionId": "nutri-beef-diced-4",
+    "productId": "beef-diced-4",
+    "nutritionValue": {
+      "ca": 40.1,
+      "calo": 193,
+      "carbohydrat": 5.6,
+      "cholesterol": 90.8,
+      "fe": 7.6,
+      "ka": 24.4,
+      "lipid": 2,
+      "mg": 41.3,
+      "na": 49.8,
+      "protein": 44.7,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "beef-diced-5": {
+    "nutritionId": "nutri-beef-diced-5",
+    "productId": "beef-diced-5",
+    "nutritionValue": {
+      "ca": 28.6,
+      "calo": 199,
+      "carbohydrat": 2.6,
+      "cholesterol": 73.4,
+      "fe": 38.4,
+      "ka": 12,
+      "lipid": 0.9,
+      "mg": 48.3,
+      "na": 40.4,
+      "protein": 43,
+      "vitaC": 0.8,
+      "vitaD": 0.9,
+      "vitaB6": 0.1,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-flank-1": {
+    "nutritionId": "nutri-beef-flank-1",
+    "productId": "beef-flank-1",
+    "nutritionValue": {
+      "ca": 41.1,
+      "calo": 129,
+      "carbohydrat": 2,
+      "cholesterol": 97.4,
+      "fe": 36.7,
+      "ka": 29.8,
+      "lipid": 8.4,
+      "mg": 7.3,
+      "na": 30.2,
+      "protein": 44.4,
+      "vitaC": 0.2,
+      "vitaD": 0.61,
+      "vitaB6": 0.1,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-flank-2": {
+    "nutritionId": "nutri-beef-flank-2",
+    "productId": "beef-flank-2",
+    "nutritionValue": {
+      "ca": 48.6,
+      "calo": 125,
+      "carbohydrat": 2.3,
+      "cholesterol": 81.1,
+      "fe": 33.5,
+      "ka": 36.8,
+      "lipid": 8.7,
+      "mg": 20.7,
+      "na": 1.2,
+      "protein": 48.5,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-flank-3": {
+    "nutritionId": "nutri-beef-flank-3",
+    "productId": "beef-flank-3",
+    "nutritionValue": {
+      "ca": 2.9,
+      "calo": 145,
+      "carbohydrat": 7,
+      "cholesterol": 99.3,
+      "fe": 36,
+      "ka": 7.7,
+      "lipid": 8.1,
+      "mg": 44.8,
+      "na": 23.5,
+      "protein": 41.4,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-ground-1": {
+    "nutritionId": "nutri-beef-ground-1",
+    "productId": "beef-ground-1",
+    "nutritionValue": {
+      "ca": 2.9,
+      "calo": 113,
+      "carbohydrat": 3.2,
+      "cholesterol": 60.9,
+      "fe": 47.7,
+      "ka": 40,
+      "lipid": 3.1,
+      "mg": 3,
+      "na": 27.3,
+      "protein": 40.9,
+      "vitaC": 0.34,
+      "vitaD": 0.2,
+      "vitaB6": 0.71,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-ground-2": {
+    "nutritionId": "nutri-beef-ground-2",
+    "productId": "beef-ground-2",
+    "nutritionValue": {
+      "ca": 31.3,
+      "calo": 153,
+      "carbohydrat": 3.1,
+      "cholesterol": 82.8,
+      "fe": 7.4,
+      "ka": 1.72,
+      "lipid": 2.4,
+      "mg": 38.2,
+      "na": 49.9,
+      "protein": 46.5,
+      "vitaC": 0.34,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "beef-ground-3": {
+    "nutritionId": "nutri-beef-ground-3",
+    "productId": "beef-ground-3",
+    "nutritionValue": {
+      "ca": 44.4,
+      "calo": 167,
+      "carbohydrat": 4.3,
+      "cholesterol": 57.2,
+      "fe": 1.3,
+      "ka": 9.1,
+      "lipid": 4.7,
+      "mg": 12.7,
+      "na": 8.8,
+      "protein": 40.2,
+      "vitaC": 0.71,
+      "vitaD": 0.61,
+      "vitaB6": 0.1,
+      "vitaB12": 0.1
+    }
+  },
+  "beef-ground-4": {
+    "nutritionId": "nutri-beef-ground-4",
+    "productId": "beef-ground-4",
+    "nutritionValue": {
+      "ca": 3.5,
+      "calo": 118,
+      "carbohydrat": 5.7,
+      "cholesterol": 95.5,
+      "fe": 39.2,
+      "ka": 13.3,
+      "lipid": 2.8,
+      "mg": 22.3,
+      "na": 9.5,
+      "protein": 49.5,
+      "vitaC": 0,
+      "vitaD": 0.9,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-ground-5": {
+    "nutritionId": "nutri-beef-ground-5",
+    "productId": "beef-ground-5",
+    "nutritionValue": {
+      "ca": 21.2,
+      "calo": 178,
+      "carbohydrat": 3.8,
+      "cholesterol": 92.1,
+      "fe": 46.4,
+      "ka": 5,
+      "lipid": 4.2,
+      "mg": 2,
+      "na": 41.1,
+      "protein": 48.5,
+      "vitaC": 0.34,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-plate-1": {
+    "nutritionId": "nutri-beef-plate-1",
+    "productId": "beef-plate-1",
+    "nutritionValue": {
+      "ca": 3.1,
+      "calo": 121,
+      "carbohydrat": 7,
+      "cholesterol": 62.1,
+      "fe": 10.9,
+      "ka": 48.4,
+      "lipid": 1.9,
+      "mg": 1.9,
+      "na": 32.7,
+      "protein": 49,
+      "vitaC": 0,
+      "vitaD": 0.9,
+      "vitaB6": 0.8,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-plate-2": {
+    "nutritionId": "nutri-beef-plate-2",
+    "productId": "beef-plate-2",
+    "nutritionValue": {
+      "ca": 49.7,
+      "calo": 180,
+      "carbohydrat": 0.61,
+      "cholesterol": 53.7,
+      "fe": 18.5,
+      "ka": 27.2,
+      "lipid": 4.8,
+      "mg": 11.7,
+      "na": 9.5,
+      "protein": 41,
+      "vitaC": 0.9,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-plate-3": {
+    "nutritionId": "nutri-beef-plate-3",
+    "productId": "beef-plate-3",
+    "nutritionValue": {
+      "ca": 34.7,
+      "calo": 191,
+      "carbohydrat": 0.5,
+      "cholesterol": 87.9,
+      "fe": 3,
+      "ka": 24.7,
+      "lipid": 2.6,
+      "mg": 28.1,
+      "na": 37,
+      "protein": 48.3,
+      "vitaC": 0.71,
+      "vitaD": 0.34,
+      "vitaB6": 0,
+      "vitaB12": 0.61
+    }
+  },
+  "beef-plate-4": {
+    "nutritionId": "nutri-beef-plate-4",
+    "productId": "beef-plate-4",
+    "nutritionValue": {
+      "ca": 38.4,
+      "calo": 170,
+      "carbohydrat": 5.9,
+      "cholesterol": 66.2,
+      "fe": 30.2,
+      "ka": 25.5,
+      "lipid": 7.2,
+      "mg": 2.7,
+      "na": 33.8,
+      "protein": 44.8,
+      "vitaC": 0.9,
+      "vitaD": 0.34,
+      "vitaB6": 0.2,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-rib-1": {
+    "nutritionId": "nutri-beef-rib-1",
+    "productId": "beef-rib-1",
+    "nutritionValue": {
+      "ca": 3.7,
+      "calo": 143,
+      "carbohydrat": 5.6,
+      "cholesterol": 83.6,
+      "fe": 3,
+      "ka": 32.6,
+      "lipid": 8.3,
+      "mg": 38.8,
+      "na": 23.3,
+      "protein": 44.1,
+      "vitaC": 0.34,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-rib-2": {
+    "nutritionId": "nutri-beef-rib-2",
+    "productId": "beef-rib-2",
+    "nutritionValue": {
+      "ca": 28.5,
+      "calo": 110,
+      "carbohydrat": 4.2,
+      "cholesterol": 67.4,
+      "fe": 24.3,
+      "ka": 37.9,
+      "lipid": 4.5,
+      "mg": 22.5,
+      "na": 30.2,
+      "protein": 42.9,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.9,
+      "vitaB12": 0
+    }
+  },
+  "beef-rib-3": {
+    "nutritionId": "nutri-beef-rib-3",
+    "productId": "beef-rib-3",
+    "nutritionValue": {
+      "ca": 3.6,
+      "calo": 109,
+      "carbohydrat": 6.5,
+      "cholesterol": 88.8,
+      "fe": 43.7,
+      "ka": 20.6,
+      "lipid": 4.7,
+      "mg": 20.9,
+      "na": 1,
+      "protein": 42.1,
+      "vitaC": 0.71,
+      "vitaD": 0.71,
+      "vitaB6": 0.4,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-rib-4": {
+    "nutritionId": "nutri-beef-rib-4",
+    "productId": "beef-rib-4",
+    "nutritionValue": {
+      "ca": 30,
+      "calo": 167,
+      "carbohydrat": 1.4,
+      "cholesterol": 64.4,
+      "fe": 28.3,
+      "ka": 17.2,
+      "lipid": 1.3,
+      "mg": 3.9,
+      "na": 34.2,
+      "protein": 49.9,
+      "vitaC": 0.4,
+      "vitaD": 0.2,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-rib-5": {
+    "nutritionId": "nutri-beef-rib-5",
+    "productId": "beef-rib-5",
+    "nutritionValue": {
+      "ca": 39.3,
+      "calo": 135,
+      "carbohydrat": 0.71,
+      "cholesterol": 86.9,
+      "fe": 48.1,
+      "ka": 42.3,
+      "lipid": 9.4,
+      "mg": 15,
+      "na": 44.8,
+      "protein": 48.3,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-shabu-shabu-1": {
+    "nutritionId": "nutri-beef-shabu-shabu-1",
+    "productId": "beef-shabu-shabu-1",
+    "nutritionValue": {
+      "ca": 44.9,
+      "calo": 170,
+      "carbohydrat": 7.3,
+      "cholesterol": 89.8,
+      "fe": 18.2,
+      "ka": 18.7,
+      "lipid": 7.7,
+      "mg": 48.3,
+      "na": 38.2,
+      "protein": 46.7,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-shabu-shabu-2": {
+    "nutritionId": "nutri-beef-shabu-shabu-2",
+    "productId": "beef-shabu-shabu-2",
+    "nutritionValue": {
+      "ca": 32.2,
+      "calo": 132,
+      "carbohydrat": 9,
+      "cholesterol": 74.1,
+      "fe": 12.8,
+      "ka": 27.5,
+      "lipid": 3.7,
+      "mg": 26.3,
+      "na": 9.1,
+      "protein": 48.8,
+      "vitaC": 0.9,
+      "vitaD": 0.8,
+      "vitaB6": 0.5,
+      "vitaB12": 0.1
+    }
+  },
+  "beef-shabu-shabu-3": {
+    "nutritionId": "nutri-beef-shabu-shabu-3",
+    "productId": "beef-shabu-shabu-3",
+    "nutritionValue": {
+      "ca": 27.4,
+      "calo": 116,
+      "carbohydrat": 6.3,
+      "cholesterol": 54.9,
+      "fe": 42.2,
+      "ka": 30.6,
+      "lipid": 3.5,
+      "mg": 8.3,
+      "na": 45,
+      "protein": 41,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-shabu-shabu-4": {
+    "nutritionId": "nutri-beef-shabu-shabu-4",
+    "productId": "beef-shabu-shabu-4",
+    "nutritionValue": {
+      "ca": 1.9,
+      "calo": 133,
+      "carbohydrat": 4.2,
+      "cholesterol": 52.4,
+      "fe": 14.6,
+      "ka": 2.1,
+      "lipid": 0.34,
+      "mg": 15.5,
+      "na": 20,
+      "protein": 44.7,
+      "vitaC": 0.71,
+      "vitaD": 0.34,
+      "vitaB6": 0.61,
+      "vitaB12": 0.1
+    }
+  },
+  "beef-steak-1": {
+    "nutritionId": "nutri-beef-steak-1",
+    "productId": "beef-steak-1",
+    "nutritionValue": {
+      "ca": 40.7,
+      "calo": 102,
+      "carbohydrat": 7.5,
+      "cholesterol": 84,
+      "fe": 49.1,
+      "ka": 11.8,
+      "lipid": 8.5,
+      "mg": 46.5,
+      "na": 26,
+      "protein": 49.1,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-steak-2": {
+    "nutritionId": "nutri-beef-steak-2",
+    "productId": "beef-steak-2",
+    "nutritionValue": {
+      "ca": 17.5,
+      "calo": 150,
+      "carbohydrat": 5.8,
+      "cholesterol": 72.7,
+      "fe": 32.3,
+      "ka": 25.7,
+      "lipid": 8.4,
+      "mg": 32.6,
+      "na": 28.7,
+      "protein": 48.2,
+      "vitaC": 0.9,
+      "vitaD": 0.4,
+      "vitaB6": 0.61,
+      "vitaB12": 0.9
+    }
+  },
+  "beef-steak-3": {
+    "nutritionId": "nutri-beef-steak-3",
+    "productId": "beef-steak-3",
+    "nutritionValue": {
+      "ca": 30.9,
+      "calo": 165,
+      "carbohydrat": 0.5,
+      "cholesterol": 78.8,
+      "fe": 15,
+      "ka": 40.7,
+      "lipid": 3,
+      "mg": 39.8,
+      "na": 16.8,
+      "protein": 45.5,
+      "vitaC": 0,
+      "vitaD": 0.4,
+      "vitaB6": 0.4,
+      "vitaB12": 0.34
+    }
+  },
+  "beef-tbone-1": {
+    "nutritionId": "nutri-beef-tbone-1",
+    "productId": "beef-tbone-1",
+    "nutritionValue": {
+      "ca": 30.8,
+      "calo": 198,
+      "carbohydrat": 2.2,
+      "cholesterol": 70.1,
+      "fe": 22.5,
+      "ka": 29.6,
+      "lipid": 5,
+      "mg": 39,
+      "na": 23.5,
+      "protein": 45,
+      "vitaC": 0.4,
+      "vitaD": 0.71,
+      "vitaB6": 0.2,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-tbone-2": {
+    "nutritionId": "nutri-beef-tbone-2",
+    "productId": "beef-tbone-2",
+    "nutritionValue": {
+      "ca": 13.2,
+      "calo": 139,
+      "carbohydrat": 4.5,
+      "cholesterol": 93.1,
+      "fe": 7,
+      "ka": 34.1,
+      "lipid": 1.8,
+      "mg": 46,
+      "na": 26.3,
+      "protein": 44.8,
+      "vitaC": 0.5,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-tbone-3": {
+    "nutritionId": "nutri-beef-tbone-3",
+    "productId": "beef-tbone-3",
+    "nutritionValue": {
+      "ca": 21.4,
+      "calo": 146,
+      "carbohydrat": 4.8,
+      "cholesterol": 91.5,
+      "fe": 46.7,
+      "ka": 48.4,
+      "lipid": 1.1,
+      "mg": 30.3,
+      "na": 39.3,
+      "protein": 43.7,
+      "vitaC": 0.5,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "beef-tbone-4": {
+    "nutritionId": "nutri-beef-tbone-4",
+    "productId": "beef-tbone-4",
+    "nutritionValue": {
+      "ca": 27.8,
+      "calo": 169,
+      "carbohydrat": 4,
+      "cholesterol": 84.7,
+      "fe": 42.7,
+      "ka": 32.9,
+      "lipid": 9.1,
+      "mg": 1.8,
+      "na": 38.5,
+      "protein": 43.9,
+      "vitaC": 0.5,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-tbone-5": {
+    "nutritionId": "nutri-beef-tbone-5",
+    "productId": "beef-tbone-5",
+    "nutritionValue": {
+      "ca": 7.4,
+      "calo": 127,
+      "carbohydrat": 8,
+      "cholesterol": 94.9,
+      "fe": 9.4,
+      "ka": 21.6,
+      "lipid": 1.8,
+      "mg": 47.6,
+      "na": 29.5,
+      "protein": 40.2,
+      "vitaC": 0.9,
+      "vitaD": 0,
+      "vitaB6": 0.71,
+      "vitaB12": 0.61
+    }
+  },
+  "beef-tenderloin-1": {
+    "nutritionId": "nutri-beef-tenderloin-1",
+    "productId": "beef-tenderloin-1",
+    "nutritionValue": {
+      "ca": 0,
+      "calo": 103,
+      "carbohydrat": 7,
+      "cholesterol": 63.3,
+      "fe": 23,
+      "ka": 17.6,
+      "lipid": 0.2,
+      "mg": 9.1,
+      "na": 24.1,
+      "protein": 46.5,
+      "vitaC": 0.9,
+      "vitaD": 0.2,
+      "vitaB6": 0.4,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-tenderloin-2": {
+    "nutritionId": "nutri-beef-tenderloin-2",
+    "productId": "beef-tenderloin-2",
+    "nutritionValue": {
+      "ca": 25,
+      "calo": 151,
+      "carbohydrat": 9.2,
+      "cholesterol": 96.7,
+      "fe": 16.5,
+      "ka": 38.9,
+      "lipid": 1.3,
+      "mg": 12.1,
+      "na": 24.9,
+      "protein": 49.7,
+      "vitaC": 0.2,
+      "vitaD": 0.2,
+      "vitaB6": 0,
+      "vitaB12": 0.8
+    }
+  },
+  "beef-tenderloin-3": {
+    "nutritionId": "nutri-beef-tenderloin-3",
+    "productId": "beef-tenderloin-3",
+    "nutritionValue": {
+      "ca": 6.2,
+      "calo": 186,
+      "carbohydrat": 6.2,
+      "cholesterol": 61.1,
+      "fe": 45.7,
+      "ka": 3.8,
+      "lipid": 2,
+      "mg": 33.4,
+      "na": 21.5,
+      "protein": 44.3,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.71,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-tenderloin-4": {
+    "nutritionId": "nutri-beef-tenderloin-4",
+    "productId": "beef-tenderloin-4",
+    "nutritionValue": {
+      "ca": 38.9,
+      "calo": 151,
+      "carbohydrat": 9.5,
+      "cholesterol": 99.1,
+      "fe": 45.2,
+      "ka": 29.6,
+      "lipid": 5.2,
+      "mg": 23.6,
+      "na": 37.4,
+      "protein": 43.6,
+      "vitaC": 0.71,
+      "vitaD": 0.8,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "beef-tenderloin-5": {
+    "nutritionId": "nutri-beef-tenderloin-5",
+    "productId": "beef-tenderloin-5",
+    "nutritionValue": {
+      "ca": 30.1,
+      "calo": 178,
+      "carbohydrat": 5.6,
+      "cholesterol": 90.6,
+      "fe": 16.5,
+      "ka": 47.1,
+      "lipid": 9.3,
+      "mg": 47,
+      "na": 43,
+      "protein": 40.6,
+      "vitaC": 0.9,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "chicken-breast-1": {
+    "nutritionId": "nutri-chicken-breast-1",
+    "productId": "chicken-breast-1",
+    "nutritionValue": {
+      "ca": 43.5,
+      "calo": 156,
+      "carbohydrat": 5.9,
+      "cholesterol": 65,
+      "fe": 34.9,
+      "ka": 30,
+      "lipid": 2.2,
+      "mg": 32.3,
+      "na": 30.8,
+      "protein": 44.4,
+      "vitaC": 0.2,
+      "vitaD": 0.1,
+      "vitaB6": 0.2,
+      "vitaB12": 0.4
+    }
+  },
+  "chicken-breast-2": {
+    "nutritionId": "nutri-chicken-breast-2",
+    "productId": "chicken-breast-2",
+    "nutritionValue": {
+      "ca": 11.5,
+      "calo": 107,
+      "carbohydrat": 4.2,
+      "cholesterol": 60.6,
+      "fe": 9.5,
+      "ka": 22.5,
+      "lipid": 5,
+      "mg": 49.8,
+      "na": 11.5,
+      "protein": 44.4,
+      "vitaC": 0.34,
+      "vitaD": 0.2,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "chicken-breast-3": {
+    "nutritionId": "nutri-chicken-breast-3",
+    "productId": "chicken-breast-3",
+    "nutritionValue": {
+      "ca": 14.2,
+      "calo": 178,
+      "carbohydrat": 2.3,
+      "cholesterol": 88.4,
+      "fe": 27.1,
+      "ka": 21.7,
+      "lipid": 7,
+      "mg": 45.5,
+      "na": 42.8,
+      "protein": 43.4,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "chicken-breast-4": {
+    "nutritionId": "nutri-chicken-breast-4",
+    "productId": "chicken-breast-4",
+    "nutritionValue": {
+      "ca": 9.3,
+      "calo": 107,
+      "carbohydrat": 0.2,
+      "cholesterol": 91.1,
+      "fe": 31.9,
+      "ka": 27,
+      "lipid": 2.1,
+      "mg": 19.6,
+      "na": 6.8,
+      "protein": 45,
+      "vitaC": 0.61,
+      "vitaD": 0.4,
+      "vitaB6": 0.71,
+      "vitaB12": 0.4
+    }
+  },
+  "chicken-breast-5": {
+    "nutritionId": "nutri-chicken-breast-5",
+    "productId": "chicken-breast-5",
+    "nutritionValue": {
+      "ca": 10.7,
+      "calo": 136,
+      "carbohydrat": 5.3,
+      "cholesterol": 76.9,
+      "fe": 41,
+      "ka": 4.1,
+      "lipid": 9,
+      "mg": 1.6,
+      "na": 6.7,
+      "protein": 42.9,
+      "vitaC": 0.71,
+      "vitaD": 0.61,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "chicken-ground-1": {
+    "nutritionId": "nutri-chicken-ground-1",
+    "productId": "chicken-ground-1",
+    "nutritionValue": {
+      "ca": 7.1,
+      "calo": 169,
+      "carbohydrat": 4.9,
+      "cholesterol": 83.6,
+      "fe": 30.7,
+      "ka": 33.4,
+      "lipid": 5.4,
+      "mg": 47,
+      "na": 29.2,
+      "protein": 44.7,
+      "vitaC": 0.5,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0.2
+    }
+  },
+  "chicken-ground-2": {
+    "nutritionId": "nutri-chicken-ground-2",
+    "productId": "chicken-ground-2",
+    "nutritionValue": {
+      "ca": 29.6,
+      "calo": 138,
+      "carbohydrat": 7.6,
+      "cholesterol": 90.8,
+      "fe": 12,
+      "ka": 30.4,
+      "lipid": 1.4,
+      "mg": 5.7,
+      "na": 16.3,
+      "protein": 49.4,
+      "vitaC": 0.5,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.61
+    }
+  },
+  "chicken-ground-3": {
+    "nutritionId": "nutri-chicken-ground-3",
+    "productId": "chicken-ground-3",
+    "nutritionValue": {
+      "ca": 20.9,
+      "calo": 191,
+      "carbohydrat": 0.61,
+      "cholesterol": 77.8,
+      "fe": 27.9,
+      "ka": 42.3,
+      "lipid": 5,
+      "mg": 40.8,
+      "na": 3.7,
+      "protein": 44,
+      "vitaC": 0.34,
+      "vitaD": 0.71,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "chicken-drumstick-1": {
+    "nutritionId": "nutri-chicken-drumstick-1",
+    "productId": "chicken-drumstick-1",
+    "nutritionValue": {
+      "ca": 33.1,
+      "calo": 167,
+      "carbohydrat": 6.8,
+      "cholesterol": 93.1,
+      "fe": 45,
+      "ka": 0.5,
+      "lipid": 0.1,
+      "mg": 11,
+      "na": 49.9,
+      "protein": 44.4,
+      "vitaC": 0.71,
+      "vitaD": 0.9,
+      "vitaB6": 0.34,
+      "vitaB12": 0.71
+    }
+  },
+  "chicken-drumstick-2": {
+    "nutritionId": "nutri-chicken-drumstick-2",
+    "productId": "chicken-drumstick-2",
+    "nutritionValue": {
+      "ca": 48.4,
+      "calo": 145,
+      "carbohydrat": 2.3,
+      "cholesterol": 64.8,
+      "fe": 43,
+      "ka": 32.3,
+      "lipid": 3.1,
+      "mg": 0.1,
+      "na": 44.8,
+      "protein": 47.7,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.2,
+      "vitaB12": 0.71
+    }
+  },
+  "chicken-drumstick-3": {
+    "nutritionId": "nutri-chicken-drumstick-3",
+    "productId": "chicken-drumstick-3",
+    "nutritionValue": {
+      "ca": 1.3,
+      "calo": 148,
+      "carbohydrat": 4.3,
+      "cholesterol": 63.9,
+      "fe": 12.5,
+      "ka": 2.5,
+      "lipid": 6.8,
+      "mg": 14.1,
+      "na": 36.7,
+      "protein": 45.3,
+      "vitaC": 0.61,
+      "vitaD": 0,
+      "vitaB6": 0.34,
+      "vitaB12": 0.61
+    }
+  },
+  "chicken-drumstick-4": {
+    "nutritionId": "nutri-chicken-drumstick-4",
+    "productId": "chicken-drumstick-4",
+    "nutritionValue": {
+      "ca": 35.7,
+      "calo": 131,
+      "carbohydrat": 0.61,
+      "cholesterol": 86.3,
+      "fe": 20,
+      "ka": 23.6,
+      "lipid": 2.8,
+      "mg": 16.2,
+      "na": 4.2,
+      "protein": 42.9,
+      "vitaC": 0.2,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.1
+    }
+  },
+  "chicken-drumstick-5": {
+    "nutritionId": "nutri-chicken-drumstick-5",
+    "productId": "chicken-drumstick-5",
+    "nutritionValue": {
+      "ca": 19.7,
+      "calo": 113,
+      "carbohydrat": 6.7,
+      "cholesterol": 77.6,
+      "fe": 9.6,
+      "ka": 45.4,
+      "lipid": 0.2,
+      "mg": 13.1,
+      "na": 42.6,
+      "protein": 44.6,
+      "vitaC": 0.9,
+      "vitaD": 0.8,
+      "vitaB6": 0.5,
+      "vitaB12": 0.2
+    }
+  },
+  "chicken-thigh-1": {
+    "nutritionId": "nutri-chicken-thigh-1",
+    "productId": "chicken-thigh-1",
+    "nutritionValue": {
+      "ca": 39.6,
+      "calo": 180,
+      "carbohydrat": 0.34,
+      "cholesterol": 94.4,
+      "fe": 6.8,
+      "ka": 43.4,
+      "lipid": 7.4,
+      "mg": 9.2,
+      "na": 10.8,
+      "protein": 49.8,
+      "vitaC": 0.34,
+      "vitaD": 0.2,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "chicken-thigh-2": {
+    "nutritionId": "nutri-chicken-thigh-2",
+    "productId": "chicken-thigh-2",
+    "nutritionValue": {
+      "ca": 8.9,
+      "calo": 175,
+      "carbohydrat": 8,
+      "cholesterol": 80.8,
+      "fe": 44.9,
+      "ka": 19.8,
+      "lipid": 0.34,
+      "mg": 0.2,
+      "na": 45.2,
+      "protein": 43,
+      "vitaC": 0.1,
+      "vitaD": 0.71,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "chicken-thigh-3": {
+    "nutritionId": "nutri-chicken-thigh-3",
+    "productId": "chicken-thigh-3",
+    "nutritionValue": {
+      "ca": 45.2,
+      "calo": 127,
+      "carbohydrat": 6.2,
+      "cholesterol": 81.7,
+      "fe": 10,
+      "ka": 1.5,
+      "lipid": 0,
+      "mg": 2.8,
+      "na": 40,
+      "protein": 45.9,
+      "vitaC": 0,
+      "vitaD": 0.71,
+      "vitaB6": 0.2,
+      "vitaB12": 0.9
+    }
+  },
+  "chicken-thigh-4": {
+    "nutritionId": "nutri-chicken-thigh-4",
+    "productId": "chicken-thigh-4",
+    "nutritionValue": {
+      "ca": 22.2,
+      "calo": 189,
+      "carbohydrat": 1.2,
+      "cholesterol": 61.1,
+      "fe": 44.8,
+      "ka": 34.9,
+      "lipid": 4.9,
+      "mg": 15.8,
+      "na": 12,
+      "protein": 47,
+      "vitaC": 0,
+      "vitaD": 0.9,
+      "vitaB6": 0.34,
+      "vitaB12": 0.61
+    }
+  },
+  "chicken-thigh-5": {
+    "nutritionId": "nutri-chicken-thigh-5",
+    "productId": "chicken-thigh-5",
+    "nutritionValue": {
+      "ca": 32.9,
+      "calo": 177,
+      "carbohydrat": 7.7,
+      "cholesterol": 94.9,
+      "fe": 30.9,
+      "ka": 35.2,
+      "lipid": 6.7,
+      "mg": 40.2,
+      "na": 15.1,
+      "protein": 42.7,
+      "vitaC": 0.34,
+      "vitaD": 0,
+      "vitaB6": 0.5,
+      "vitaB12": 0.5
+    }
+  },
+  "chicken-whole-1": {
+    "nutritionId": "nutri-chicken-whole-1",
+    "productId": "chicken-whole-1",
+    "nutritionValue": {
+      "ca": 38.4,
+      "calo": 178,
+      "carbohydrat": 0.5,
+      "cholesterol": 84,
+      "fe": 31.7,
+      "ka": 27.9,
+      "lipid": 8,
+      "mg": 28.8,
+      "na": 39.5,
+      "protein": 48.8,
+      "vitaC": 0.34,
+      "vitaD": 0.71,
+      "vitaB6": 0.1,
+      "vitaB12": 0.1
+    }
+  },
+  "chicken-whole-2": {
+    "nutritionId": "nutri-chicken-whole-2",
+    "productId": "chicken-whole-2",
+    "nutritionValue": {
+      "ca": 35.5,
+      "calo": 183,
+      "carbohydrat": 7.8,
+      "cholesterol": 86.9,
+      "fe": 15.9,
+      "ka": 26.1,
+      "lipid": 8.6,
+      "mg": 5.5,
+      "na": 0.5,
+      "protein": 46.8,
+      "vitaC": 0.61,
+      "vitaD": 0.71,
+      "vitaB6": 0.1,
+      "vitaB12": 0
+    }
+  },
+  "chicken-whole-3": {
+    "nutritionId": "nutri-chicken-whole-3",
+    "productId": "chicken-whole-3",
+    "nutritionValue": {
+      "ca": 25.9,
+      "calo": 184,
+      "carbohydrat": 7.9,
+      "cholesterol": 55.2,
+      "fe": 4.4,
+      "ka": 27,
+      "lipid": 5.4,
+      "mg": 43.7,
+      "na": 15.4,
+      "protein": 43.5,
+      "vitaC": 0.8,
+      "vitaD": 0.8,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "chicken-whole-4": {
+    "nutritionId": "nutri-chicken-whole-4",
+    "productId": "chicken-whole-4",
+    "nutritionValue": {
+      "ca": 9,
+      "calo": 127,
+      "carbohydrat": 5.7,
+      "cholesterol": 94.7,
+      "fe": 12.6,
+      "ka": 21.2,
+      "lipid": 6.1,
+      "mg": 43.1,
+      "na": 35.7,
+      "protein": 46.1,
+      "vitaC": 0.34,
+      "vitaD": 0.1,
+      "vitaB6": 0.4,
+      "vitaB12": 0.34
+    }
+  },
+  "chicken-whole-5": {
+    "nutritionId": "nutri-chicken-whole-5",
+    "productId": "chicken-whole-5",
+    "nutritionValue": {
+      "ca": 34.2,
+      "calo": 190,
+      "carbohydrat": 2,
+      "cholesterol": 54.3,
+      "fe": 7.9,
+      "ka": 20.6,
+      "lipid": 8.3,
+      "mg": 39.1,
+      "na": 44.4,
+      "protein": 48.9,
+      "vitaC": 0,
+      "vitaD": 0.61,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "chicken-wing-1": {
+    "nutritionId": "nutri-chicken-wing-1",
+    "productId": "chicken-wing-1",
+    "nutritionValue": {
+      "ca": 22.8,
+      "calo": 132,
+      "carbohydrat": 0.5,
+      "cholesterol": 96.8,
+      "fe": 12.7,
+      "ka": 13.3,
+      "lipid": 5.2,
+      "mg": 13.5,
+      "na": 32.2,
+      "protein": 40.2,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "chicken-wing-2": {
+    "nutritionId": "nutri-chicken-wing-2",
+    "productId": "chicken-wing-2",
+    "nutritionValue": {
+      "ca": 42.3,
+      "calo": 176,
+      "carbohydrat": 7.4,
+      "cholesterol": 97.4,
+      "fe": 35.3,
+      "ka": 9,
+      "lipid": 7.4,
+      "mg": 43.7,
+      "na": 47.1,
+      "protein": 44.9,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.34,
+      "vitaB12": 0
+    }
+  },
+  "chicken-wing-3": {
+    "nutritionId": "nutri-chicken-wing-3",
+    "productId": "chicken-wing-3",
+    "nutritionValue": {
+      "ca": 0.1,
+      "calo": 133,
+      "carbohydrat": 1.72,
+      "cholesterol": 97.2,
+      "fe": 9.9,
+      "ka": 20,
+      "lipid": 4.9,
+      "mg": 46.4,
+      "na": 37.2,
+      "protein": 45.3,
+      "vitaC": 0.2,
+      "vitaD": 0.34,
+      "vitaB6": 0.61,
+      "vitaB12": 0.71
+    }
+  },
+  "chicken-wing-4": {
+    "nutritionId": "nutri-chicken-wing-4",
+    "productId": "chicken-wing-4",
+    "nutritionValue": {
+      "ca": 41.1,
+      "calo": 125,
+      "carbohydrat": 4.6,
+      "cholesterol": 93.6,
+      "fe": 20.8,
+      "ka": 42.9,
+      "lipid": 0.8,
+      "mg": 3.2,
+      "na": 15.3,
+      "protein": 49.3,
+      "vitaC": 0.2,
+      "vitaD": 0.1,
+      "vitaB6": 0,
+      "vitaB12": 0
+    }
+  },
+  "chicken-wing-5": {
+    "nutritionId": "nutri-chicken-wing-5",
+    "productId": "chicken-wing-5",
+    "nutritionValue": {
+      "ca": 19.1,
+      "calo": 197,
+      "carbohydrat": 3.3,
+      "cholesterol": 84.6,
+      "fe": 0.5,
+      "ka": 23.9,
+      "lipid": 7.5,
+      "mg": 11.7,
+      "na": 3.6,
+      "protein": 41.9,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.2,
+      "vitaB12": 0.2
+    }
+  },
+  "pork-belly-1": {
+    "nutritionId": "nutri-pork-belly-1",
+    "productId": "pork-belly-1",
+    "nutritionValue": {
+      "ca": 5.4,
+      "calo": 199,
+      "carbohydrat": 1.6,
+      "cholesterol": 89.5,
+      "fe": 22.6,
+      "ka": 39.2,
+      "lipid": 0.9,
+      "mg": 8.5,
+      "na": 8.2,
+      "protein": 41.8,
+      "vitaC": 0.34,
+      "vitaD": 0.71,
+      "vitaB6": 0.71,
+      "vitaB12": 0.9
+    }
+  },
+  "pork-belly-2": {
+    "nutritionId": "nutri-pork-belly-2",
+    "productId": "pork-belly-2",
+    "nutritionValue": {
+      "ca": 27.4,
+      "calo": 194,
+      "carbohydrat": 0.8,
+      "cholesterol": 96.5,
+      "fe": 8.6,
+      "ka": 39.1,
+      "lipid": 7.5,
+      "mg": 13.2,
+      "na": 46.8,
+      "protein": 45.8,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.2,
+      "vitaB12": 0.8
+    }
+  },
+  "pork-belly-3": {
+    "nutritionId": "nutri-pork-belly-3",
+    "productId": "pork-belly-3",
+    "nutritionValue": {
+      "ca": 11.8,
+      "calo": 141,
+      "carbohydrat": 1.4,
+      "cholesterol": 50.2,
+      "fe": 41.1,
+      "ka": 3.4,
+      "lipid": 2.6,
+      "mg": 22.7,
+      "na": 7.2,
+      "protein": 48.3,
+      "vitaC": 0.61,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "pork-belly-4": {
+    "nutritionId": "nutri-pork-belly-4",
+    "productId": "pork-belly-4",
+    "nutritionValue": {
+      "ca": 12.4,
+      "calo": 139,
+      "carbohydrat": 0.4,
+      "cholesterol": 55.9,
+      "fe": 49.8,
+      "ka": 38.9,
+      "lipid": 1.1,
+      "mg": 26.6,
+      "na": 39.7,
+      "protein": 46.1,
+      "vitaC": 0.9,
+      "vitaD": 0.61,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "pork-belly-5": {
+    "nutritionId": "nutri-pork-belly-5",
+    "productId": "pork-belly-5",
+    "nutritionValue": {
+      "ca": 22.5,
+      "calo": 190,
+      "carbohydrat": 4.9,
+      "cholesterol": 80.3,
+      "fe": 13.8,
+      "ka": 34.7,
+      "lipid": 6.6,
+      "mg": 27.5,
+      "na": 35.3,
+      "protein": 42.9,
+      "vitaC": 0.8,
+      "vitaD": 0.61,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "pork-ground-1": {
+    "nutritionId": "nutri-pork-ground-1",
+    "productId": "pork-ground-1",
+    "nutritionValue": {
+      "ca": 22.8,
+      "calo": 114,
+      "carbohydrat": 9.4,
+      "cholesterol": 83.4,
+      "fe": 39.5,
+      "ka": 26.8,
+      "lipid": 1.1,
+      "mg": 49.2,
+      "na": 47.2,
+      "protein": 42.5,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0.8
+    }
+  },
+  "pork-ground-2": {
+    "nutritionId": "nutri-pork-ground-2",
+    "productId": "pork-ground-2",
+    "nutritionValue": {
+      "ca": 22.4,
+      "calo": 191,
+      "carbohydrat": 2,
+      "cholesterol": 89.4,
+      "fe": 37.7,
+      "ka": 11.7,
+      "lipid": 9.4,
+      "mg": 36.7,
+      "na": 11.9,
+      "protein": 43.3,
+      "vitaC": 0.34,
+      "vitaD": 0.34,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "pork-ground-3": {
+    "nutritionId": "nutri-pork-ground-3",
+    "productId": "pork-ground-3",
+    "nutritionValue": {
+      "ca": 23.6,
+      "calo": 127,
+      "carbohydrat": 8.6,
+      "cholesterol": 74.7,
+      "fe": 40.1,
+      "ka": 12.1,
+      "lipid": 5.7,
+      "mg": 24.4,
+      "na": 33.8,
+      "protein": 46,
+      "vitaC": 0,
+      "vitaD": 0.4,
+      "vitaB6": 0.61,
+      "vitaB12": 0.71
+    }
+  },
+  "pork-ground-4": {
+    "nutritionId": "nutri-pork-ground-4",
+    "productId": "pork-ground-4",
+    "nutritionValue": {
+      "ca": 31.2,
+      "calo": 148,
+      "carbohydrat": 1.5,
+      "cholesterol": 52.6,
+      "fe": 45.5,
+      "ka": 40.2,
+      "lipid": 8,
+      "mg": 8.6,
+      "na": 46.6,
+      "protein": 49,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.5,
+      "vitaB12": 0.71
+    }
+  },
+  "pork-ground-5": {
+    "nutritionId": "nutri-pork-ground-5",
+    "productId": "pork-ground-5",
+    "nutritionValue": {
+      "ca": 14.4,
+      "calo": 107,
+      "carbohydrat": 7.9,
+      "cholesterol": 67.3,
+      "fe": 33.7,
+      "ka": 30,
+      "lipid": 3.6,
+      "mg": 39.8,
+      "na": 37.1,
+      "protein": 40.8,
+      "vitaC": 0.34,
+      "vitaD": 0.4,
+      "vitaB6": 0.2,
+      "vitaB12": 0.34
+    }
+  },
+  "pork-ham-1": {
+    "nutritionId": "nutri-pork-ham-1",
+    "productId": "pork-ham-1",
+    "nutritionValue": {
+      "ca": 44,
+      "calo": 175,
+      "carbohydrat": 7.4,
+      "cholesterol": 54.7,
+      "fe": 42.1,
+      "ka": 30.8,
+      "lipid": 5.8,
+      "mg": 31.5,
+      "na": 31.1,
+      "protein": 47.1,
+      "vitaC": 0.34,
+      "vitaD": 0.61,
+      "vitaB6": 0.61,
+      "vitaB12": 0.61
+    }
+  },
+  "pork-ham-2": {
+    "nutritionId": "nutri-pork-ham-2",
+    "productId": "pork-ham-2",
+    "nutritionValue": {
+      "ca": 34,
+      "calo": 109,
+      "carbohydrat": 9.2,
+      "cholesterol": 84.2,
+      "fe": 15.2,
+      "ka": 15.8,
+      "lipid": 8.5,
+      "mg": 41.4,
+      "na": 43.6,
+      "protein": 43.9,
+      "vitaC": 0.5,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0
+    }
+  },
+  "pork-ham-3": {
+    "nutritionId": "nutri-pork-ham-3",
+    "productId": "pork-ham-3",
+    "nutritionValue": {
+      "ca": 31.9,
+      "calo": 162,
+      "carbohydrat": 3.7,
+      "cholesterol": 89.2,
+      "fe": 1.3,
+      "ka": 25.5,
+      "lipid": 4,
+      "mg": 9,
+      "na": 41.9,
+      "protein": 46.4,
+      "vitaC": 0.9,
+      "vitaD": 0.5,
+      "vitaB6": 0.34,
+      "vitaB12": 0.1
+    }
+  },
+  "pork-ham-4": {
+    "nutritionId": "nutri-pork-ham-4",
+    "productId": "pork-ham-4",
+    "nutritionValue": {
+      "ca": 19.3,
+      "calo": 153,
+      "carbohydrat": 9.4,
+      "cholesterol": 72.6,
+      "fe": 2.4,
+      "ka": 39.7,
+      "lipid": 0,
+      "mg": 24.4,
+      "na": 25.8,
+      "protein": 45.3,
+      "vitaC": 0,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.61
+    }
+  },
+  "pork-ham-5": {
+    "nutritionId": "nutri-pork-ham-5",
+    "productId": "pork-ham-5",
+    "nutritionValue": {
+      "ca": 20.5,
+      "calo": 172,
+      "carbohydrat": 5.6,
+      "cholesterol": 65.3,
+      "fe": 6.5,
+      "ka": 6.7,
+      "lipid": 4.9,
+      "mg": 31.9,
+      "na": 13.1,
+      "protein": 45.7,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0,
+      "vitaB12": 0.1
+    }
+  },
+  "pork-lean-1": {
+    "nutritionId": "nutri-pork-lean-1",
+    "productId": "pork-lean-1",
+    "nutritionValue": {
+      "ca": 18,
+      "calo": 187,
+      "carbohydrat": 2.7,
+      "cholesterol": 62.4,
+      "fe": 31.4,
+      "ka": 10.8,
+      "lipid": 8.9,
+      "mg": 42,
+      "na": 25.9,
+      "protein": 45.1,
+      "vitaC": 0.1,
+      "vitaD": 0.5,
+      "vitaB6": 0.2,
+      "vitaB12": 0.4
+    }
+  },
+  "pork-lean-2": {
+    "nutritionId": "nutri-pork-lean-2",
+    "productId": "pork-lean-2",
+    "nutritionValue": {
+      "ca": 43,
+      "calo": 197,
+      "carbohydrat": 9.4,
+      "cholesterol": 84.8,
+      "fe": 3,
+      "ka": 4.6,
+      "lipid": 2.3,
+      "mg": 23,
+      "na": 41.7,
+      "protein": 49.6,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.5,
+      "vitaB12": 0.5
+    }
+  },
+  "pork-lean-3": {
+    "nutritionId": "nutri-pork-lean-3",
+    "productId": "pork-lean-3",
+    "nutritionValue": {
+      "ca": 26.6,
+      "calo": 163,
+      "carbohydrat": 3.2,
+      "cholesterol": 67.3,
+      "fe": 2.6,
+      "ka": 49.4,
+      "lipid": 2.8,
+      "mg": 22.2,
+      "na": 11.7,
+      "protein": 47.9,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "pork-lean-4": {
+    "nutritionId": "nutri-pork-lean-4",
+    "productId": "pork-lean-4",
+    "nutritionValue": {
+      "ca": 6.1,
+      "calo": 199,
+      "carbohydrat": 9,
+      "cholesterol": 68.6,
+      "fe": 37.6,
+      "ka": 6.8,
+      "lipid": 6.8,
+      "mg": 33.8,
+      "na": 0.8,
+      "protein": 47.4,
+      "vitaC": 0.5,
+      "vitaD": 0.61,
+      "vitaB6": 0.4,
+      "vitaB12": 0.34
+    }
+  },
+  "pork-lean-5": {
+    "nutritionId": "nutri-pork-lean-5",
+    "productId": "pork-lean-5",
+    "nutritionValue": {
+      "ca": 32,
+      "calo": 175,
+      "carbohydrat": 7.7,
+      "cholesterol": 56.3,
+      "fe": 38.4,
+      "ka": 40.7,
+      "lipid": 8.6,
+      "mg": 9.4,
+      "na": 9.7,
+      "protein": 43,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "pork-rib-1": {
+    "nutritionId": "nutri-pork-rib-1",
+    "productId": "pork-rib-1",
+    "nutritionValue": {
+      "ca": 45.1,
+      "calo": 167,
+      "carbohydrat": 0.71,
+      "cholesterol": 53.8,
+      "fe": 48.8,
+      "ka": 37.2,
+      "lipid": 4.8,
+      "mg": 2.7,
+      "na": 3.5,
+      "protein": 48.3,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "pork-rib-2": {
+    "nutritionId": "nutri-pork-rib-2",
+    "productId": "pork-rib-2",
+    "nutritionValue": {
+      "ca": 10.4,
+      "calo": 150,
+      "carbohydrat": 1.6,
+      "cholesterol": 86.3,
+      "fe": 18.5,
+      "ka": 32.8,
+      "lipid": 3.3,
+      "mg": 23.3,
+      "na": 34.4,
+      "protein": 48,
+      "vitaC": 0,
+      "vitaD": 0.71,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "pork-rib-3": {
+    "nutritionId": "nutri-pork-rib-3",
+    "productId": "pork-rib-3",
+    "nutritionValue": {
+      "ca": 33.4,
+      "calo": 175,
+      "carbohydrat": 4.6,
+      "cholesterol": 89.6,
+      "fe": 47.9,
+      "ka": 29.7,
+      "lipid": 5.7,
+      "mg": 20.8,
+      "na": 39.6,
+      "protein": 48.5,
+      "vitaC": 0.9,
+      "vitaD": 0.5,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "pork-rib-4": {
+    "nutritionId": "nutri-pork-rib-4",
+    "productId": "pork-rib-4",
+    "nutritionValue": {
+      "ca": 35.7,
+      "calo": 150,
+      "carbohydrat": 9.3,
+      "cholesterol": 78.6,
+      "fe": 35.3,
+      "ka": 17.3,
+      "lipid": 7.8,
+      "mg": 20.1,
+      "na": 30,
+      "protein": 43.3,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.71,
+      "vitaB12": 0.8
+    }
+  },
+  "pork-rib-5": {
+    "nutritionId": "nutri-pork-rib-5",
+    "productId": "pork-rib-5",
+    "nutritionValue": {
+      "ca": 37.6,
+      "calo": 134,
+      "carbohydrat": 2.3,
+      "cholesterol": 98,
+      "fe": 19.2,
+      "ka": 33.9,
+      "lipid": 0.2,
+      "mg": 1.1,
+      "na": 13.1,
+      "protein": 40.6,
+      "vitaC": 0.1,
+      "vitaD": 0.71,
+      "vitaB6": 0.34,
+      "vitaB12": 0.5
+    }
+  },
+  "pork-tray-1": {
+    "nutritionId": "nutri-pork-tray-1",
+    "productId": "pork-tray-1",
+    "nutritionValue": {
+      "ca": 2.3,
+      "calo": 179,
+      "carbohydrat": 1.1,
+      "cholesterol": 58.4,
+      "fe": 36.2,
+      "ka": 31.1,
+      "lipid": 9.1,
+      "mg": 2,
+      "na": 27.9,
+      "protein": 42,
+      "vitaC": 0.5,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.1
+    }
+  },
+  "pork-tray-2": {
+    "nutritionId": "nutri-pork-tray-2",
+    "productId": "pork-tray-2",
+    "nutritionValue": {
+      "ca": 19.5,
+      "calo": 149,
+      "carbohydrat": 4.4,
+      "cholesterol": 92.8,
+      "fe": 27,
+      "ka": 23,
+      "lipid": 3.5,
+      "mg": 37.1,
+      "na": 20.4,
+      "protein": 46.7,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.71,
+      "vitaB12": 0.2
+    }
+  },
+  "pork-tray-3": {
+    "nutritionId": "nutri-pork-tray-3",
+    "productId": "pork-tray-3",
+    "nutritionValue": {
+      "ca": 46.8,
+      "calo": 194,
+      "carbohydrat": 4.8,
+      "cholesterol": 60.5,
+      "fe": 43.2,
+      "ka": 27.1,
+      "lipid": 4.9,
+      "mg": 40.5,
+      "na": 48.3,
+      "protein": 41.9,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.8
+    }
+  },
+  "pork-tray-4": {
+    "nutritionId": "nutri-pork-tray-4",
+    "productId": "pork-tray-4",
+    "nutritionValue": {
+      "ca": 25.8,
+      "calo": 127,
+      "carbohydrat": 9,
+      "cholesterol": 98.1,
+      "fe": 42,
+      "ka": 8.2,
+      "lipid": 1.8,
+      "mg": 8.3,
+      "na": 35.7,
+      "protein": 45.2,
+      "vitaC": 0.4,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "pork-tray-5": {
+    "nutritionId": "nutri-pork-tray-5",
+    "productId": "pork-tray-5",
+    "nutritionValue": {
+      "ca": 24.5,
+      "calo": 138,
+      "carbohydrat": 9.8,
+      "cholesterol": 57.3,
+      "fe": 39.7,
+      "ka": 1.72,
+      "lipid": 7.4,
+      "mg": 11.6,
+      "na": 11.5,
+      "protein": 45.6,
+      "vitaC": 0.9,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0.1
+    }
+  },
+  "all-purpose-seasoning-1": {
+    "nutritionId": "nutri-all-purpose-seasoning-1",
+    "productId": "all-purpose-seasoning-1",
+    "nutritionValue": {
+      "ca": 33.7,
+      "calo": 147,
+      "carbohydrat": 2.8,
+      "cholesterol": 99.3,
+      "fe": 8.7,
+      "ka": 41.8,
+      "lipid": 8.1,
+      "mg": 3,
+      "na": 21.8,
+      "protein": 41.5,
+      "vitaC": 0.61,
+      "vitaD": 0.2,
+      "vitaB6": 0.9,
+      "vitaB12": 0.8
+    }
+  },
+  "all-purpose-seasoning-2": {
+    "nutritionId": "nutri-all-purpose-seasoning-2",
+    "productId": "all-purpose-seasoning-2",
+    "nutritionValue": {
+      "ca": 45.5,
+      "calo": 138,
+      "carbohydrat": 3.3,
+      "cholesterol": 95.1,
+      "fe": 31.8,
+      "ka": 12.4,
+      "lipid": 0.2,
+      "mg": 41.6,
+      "na": 46.2,
+      "protein": 49.8,
+      "vitaC": 0.4,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0.61
+    }
+  },
+  "all-purpose-seasoning-3": {
+    "nutritionId": "nutri-all-purpose-seasoning-3",
+    "productId": "all-purpose-seasoning-3",
+    "nutritionValue": {
+      "ca": 21.2,
+      "calo": 127,
+      "carbohydrat": 4.4,
+      "cholesterol": 74.3,
+      "fe": 44.7,
+      "ka": 20.1,
+      "lipid": 6.4,
+      "mg": 46.8,
+      "na": 11,
+      "protein": 42.6,
+      "vitaC": 0.61,
+      "vitaD": 0.61,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "apple-1": {
+    "nutritionId": "nutri-apple-1",
+    "productId": "apple-1",
+    "nutritionValue": {
+      "ca": 18.2,
+      "calo": 173,
+      "carbohydrat": 0,
+      "cholesterol": 62.7,
+      "fe": 30.5,
+      "ka": 31.6,
+      "lipid": 3.5,
+      "mg": 39.8,
+      "na": 32.3,
+      "protein": 46.4,
+      "vitaC": 0.34,
+      "vitaD": 0.5,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "apple-2": {
+    "nutritionId": "nutri-apple-2",
+    "productId": "apple-2",
+    "nutritionValue": {
+      "ca": 5.2,
+      "calo": 160,
+      "carbohydrat": 7.4,
+      "cholesterol": 85.5,
+      "fe": 47.7,
+      "ka": 9.5,
+      "lipid": 5.6,
+      "mg": 44,
+      "na": 47.8,
+      "protein": 41.4,
+      "vitaC": 0.71,
+      "vitaD": 0.34,
+      "vitaB6": 0.5,
+      "vitaB12": 0.4
+    }
+  },
+  "apple-3": {
+    "nutritionId": "nutri-apple-3",
+    "productId": "apple-3",
+    "nutritionValue": {
+      "ca": 22.9,
+      "calo": 194,
+      "carbohydrat": 9.1,
+      "cholesterol": 59.4,
+      "fe": 28.5,
+      "ka": 32.8,
+      "lipid": 6.8,
+      "mg": 7.2,
+      "na": 48,
+      "protein": 49.1,
+      "vitaC": 0.1,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "asparagus-1": {
+    "nutritionId": "nutri-asparagus-1",
+    "productId": "asparagus-1",
+    "nutritionValue": {
+      "ca": 38,
+      "calo": 106,
+      "carbohydrat": 6.3,
+      "cholesterol": 99,
+      "fe": 12.9,
+      "ka": 18.9,
+      "lipid": 9.4,
+      "mg": 35.1,
+      "na": 25.6,
+      "protein": 44.9,
+      "vitaC": 0.34,
+      "vitaD": 0,
+      "vitaB6": 0.61,
+      "vitaB12": 0.2
+    }
+  },
+  "asparagus-2": {
+    "nutritionId": "nutri-asparagus-2",
+    "productId": "asparagus-2",
+    "nutritionValue": {
+      "ca": 10.5,
+      "calo": 123,
+      "carbohydrat": 6.4,
+      "cholesterol": 89.4,
+      "fe": 15.2,
+      "ka": 38.9,
+      "lipid": 2.1,
+      "mg": 43.9,
+      "na": 9.4,
+      "protein": 49.1,
+      "vitaC": 0.34,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "asparagus-3": {
+    "nutritionId": "nutri-asparagus-3",
+    "productId": "asparagus-3",
+    "nutritionValue": {
+      "ca": 12.6,
+      "calo": 166,
+      "carbohydrat": 3.1,
+      "cholesterol": 73.4,
+      "fe": 38.3,
+      "ka": 49,
+      "lipid": 6.8,
+      "mg": 37.2,
+      "na": 17.3,
+      "protein": 47.8,
+      "vitaC": 0.8,
+      "vitaD": 0.1,
+      "vitaB6": 0.5,
+      "vitaB12": 0.71
+    }
+  },
+  "avocado-1": {
+    "nutritionId": "nutri-avocado-1",
+    "productId": "avocado-1",
+    "nutritionValue": {
+      "ca": 36.1,
+      "calo": 198,
+      "carbohydrat": 9.9,
+      "cholesterol": 96.4,
+      "fe": 48.9,
+      "ka": 5.1,
+      "lipid": 8.3,
+      "mg": 15.2,
+      "na": 3.1,
+      "protein": 47.3,
+      "vitaC": 0.4,
+      "vitaD": 0,
+      "vitaB6": 0.34,
+      "vitaB12": 0.8
+    }
+  },
+  "avocado-2": {
+    "nutritionId": "nutri-avocado-2",
+    "productId": "avocado-2",
+    "nutritionValue": {
+      "ca": 20.7,
+      "calo": 186,
+      "carbohydrat": 9,
+      "cholesterol": 92.6,
+      "fe": 37,
+      "ka": 29.7,
+      "lipid": 4.6,
+      "mg": 37,
+      "na": 29.1,
+      "protein": 40.6,
+      "vitaC": 0.8,
+      "vitaD": 0,
+      "vitaB6": 0.4,
+      "vitaB12": 0.4
+    }
+  },
+  "avocado-3": {
+    "nutritionId": "nutri-avocado-3",
+    "productId": "avocado-3",
+    "nutritionValue": {
+      "ca": 14.9,
+      "calo": 113,
+      "carbohydrat": 5.6,
+      "cholesterol": 56.5,
+      "fe": 46.8,
+      "ka": 1.5,
+      "lipid": 7.9,
+      "mg": 29,
+      "na": 36.8,
+      "protein": 42,
+      "vitaC": 0.1,
+      "vitaD": 0.1,
+      "vitaB6": 0.61,
+      "vitaB12": 0.34
+    }
+  },
+  "baking-powder-1": {
+    "nutritionId": "nutri-baking-powder-1",
+    "productId": "baking-powder-1",
+    "nutritionValue": {
+      "ca": 30.4,
+      "calo": 166,
+      "carbohydrat": 8.6,
+      "cholesterol": 79,
+      "fe": 2.8,
+      "ka": 30,
+      "lipid": 3.1,
+      "mg": 26.9,
+      "na": 38.2,
+      "protein": 41.6,
+      "vitaC": 0,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "baking-powder-2": {
+    "nutritionId": "nutri-baking-powder-2",
+    "productId": "baking-powder-2",
+    "nutritionValue": {
+      "ca": 19.9,
+      "calo": 190,
+      "carbohydrat": 4.4,
+      "cholesterol": 97.3,
+      "fe": 22.1,
+      "ka": 42.4,
+      "lipid": 0.2,
+      "mg": 23.3,
+      "na": 16.8,
+      "protein": 49.4,
+      "vitaC": 0.2,
+      "vitaD": 0,
+      "vitaB6": 0.34,
+      "vitaB12": 0.61
+    }
+  },
+  "baking-powder-3": {
+    "nutritionId": "nutri-baking-powder-3",
+    "productId": "baking-powder-3",
+    "nutritionValue": {
+      "ca": 34.4,
+      "calo": 104,
+      "carbohydrat": 0.5,
+      "cholesterol": 71.2,
+      "fe": 43.8,
+      "ka": 24.2,
+      "lipid": 4.3,
+      "mg": 44,
+      "na": 8.7,
+      "protein": 48.9,
+      "vitaC": 0.71,
+      "vitaD": 0.4,
+      "vitaB6": 0,
+      "vitaB12": 0.1
+    }
+  },
+  "banana-1": {
+    "nutritionId": "nutri-banana-1",
+    "productId": "banana-1",
+    "nutritionValue": {
+      "ca": 23.2,
+      "calo": 112,
+      "carbohydrat": 3.2,
+      "cholesterol": 51.2,
+      "fe": 29.9,
+      "ka": 5,
+      "lipid": 7.6,
+      "mg": 42.8,
+      "na": 11.7,
+      "protein": 48.5,
+      "vitaC": 0.1,
+      "vitaD": 0.5,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  },
+  "banana-2": {
+    "nutritionId": "nutri-banana-2",
+    "productId": "banana-2",
+    "nutritionValue": {
+      "ca": 1.4,
+      "calo": 104,
+      "carbohydrat": 5.4,
+      "cholesterol": 88.8,
+      "fe": 1.3,
+      "ka": 39.5,
+      "lipid": 5.5,
+      "mg": 31.4,
+      "na": 42.1,
+      "protein": 46.4,
+      "vitaC": 0.9,
+      "vitaD": 0.61,
+      "vitaB6": 0.2,
+      "vitaB12": 0.2
+    }
+  },
+  "banana-3": {
+    "nutritionId": "nutri-banana-3",
+    "productId": "banana-3",
+    "nutritionValue": {
+      "ca": 41.8,
+      "calo": 108,
+      "carbohydrat": 1.4,
+      "cholesterol": 58.4,
+      "fe": 4.2,
+      "ka": 10.5,
+      "lipid": 2.7,
+      "mg": 36.9,
+      "na": 29.4,
+      "protein": 41,
+      "vitaC": 0.61,
+      "vitaD": 0.71,
+      "vitaB6": 0.34,
+      "vitaB12": 0.34
+    }
+  },
+  "bbq-sauce-1": {
+    "nutritionId": "nutri-bbq-sauce-1",
+    "productId": "bbq-sauce-1",
+    "nutritionValue": {
+      "ca": 22.3,
+      "calo": 191,
+      "carbohydrat": 8.9,
+      "cholesterol": 88.5,
+      "fe": 19.3,
+      "ka": 27.5,
+      "lipid": 7.4,
+      "mg": 11.3,
+      "na": 6.3,
+      "protein": 43.3,
+      "vitaC": 0,
+      "vitaD": 0.2,
+      "vitaB6": 0.61,
+      "vitaB12": 0.34
+    }
+  },
+  "bbq-sauce-2": {
+    "nutritionId": "nutri-bbq-sauce-2",
+    "productId": "bbq-sauce-2",
+    "nutritionValue": {
+      "ca": 6.1,
+      "calo": 154,
+      "carbohydrat": 1.5,
+      "cholesterol": 60.1,
+      "fe": 17.7,
+      "ka": 27.5,
+      "lipid": 4.3,
+      "mg": 33.8,
+      "na": 19,
+      "protein": 44.9,
+      "vitaC": 0.9,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "bean-1": {
+    "nutritionId": "nutri-bean-1",
+    "productId": "bean-1",
+    "nutritionValue": {
+      "ca": 26.5,
+      "calo": 182,
+      "carbohydrat": 7.4,
+      "cholesterol": 54.7,
+      "fe": 32.5,
+      "ka": 3.4,
+      "lipid": 8.2,
+      "mg": 25.5,
+      "na": 30.1,
+      "protein": 44.8,
+      "vitaC": 0.8,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.1
+    }
+  },
+  "bean-2": {
+    "nutritionId": "nutri-bean-2",
+    "productId": "bean-2",
+    "nutritionValue": {
+      "ca": 49.2,
+      "calo": 172,
+      "carbohydrat": 5.8,
+      "cholesterol": 73.7,
+      "fe": 13.2,
+      "ka": 0.5,
+      "lipid": 9.4,
+      "mg": 32.2,
+      "na": 21.5,
+      "protein": 46.2,
+      "vitaC": 0.8,
+      "vitaD": 0.61,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "bean-3": {
+    "nutritionId": "nutri-bean-3",
+    "productId": "bean-3",
+    "nutritionValue": {
+      "ca": 40.5,
+      "calo": 163,
+      "carbohydrat": 6.7,
+      "cholesterol": 83.8,
+      "fe": 35.9,
+      "ka": 42.8,
+      "lipid": 5.4,
+      "mg": 6.6,
+      "na": 39.3,
+      "protein": 43.8,
+      "vitaC": 0.2,
+      "vitaD": 0,
+      "vitaB6": 0.71,
+      "vitaB12": 0.71
+    }
+  },
+  "beef-broth-1": {
+    "nutritionId": "nutri-beef-broth-1",
+    "productId": "beef-broth-1",
+    "nutritionValue": {
+      "ca": 47.8,
+      "calo": 194,
+      "carbohydrat": 9.1,
+      "cholesterol": 84.9,
+      "fe": 16.7,
+      "ka": 27.5,
+      "lipid": 9.8,
+      "mg": 43.1,
+      "na": 42.5,
+      "protein": 42.8,
+      "vitaC": 0.71,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "beef-broth-2": {
+    "nutritionId": "nutri-beef-broth-2",
+    "productId": "beef-broth-2",
+    "nutritionValue": {
+      "ca": 5,
+      "calo": 131,
+      "carbohydrat": 5,
+      "cholesterol": 77.2,
+      "fe": 45,
+      "ka": 22.1,
+      "lipid": 2.2,
+      "mg": 35.7,
+      "na": 11.7,
+      "protein": 43,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.4,
+      "vitaB12": 0.4
+    }
+  },
+  "beef-broth-3": {
+    "nutritionId": "nutri-beef-broth-3",
+    "productId": "beef-broth-3",
+    "nutritionValue": {
+      "ca": 32.9,
+      "calo": 153,
+      "carbohydrat": 6.1,
+      "cholesterol": 79.3,
+      "fe": 48.3,
+      "ka": 25.7,
+      "lipid": 9.8,
+      "mg": 19.1,
+      "na": 45.6,
+      "protein": 44.2,
+      "vitaC": 0.2,
+      "vitaD": 0.34,
+      "vitaB6": 0.71,
+      "vitaB12": 0.1
+    }
+  },
+  "bell-pepper-1": {
+    "nutritionId": "nutri-bell-pepper-1",
+    "productId": "bell-pepper-1",
+    "nutritionValue": {
+      "ca": 33.9,
+      "calo": 141,
+      "carbohydrat": 2.8,
+      "cholesterol": 84.5,
+      "fe": 42.7,
+      "ka": 12.5,
+      "lipid": 3.9,
+      "mg": 8.5,
+      "na": 19.3,
+      "protein": 46.1,
+      "vitaC": 0,
+      "vitaD": 0.1,
+      "vitaB6": 0.5,
+      "vitaB12": 0.2
+    }
+  },
+  "bell-pepper-2": {
+    "nutritionId": "nutri-bell-pepper-2",
+    "productId": "bell-pepper-2",
+    "nutritionValue": {
+      "ca": 33.3,
+      "calo": 170,
+      "carbohydrat": 7,
+      "cholesterol": 88.5,
+      "fe": 0.2,
+      "ka": 7.7,
+      "lipid": 2.1,
+      "mg": 4,
+      "na": 29.1,
+      "protein": 47.3,
+      "vitaC": 0.1,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0.9
+    }
+  },
+  "bell-pepper-3": {
+    "nutritionId": "nutri-bell-pepper-3",
+    "productId": "bell-pepper-3",
+    "nutritionValue": {
+      "ca": 36,
+      "calo": 143,
+      "carbohydrat": 4.7,
+      "cholesterol": 50.8,
+      "fe": 19.4,
+      "ka": 36.2,
+      "lipid": 8.7,
+      "mg": 46.1,
+      "na": 15.9,
+      "protein": 42,
+      "vitaC": 0,
+      "vitaD": 0.61,
+      "vitaB6": 0.4,
+      "vitaB12": 0.1
+    }
+  },
+  "black-pepper-1": {
+    "nutritionId": "nutri-black-pepper-1",
+    "productId": "black-pepper-1",
+    "nutritionValue": {
+      "ca": 5.9,
+      "calo": 140,
+      "carbohydrat": 4.4,
+      "cholesterol": 70.4,
+      "fe": 33.3,
+      "ka": 16.2,
+      "lipid": 2.4,
+      "mg": 34.6,
+      "na": 44.8,
+      "protein": 40.1,
+      "vitaC": 0.61,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.71
+    }
+  },
+  "black-pepper-2": {
+    "nutritionId": "nutri-black-pepper-2",
+    "productId": "black-pepper-2",
+    "nutritionValue": {
+      "ca": 29.8,
+      "calo": 138,
+      "carbohydrat": 0.71,
+      "cholesterol": 62.1,
+      "fe": 31,
+      "ka": 11.3,
+      "lipid": 0.4,
+      "mg": 22.2,
+      "na": 35.9,
+      "protein": 45.7,
+      "vitaC": 0.71,
+      "vitaD": 0,
+      "vitaB6": 0.61,
+      "vitaB12": 0.2
+    }
+  },
+  "black-pepper-3": {
+    "nutritionId": "nutri-black-pepper-3",
+    "productId": "black-pepper-3",
+    "nutritionValue": {
+      "ca": 27.2,
+      "calo": 185,
+      "carbohydrat": 9.6,
+      "cholesterol": 67.8,
+      "fe": 44.5,
+      "ka": 21.5,
+      "lipid": 7.1,
+      "mg": 46.5,
+      "na": 40.4,
+      "protein": 41.4,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "blackberries-1": {
+    "nutritionId": "nutri-blackberries-1",
+    "productId": "blackberries-1",
+    "nutritionValue": {
+      "ca": 45.7,
+      "calo": 115,
+      "carbohydrat": 0.2,
+      "cholesterol": 81.1,
+      "fe": 45.1,
+      "ka": 36.2,
+      "lipid": 8.6,
+      "mg": 1.8,
+      "na": 5.7,
+      "protein": 44.9,
+      "vitaC": 0.1,
+      "vitaD": 0.4,
+      "vitaB6": 0.5,
+      "vitaB12": 0
+    }
+  },
+  "blackberries-2": {
+    "nutritionId": "nutri-blackberries-2",
+    "productId": "blackberries-2",
+    "nutritionValue": {
+      "ca": 25.2,
+      "calo": 110,
+      "carbohydrat": 4.2,
+      "cholesterol": 69.9,
+      "fe": 1.9,
+      "ka": 47.6,
+      "lipid": 8.7,
+      "mg": 15.3,
+      "na": 39.5,
+      "protein": 49.4,
+      "vitaC": 0.61,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.1
+    }
+  },
+  "blackberries-3": {
+    "nutritionId": "nutri-blackberries-3",
+    "productId": "blackberries-3",
+    "nutritionValue": {
+      "ca": 13.5,
+      "calo": 129,
+      "carbohydrat": 0,
+      "cholesterol": 91.7,
+      "fe": 33.5,
+      "ka": 13.3,
+      "lipid": 3.5,
+      "mg": 21.4,
+      "na": 16.3,
+      "protein": 47.8,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.5
+    }
+  },
+  "blueberries-1": {
+    "nutritionId": "nutri-blueberries-1",
+    "productId": "blueberries-1",
+    "nutritionValue": {
+      "ca": 39.2,
+      "calo": 193,
+      "carbohydrat": 4.2,
+      "cholesterol": 73.9,
+      "fe": 23.5,
+      "ka": 21,
+      "lipid": 1.1,
+      "mg": 45.5,
+      "na": 18,
+      "protein": 47.2,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.5
+    }
+  },
+  "blueberries-2": {
+    "nutritionId": "nutri-blueberries-2",
+    "productId": "blueberries-2",
+    "nutritionValue": {
+      "ca": 38.6,
+      "calo": 119,
+      "carbohydrat": 8.6,
+      "cholesterol": 99.6,
+      "fe": 27.9,
+      "ka": 1.9,
+      "lipid": 3.6,
+      "mg": 17,
+      "na": 34.6,
+      "protein": 43.7,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0,
+      "vitaB12": 0.61
+    }
+  },
+  "blueberries-3": {
+    "nutritionId": "nutri-blueberries-3",
+    "productId": "blueberries-3",
+    "nutritionValue": {
+      "ca": 28.1,
+      "calo": 120,
+      "carbohydrat": 1.8,
+      "cholesterol": 75,
+      "fe": 8.4,
+      "ka": 22.5,
+      "lipid": 9.6,
+      "mg": 15.5,
+      "na": 39.8,
+      "protein": 44,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.4,
+      "vitaB12": 0.71
+    }
+  },
+  "broccoli-1": {
+    "nutritionId": "nutri-broccoli-1",
+    "productId": "broccoli-1",
+    "nutritionValue": {
+      "ca": 49.5,
+      "calo": 148,
+      "carbohydrat": 1.5,
+      "cholesterol": 65.9,
+      "fe": 18,
+      "ka": 19.8,
+      "lipid": 7.7,
+      "mg": 2.9,
+      "na": 31,
+      "protein": 43.4,
+      "vitaC": 0.4,
+      "vitaD": 0,
+      "vitaB6": 0.34,
+      "vitaB12": 0.2
+    }
+  },
+  "broccoli-2": {
+    "nutritionId": "nutri-broccoli-2",
+    "productId": "broccoli-2",
+    "nutritionValue": {
+      "ca": 25.4,
+      "calo": 124,
+      "carbohydrat": 2.8,
+      "cholesterol": 54,
+      "fe": 48.6,
+      "ka": 0.8,
+      "lipid": 5.4,
+      "mg": 35.1,
+      "na": 18.4,
+      "protein": 42.7,
+      "vitaC": 0.34,
+      "vitaD": 0.8,
+      "vitaB6": 0.4,
+      "vitaB12": 0.4
+    }
+  },
+  "broccoli-3": {
+    "nutritionId": "nutri-broccoli-3",
+    "productId": "broccoli-3",
+    "nutritionValue": {
+      "ca": 47.5,
+      "calo": 185,
+      "carbohydrat": 5.1,
+      "cholesterol": 54.2,
+      "fe": 44.7,
+      "ka": 43.7,
+      "lipid": 0.2,
+      "mg": 30.6,
+      "na": 31.4,
+      "protein": 47.5,
+      "vitaC": 0.34,
+      "vitaD": 0.4,
+      "vitaB6": 0.71,
+      "vitaB12": 0.2
+    }
+  },
+  "cabbage-1": {
+    "nutritionId": "nutri-cabbage-1",
+    "productId": "cabbage-1",
+    "nutritionValue": {
+      "ca": 37,
+      "calo": 193,
+      "carbohydrat": 3.6,
+      "cholesterol": 76.2,
+      "fe": 7.5,
+      "ka": 29.3,
+      "lipid": 9.9,
+      "mg": 43.4,
+      "na": 10.5,
+      "protein": 44.2,
+      "vitaC": 0,
+      "vitaD": 0,
+      "vitaB6": 0.34,
+      "vitaB12": 0.61
+    }
+  },
+  "cabbage-2": {
+    "nutritionId": "nutri-cabbage-2",
+    "productId": "cabbage-2",
+    "nutritionValue": {
+      "ca": 47.5,
+      "calo": 183,
+      "carbohydrat": 7.7,
+      "cholesterol": 64.4,
+      "fe": 14.3,
+      "ka": 35.6,
+      "lipid": 7.7,
+      "mg": 3.6,
+      "na": 2.7,
+      "protein": 48.2,
+      "vitaC": 0.1,
+      "vitaD": 0.9,
+      "vitaB6": 0.61,
+      "vitaB12": 0.4
+    }
+  },
+  "cabbage-3": {
+    "nutritionId": "nutri-cabbage-3",
+    "productId": "cabbage-3",
+    "nutritionValue": {
+      "ca": 23.3,
+      "calo": 179,
+      "carbohydrat": 6.5,
+      "cholesterol": 73.8,
+      "fe": 37.5,
+      "ka": 22.7,
+      "lipid": 0.2,
+      "mg": 31.7,
+      "na": 7.1,
+      "protein": 44.9,
+      "vitaC": 0.8,
+      "vitaD": 0.4,
+      "vitaB6": 0.8,
+      "vitaB12": 0.4
+    }
+  },
+  "carrot-1": {
+    "nutritionId": "nutri-carrot-1",
+    "productId": "carrot-1",
+    "nutritionValue": {
+      "ca": 1.3,
+      "calo": 153,
+      "carbohydrat": 4.7,
+      "cholesterol": 95.1,
+      "fe": 36.8,
+      "ka": 47.4,
+      "lipid": 9.3,
+      "mg": 20.6,
+      "na": 45.7,
+      "protein": 42.6,
+      "vitaC": 0.61,
+      "vitaD": 0.9,
+      "vitaB6": 0.71,
+      "vitaB12": 0.4
+    }
+  },
+  "carrot-2": {
+    "nutritionId": "nutri-carrot-2",
+    "productId": "carrot-2",
+    "nutritionValue": {
+      "ca": 11.8,
+      "calo": 150,
+      "carbohydrat": 1.9,
+      "cholesterol": 55.3,
+      "fe": 32.5,
+      "ka": 31.2,
+      "lipid": 7.4,
+      "mg": 15.5,
+      "na": 39.1,
+      "protein": 45.2,
+      "vitaC": 0,
+      "vitaD": 0.71,
+      "vitaB6": 0.61,
+      "vitaB12": 0.1
+    }
+  },
+  "carrot-3": {
+    "nutritionId": "nutri-carrot-3",
+    "productId": "carrot-3",
+    "nutritionValue": {
+      "ca": 2.2,
+      "calo": 189,
+      "carbohydrat": 5.2,
+      "cholesterol": 82.4,
+      "fe": 41.8,
+      "ka": 18.2,
+      "lipid": 3.1,
+      "mg": 12.5,
+      "na": 14.6,
+      "protein": 47.3,
+      "vitaC": 0.8,
+      "vitaD": 0.4,
+      "vitaB6": 0.9,
+      "vitaB12": 0.2
+    }
+  },
+  "catfish-1": {
+    "nutritionId": "nutri-catfish-1",
+    "productId": "catfish-1",
+    "nutritionValue": {
+      "ca": 41.7,
+      "calo": 165,
+      "carbohydrat": 0.2,
+      "cholesterol": 59.5,
+      "fe": 14.9,
+      "ka": 27.5,
+      "lipid": 8.3,
+      "mg": 32.7,
+      "na": 42.9,
+      "protein": 49.6,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.8,
+      "vitaB12": 0
+    }
+  },
+  "catfish-2": {
+    "nutritionId": "nutri-catfish-2",
+    "productId": "catfish-2",
+    "nutritionValue": {
+      "ca": 28.6,
+      "calo": 117,
+      "carbohydrat": 4.3,
+      "cholesterol": 65,
+      "fe": 34.3,
+      "ka": 40.8,
+      "lipid": 8.5,
+      "mg": 2.6,
+      "na": 18.4,
+      "protein": 43.5,
+      "vitaC": 0,
+      "vitaD": 0.1,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "catfish-3": {
+    "nutritionId": "nutri-catfish-3",
+    "productId": "catfish-3",
+    "nutritionValue": {
+      "ca": 19.5,
+      "calo": 111,
+      "carbohydrat": 7.6,
+      "cholesterol": 82.6,
+      "fe": 23.7,
+      "ka": 20.2,
+      "lipid": 0.2,
+      "mg": 30.4,
+      "na": 11.9,
+      "protein": 48.6,
+      "vitaC": 0.4,
+      "vitaD": 0.9,
+      "vitaB6": 0.2,
+      "vitaB12": 0
+    }
+  },
+  "cauliflower-1": {
+    "nutritionId": "nutri-cauliflower-1",
+    "productId": "cauliflower-1",
+    "nutritionValue": {
+      "ca": 11.3,
+      "calo": 131,
+      "carbohydrat": 2.3,
+      "cholesterol": 95.1,
+      "fe": 16.3,
+      "ka": 49.5,
+      "lipid": 4.6,
+      "mg": 14.2,
+      "na": 48.2,
+      "protein": 43,
+      "vitaC": 0,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.8
+    }
+  },
+  "cauliflower-2": {
+    "nutritionId": "nutri-cauliflower-2",
+    "productId": "cauliflower-2",
+    "nutritionValue": {
+      "ca": 11.5,
+      "calo": 101,
+      "carbohydrat": 8.9,
+      "cholesterol": 85.6,
+      "fe": 41,
+      "ka": 35.4,
+      "lipid": 7.4,
+      "mg": 2.4,
+      "na": 11.1,
+      "protein": 42.5,
+      "vitaC": 0.71,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.4
+    }
+  },
+  "cauliflower-3": {
+    "nutritionId": "nutri-cauliflower-3",
+    "productId": "cauliflower-3",
+    "nutritionValue": {
+      "ca": 10.3,
+      "calo": 105,
+      "carbohydrat": 1.4,
+      "cholesterol": 89.1,
+      "fe": 19.2,
+      "ka": 48.2,
+      "lipid": 6.6,
+      "mg": 36,
+      "na": 40.4,
+      "protein": 49.1,
+      "vitaC": 0.1,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "caviar-1": {
+    "nutritionId": "nutri-caviar-1",
+    "productId": "caviar-1",
+    "nutritionValue": {
+      "ca": 38.5,
+      "calo": 134,
+      "carbohydrat": 2.2,
+      "cholesterol": 75.7,
+      "fe": 35.2,
+      "ka": 25,
+      "lipid": 6.1,
+      "mg": 0.4,
+      "na": 24,
+      "protein": 49.9,
+      "vitaC": 0.61,
+      "vitaD": 0.2,
+      "vitaB6": 0.8,
+      "vitaB12": 0.61
+    }
+  },
+  "caviar-2": {
+    "nutritionId": "nutri-caviar-2",
+    "productId": "caviar-2",
+    "nutritionValue": {
+      "ca": 42.4,
+      "calo": 142,
+      "carbohydrat": 8.6,
+      "cholesterol": 97.3,
+      "fe": 37,
+      "ka": 40.5,
+      "lipid": 4.3,
+      "mg": 11.7,
+      "na": 1.1,
+      "protein": 47.4,
+      "vitaC": 0.34,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.71
+    }
+  },
+  "caviar-3": {
+    "nutritionId": "nutri-caviar-3",
+    "productId": "caviar-3",
+    "nutritionValue": {
+      "ca": 17.9,
+      "calo": 198,
+      "carbohydrat": 9.4,
+      "cholesterol": 70.8,
+      "fe": 26.2,
+      "ka": 43.8,
+      "lipid": 8.7,
+      "mg": 40.9,
+      "na": 28.3,
+      "protein": 42.1,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0.2,
+      "vitaB12": 0.71
+    }
+  },
+  "cherry-1": {
+    "nutritionId": "nutri-cherry-1",
+    "productId": "cherry-1",
+    "nutritionValue": {
+      "ca": 34.3,
+      "calo": 170,
+      "carbohydrat": 5.9,
+      "cholesterol": 58.9,
+      "fe": 20.6,
+      "ka": 27,
+      "lipid": 8.2,
+      "mg": 28.4,
+      "na": 28.5,
+      "protein": 44,
+      "vitaC": 0.34,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.5
+    }
+  },
+  "cherry-2": {
+    "nutritionId": "nutri-cherry-2",
+    "productId": "cherry-2",
+    "nutritionValue": {
+      "ca": 17.9,
+      "calo": 122,
+      "carbohydrat": 2.2,
+      "cholesterol": 86.8,
+      "fe": 21.8,
+      "ka": 39.7,
+      "lipid": 7.1,
+      "mg": 18.4,
+      "na": 4.5,
+      "protein": 43.9,
+      "vitaC": 0.2,
+      "vitaD": 0,
+      "vitaB6": 0.1,
+      "vitaB12": 0.71
+    }
+  },
+  "cherry-3": {
+    "nutritionId": "nutri-cherry-3",
+    "productId": "cherry-3",
+    "nutritionValue": {
+      "ca": 22.1,
+      "calo": 174,
+      "carbohydrat": 6.4,
+      "cholesterol": 67.8,
+      "fe": 17.5,
+      "ka": 26.9,
+      "lipid": 7.2,
+      "mg": 42.5,
+      "na": 7.7,
+      "protein": 41.5,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "chilli-powder-1": {
+    "nutritionId": "nutri-chilli-powder-1",
+    "productId": "chilli-powder-1",
+    "nutritionValue": {
+      "ca": 22.3,
+      "calo": 175,
+      "carbohydrat": 7.5,
+      "cholesterol": 94.6,
+      "fe": 30.2,
+      "ka": 37.4,
+      "lipid": 3.9,
+      "mg": 48,
+      "na": 0.9,
+      "protein": 40.9,
+      "vitaC": 0.61,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "chilli-powder-2": {
+    "nutritionId": "nutri-chilli-powder-2",
+    "productId": "chilli-powder-2",
+    "nutritionValue": {
+      "ca": 46.1,
+      "calo": 170,
+      "carbohydrat": 5.1,
+      "cholesterol": 79.8,
+      "fe": 42.7,
+      "ka": 29.8,
+      "lipid": 4.6,
+      "mg": 45.3,
+      "na": 11.8,
+      "protein": 40.5,
+      "vitaC": 0.34,
+      "vitaD": 0.1,
+      "vitaB6": 0.5,
+      "vitaB12": 0.8
+    }
+  },
+  "chilli-powder-3": {
+    "nutritionId": "nutri-chilli-powder-3",
+    "productId": "chilli-powder-3",
+    "nutritionValue": {
+      "ca": 43.2,
+      "calo": 111,
+      "carbohydrat": 3.7,
+      "cholesterol": 64.4,
+      "fe": 43.8,
+      "ka": 33.3,
+      "lipid": 2.3,
+      "mg": 37,
+      "na": 4,
+      "protein": 49.8,
+      "vitaC": 0.71,
+      "vitaD": 0.5,
+      "vitaB6": 0.5,
+      "vitaB12": 0.5
+    }
+  },
+  "clam-1": {
+    "nutritionId": "nutri-clam-1",
+    "productId": "clam-1",
+    "nutritionValue": {
+      "ca": 47.4,
+      "calo": 119,
+      "carbohydrat": 3.1,
+      "cholesterol": 73.4,
+      "fe": 1.9,
+      "ka": 15.2,
+      "lipid": 5.7,
+      "mg": 5.3,
+      "na": 20.1,
+      "protein": 41.6,
+      "vitaC": 0.2,
+      "vitaD": 0.9,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "clam-2": {
+    "nutritionId": "nutri-clam-2",
+    "productId": "clam-2",
+    "nutritionValue": {
+      "ca": 38.4,
+      "calo": 160,
+      "carbohydrat": 0.4,
+      "cholesterol": 66,
+      "fe": 44.1,
+      "ka": 15.8,
+      "lipid": 8.9,
+      "mg": 1.72,
+      "na": 37,
+      "protein": 46.9,
+      "vitaC": 0.4,
+      "vitaD": 0.61,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "clam-3": {
+    "nutritionId": "nutri-clam-3",
+    "productId": "clam-3",
+    "nutritionValue": {
+      "ca": 44.5,
+      "calo": 176,
+      "carbohydrat": 5.6,
+      "cholesterol": 96.2,
+      "fe": 18.1,
+      "ka": 9,
+      "lipid": 8.1,
+      "mg": 8.2,
+      "na": 47.2,
+      "protein": 45.6,
+      "vitaC": 0.5,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0.1
+    }
+  },
+  "coconut-1": {
+    "nutritionId": "nutri-coconut-1",
+    "productId": "coconut-1",
+    "nutritionValue": {
+      "ca": 44.7,
+      "calo": 174,
+      "carbohydrat": 2.1,
+      "cholesterol": 59.9,
+      "fe": 3.1,
+      "ka": 10.9,
+      "lipid": 2.8,
+      "mg": 35.4,
+      "na": 18,
+      "protein": 48.3,
+      "vitaC": 0.8,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.4
+    }
+  },
+  "coconut-2": {
+    "nutritionId": "nutri-coconut-2",
+    "productId": "coconut-2",
+    "nutritionValue": {
+      "ca": 0.71,
+      "calo": 106,
+      "carbohydrat": 1.9,
+      "cholesterol": 86.3,
+      "fe": 25,
+      "ka": 31.2,
+      "lipid": 6.8,
+      "mg": 22.3,
+      "na": 29.9,
+      "protein": 49.7,
+      "vitaC": 0.2,
+      "vitaD": 0.8,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "coconut-3": {
+    "nutritionId": "nutri-coconut-3",
+    "productId": "coconut-3",
+    "nutritionValue": {
+      "ca": 17.1,
+      "calo": 115,
+      "carbohydrat": 5.1,
+      "cholesterol": 66.7,
+      "fe": 18.5,
+      "ka": 47.4,
+      "lipid": 6.1,
+      "mg": 1.3,
+      "na": 3.4,
+      "protein": 47,
+      "vitaC": 0.8,
+      "vitaD": 0.5,
+      "vitaB6": 0.8,
+      "vitaB12": 0.71
+    }
+  },
+  "cooking-oil-1": {
+    "nutritionId": "nutri-cooking-oil-1",
+    "productId": "cooking-oil-1",
+    "nutritionValue": {
+      "ca": 35.6,
+      "calo": 112,
+      "carbohydrat": 0.4,
+      "cholesterol": 77.2,
+      "fe": 46.1,
+      "ka": 37.3,
+      "lipid": 9.2,
+      "mg": 13.7,
+      "na": 29.1,
+      "protein": 47,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.5
+    }
+  },
+  "cooking-oil-2": {
+    "nutritionId": "nutri-cooking-oil-2",
+    "productId": "cooking-oil-2",
+    "nutritionValue": {
+      "ca": 13.6,
+      "calo": 169,
+      "carbohydrat": 0.34,
+      "cholesterol": 88.5,
+      "fe": 38.8,
+      "ka": 25.9,
+      "lipid": 6.5,
+      "mg": 18.5,
+      "na": 22.4,
+      "protein": 40.9,
+      "vitaC": 0.4,
+      "vitaD": 0.2,
+      "vitaB6": 0.4,
+      "vitaB12": 0.5
+    }
+  },
+  "corn-1": {
+    "nutritionId": "nutri-corn-1",
+    "productId": "corn-1",
+    "nutritionValue": {
+      "ca": 19.9,
+      "calo": 102,
+      "carbohydrat": 3.9,
+      "cholesterol": 87.3,
+      "fe": 1.8,
+      "ka": 2,
+      "lipid": 5.2,
+      "mg": 12.3,
+      "na": 48.5,
+      "protein": 41.7,
+      "vitaC": 0.8,
+      "vitaD": 0.61,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "corn-2": {
+    "nutritionId": "nutri-corn-2",
+    "productId": "corn-2",
+    "nutritionValue": {
+      "ca": 13,
+      "calo": 184,
+      "carbohydrat": 0.34,
+      "cholesterol": 78.6,
+      "fe": 35.8,
+      "ka": 7.8,
+      "lipid": 5.7,
+      "mg": 45.8,
+      "na": 18.1,
+      "protein": 48.3,
+      "vitaC": 0.4,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.9
+    }
+  },
+  "corn-3": {
+    "nutritionId": "nutri-corn-3",
+    "productId": "corn-3",
+    "nutritionValue": {
+      "ca": 5.3,
+      "calo": 154,
+      "carbohydrat": 1.6,
+      "cholesterol": 88.3,
+      "fe": 15.7,
+      "ka": 43.7,
+      "lipid": 1.4,
+      "mg": 25.4,
+      "na": 7.8,
+      "protein": 49.2,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.61,
+      "vitaB12": 0.34
+    }
+  },
+  "corn-flour-1": {
+    "nutritionId": "nutri-corn-flour-1",
+    "productId": "corn-flour-1",
+    "nutritionValue": {
+      "ca": 5.1,
+      "calo": 117,
+      "carbohydrat": 7.1,
+      "cholesterol": 85.7,
+      "fe": 12.6,
+      "ka": 20.2,
+      "lipid": 1.2,
+      "mg": 38.6,
+      "na": 28.4,
+      "protein": 42.6,
+      "vitaC": 0.8,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "corn-flour-2": {
+    "nutritionId": "nutri-corn-flour-2",
+    "productId": "corn-flour-2",
+    "nutritionValue": {
+      "ca": 30.7,
+      "calo": 179,
+      "carbohydrat": 4.8,
+      "cholesterol": 59.5,
+      "fe": 44.4,
+      "ka": 25.9,
+      "lipid": 4.5,
+      "mg": 37.3,
+      "na": 26.9,
+      "protein": 40.4,
+      "vitaC": 0.4,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "corn-flour-3": {
+    "nutritionId": "nutri-corn-flour-3",
+    "productId": "corn-flour-3",
+    "nutritionValue": {
+      "ca": 17.3,
+      "calo": 169,
+      "carbohydrat": 7.8,
+      "cholesterol": 68.1,
+      "fe": 11.2,
+      "ka": 22.4,
+      "lipid": 8.4,
+      "mg": 14.4,
+      "na": 27.5,
+      "protein": 49.4,
+      "vitaC": 0.8,
+      "vitaD": 0,
+      "vitaB6": 0.5,
+      "vitaB12": 0.5
+    }
+  },
+  "crab-1": {
+    "nutritionId": "nutri-crab-1",
+    "productId": "crab-1",
+    "nutritionValue": {
+      "ca": 27.6,
+      "calo": 194,
+      "carbohydrat": 8.9,
+      "cholesterol": 50.9,
+      "fe": 10.9,
+      "ka": 21.8,
+      "lipid": 2.7,
+      "mg": 45.7,
+      "na": 42.8,
+      "protein": 40.5,
+      "vitaC": 0.71,
+      "vitaD": 0.9,
+      "vitaB6": 0.34,
+      "vitaB12": 0
+    }
+  },
+  "crab-2": {
+    "nutritionId": "nutri-crab-2",
+    "productId": "crab-2",
+    "nutritionValue": {
+      "ca": 26,
+      "calo": 175,
+      "carbohydrat": 4.3,
+      "cholesterol": 72.2,
+      "fe": 30.3,
+      "ka": 7.6,
+      "lipid": 0.4,
+      "mg": 20.5,
+      "na": 37,
+      "protein": 40.5,
+      "vitaC": 0,
+      "vitaD": 0.2,
+      "vitaB6": 0.71,
+      "vitaB12": 0.34
+    }
+  },
+  "crab-3": {
+    "nutritionId": "nutri-crab-3",
+    "productId": "crab-3",
+    "nutritionValue": {
+      "ca": 29.1,
+      "calo": 158,
+      "carbohydrat": 5,
+      "cholesterol": 97.3,
+      "fe": 26.8,
+      "ka": 20.7,
+      "lipid": 7.3,
+      "mg": 25.9,
+      "na": 36,
+      "protein": 41.3,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "cucumber-1": {
+    "nutritionId": "nutri-cucumber-1",
+    "productId": "cucumber-1",
+    "nutritionValue": {
+      "ca": 15.5,
+      "calo": 146,
+      "carbohydrat": 8,
+      "cholesterol": 97,
+      "fe": 15.5,
+      "ka": 16.2,
+      "lipid": 3.5,
+      "mg": 19.6,
+      "na": 36.9,
+      "protein": 49,
+      "vitaC": 0.5,
+      "vitaD": 0.34,
+      "vitaB6": 0.8,
+      "vitaB12": 0.8
+    }
+  },
+  "cucumber-2": {
+    "nutritionId": "nutri-cucumber-2",
+    "productId": "cucumber-2",
+    "nutritionValue": {
+      "ca": 0.2,
+      "calo": 178,
+      "carbohydrat": 3.6,
+      "cholesterol": 69.5,
+      "fe": 2,
+      "ka": 4.5,
+      "lipid": 3,
+      "mg": 6.8,
+      "na": 21.6,
+      "protein": 46.7,
+      "vitaC": 0.2,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.8
+    }
+  },
+  "cucumber-3": {
+    "nutritionId": "nutri-cucumber-3",
+    "productId": "cucumber-3",
+    "nutritionValue": {
+      "ca": 32.4,
+      "calo": 184,
+      "carbohydrat": 8.8,
+      "cholesterol": 54.6,
+      "fe": 32,
+      "ka": 12,
+      "lipid": 2.3,
+      "mg": 24.8,
+      "na": 4.3,
+      "protein": 41.3,
+      "vitaC": 0.34,
+      "vitaD": 0.9,
+      "vitaB6": 0.61,
+      "vitaB12": 0.34
+    }
+  },
+  "curry-powder-1": {
+    "nutritionId": "nutri-curry-powder-1",
+    "productId": "curry-powder-1",
+    "nutritionValue": {
+      "ca": 2.7,
+      "calo": 108,
+      "carbohydrat": 5.9,
+      "cholesterol": 52,
+      "fe": 49,
+      "ka": 48.9,
+      "lipid": 6.5,
+      "mg": 5.9,
+      "na": 20.3,
+      "protein": 40.6,
+      "vitaC": 0.5,
+      "vitaD": 0.8,
+      "vitaB6": 0.61,
+      "vitaB12": 0.2
+    }
+  },
+  "curry-powder-2": {
+    "nutritionId": "nutri-curry-powder-2",
+    "productId": "curry-powder-2",
+    "nutritionValue": {
+      "ca": 12,
+      "calo": 192,
+      "carbohydrat": 5.1,
+      "cholesterol": 80.2,
+      "fe": 7.1,
+      "ka": 39.8,
+      "lipid": 8.5,
+      "mg": 22.6,
+      "na": 43.8,
+      "protein": 46.5,
+      "vitaC": 0.8,
+      "vitaD": 0.71,
+      "vitaB6": 0.34,
+      "vitaB12": 0.71
+    }
+  },
+  "unagi-1": {
+    "nutritionId": "nutri-unagi-1",
+    "productId": "unagi-1",
+    "nutritionValue": {
+      "ca": 15,
+      "calo": 124,
+      "carbohydrat": 7,
+      "cholesterol": 67.6,
+      "fe": 16,
+      "ka": 19.2,
+      "lipid": 5.3,
+      "mg": 27.3,
+      "na": 25.2,
+      "protein": 46,
+      "vitaC": 0.2,
+      "vitaD": 0.2,
+      "vitaB6": 0.5,
+      "vitaB12": 0.4
+    }
+  },
+  "unagi-2": {
+    "nutritionId": "nutri-unagi-2",
+    "productId": "unagi-2",
+    "nutritionValue": {
+      "ca": 6.4,
+      "calo": 147,
+      "carbohydrat": 6,
+      "cholesterol": 83.1,
+      "fe": 45,
+      "ka": 37.8,
+      "lipid": 5.7,
+      "mg": 38.6,
+      "na": 31.6,
+      "protein": 43.1,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0.4
+    }
+  },
+  "unagi-3": {
+    "nutritionId": "nutri-unagi-3",
+    "productId": "unagi-3",
+    "nutritionValue": {
+      "ca": 22,
+      "calo": 182,
+      "carbohydrat": 8.3,
+      "cholesterol": 97.6,
+      "fe": 24.5,
+      "ka": 41.4,
+      "lipid": 5.4,
+      "mg": 24,
+      "na": 27.3,
+      "protein": 40.4,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.61,
+      "vitaB12": 0.1
+    }
+  },
+  "egg-chicken-1": {
+    "nutritionId": "nutri-egg-chicken-1",
+    "productId": "egg-chicken-1",
+    "nutritionValue": {
+      "ca": 29.2,
+      "calo": 183,
+      "carbohydrat": 4.3,
+      "cholesterol": 67.4,
+      "fe": 1.1,
+      "ka": 40.5,
+      "lipid": 9.7,
+      "mg": 49.8,
+      "na": 19.4,
+      "protein": 43.8,
+      "vitaC": 0,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.4
+    }
+  },
+  "egg-chicken-2": {
+    "nutritionId": "nutri-egg-chicken-2",
+    "productId": "egg-chicken-2",
+    "nutritionValue": {
+      "ca": 44.2,
+      "calo": 142,
+      "carbohydrat": 8,
+      "cholesterol": 82.3,
+      "fe": 14.9,
+      "ka": 23.3,
+      "lipid": 6.1,
+      "mg": 3.2,
+      "na": 17.2,
+      "protein": 48.2,
+      "vitaC": 0.4,
+      "vitaD": 0.4,
+      "vitaB6": 0.34,
+      "vitaB12": 0.9
+    }
+  },
+  "egg-chicken-3": {
+    "nutritionId": "nutri-egg-chicken-3",
+    "productId": "egg-chicken-3",
+    "nutritionValue": {
+      "ca": 2.2,
+      "calo": 173,
+      "carbohydrat": 6.1,
+      "cholesterol": 86.4,
+      "fe": 46.9,
+      "ka": 28.3,
+      "lipid": 9.7,
+      "mg": 5.9,
+      "na": 9.7,
+      "protein": 41.5,
+      "vitaC": 0.61,
+      "vitaD": 0.9,
+      "vitaB6": 0.71,
+      "vitaB12": 0.4
+    }
+  },
+  "egg-duck-1": {
+    "nutritionId": "nutri-egg-duck-1",
+    "productId": "egg-duck-1",
+    "nutritionValue": {
+      "ca": 40.4,
+      "calo": 142,
+      "carbohydrat": 3.4,
+      "cholesterol": 66.9,
+      "fe": 34.5,
+      "ka": 37.6,
+      "lipid": 8.1,
+      "mg": 38.4,
+      "na": 25,
+      "protein": 48.1,
+      "vitaC": 0.34,
+      "vitaD": 0.61,
+      "vitaB6": 0.4,
+      "vitaB12": 0.4
+    }
+  },
+  "egg-duck-2": {
+    "nutritionId": "nutri-egg-duck-2",
+    "productId": "egg-duck-2",
+    "nutritionValue": {
+      "ca": 11,
+      "calo": 150,
+      "carbohydrat": 4.5,
+      "cholesterol": 80.3,
+      "fe": 10.3,
+      "ka": 4.6,
+      "lipid": 3,
+      "mg": 20.8,
+      "na": 19,
+      "protein": 45.2,
+      "vitaC": 0.71,
+      "vitaD": 0,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "egg-duck-3": {
+    "nutritionId": "nutri-egg-duck-3",
+    "productId": "egg-duck-3",
+    "nutritionValue": {
+      "ca": 40.3,
+      "calo": 139,
+      "carbohydrat": 1.9,
+      "cholesterol": 75.3,
+      "fe": 29.1,
+      "ka": 14.2,
+      "lipid": 7.1,
+      "mg": 45.9,
+      "na": 43.3,
+      "protein": 41.7,
+      "vitaC": 0.9,
+      "vitaD": 0.71,
+      "vitaB6": 0.71,
+      "vitaB12": 0
+    }
+  },
+  "egg-quail-1": {
+    "nutritionId": "nutri-egg-quail-1",
+    "productId": "egg-quail-1",
+    "nutritionValue": {
+      "ca": 33.7,
+      "calo": 100,
+      "carbohydrat": 2.9,
+      "cholesterol": 50.7,
+      "fe": 6.4,
+      "ka": 5.6,
+      "lipid": 1.5,
+      "mg": 34.5,
+      "na": 8.9,
+      "protein": 49.9,
+      "vitaC": 0.4,
+      "vitaD": 0.34,
+      "vitaB6": 0.4,
+      "vitaB12": 0.34
+    }
+  },
+  "egg-quail-2": {
+    "nutritionId": "nutri-egg-quail-2",
+    "productId": "egg-quail-2",
+    "nutritionValue": {
+      "ca": 3,
+      "calo": 109,
+      "carbohydrat": 3.5,
+      "cholesterol": 57.6,
+      "fe": 26.5,
+      "ka": 29.9,
+      "lipid": 2.2,
+      "mg": 13,
+      "na": 11,
+      "protein": 42.9,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.71,
+      "vitaB12": 0.5
+    }
+  },
+  "egg-quail-3": {
+    "nutritionId": "nutri-egg-quail-3",
+    "productId": "egg-quail-3",
+    "nutritionValue": {
+      "ca": 22.7,
+      "calo": 150,
+      "carbohydrat": 3,
+      "cholesterol": 76.8,
+      "fe": 27.3,
+      "ka": 12.8,
+      "lipid": 9.9,
+      "mg": 39.5,
+      "na": 5.2,
+      "protein": 45.8,
+      "vitaC": 0.2,
+      "vitaD": 0.8,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "eggplant-1": {
+    "nutritionId": "nutri-eggplant-1",
+    "productId": "eggplant-1",
+    "nutritionValue": {
+      "ca": 30.2,
+      "calo": 150,
+      "carbohydrat": 7.9,
+      "cholesterol": 94,
+      "fe": 39.1,
+      "ka": 1.4,
+      "lipid": 0.61,
+      "mg": 35.7,
+      "na": 40.4,
+      "protein": 46.1,
+      "vitaC": 0.1,
+      "vitaD": 0.4,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  },
+  "eggplant-2": {
+    "nutritionId": "nutri-eggplant-2",
+    "productId": "eggplant-2",
+    "nutritionValue": {
+      "ca": 13.6,
+      "calo": 192,
+      "carbohydrat": 3.8,
+      "cholesterol": 71.2,
+      "fe": 32.2,
+      "ka": 23.8,
+      "lipid": 0,
+      "mg": 47.5,
+      "na": 16.4,
+      "protein": 49.3,
+      "vitaC": 0,
+      "vitaD": 0.4,
+      "vitaB6": 0.61,
+      "vitaB12": 0.8
+    }
+  },
+  "eggplant-3": {
+    "nutritionId": "nutri-eggplant-3",
+    "productId": "eggplant-3",
+    "nutritionValue": {
+      "ca": 21.3,
+      "calo": 166,
+      "carbohydrat": 1.8,
+      "cholesterol": 78,
+      "fe": 16.5,
+      "ka": 47.7,
+      "lipid": 3.3,
+      "mg": 27.6,
+      "na": 42.7,
+      "protein": 48.5,
+      "vitaC": 0.71,
+      "vitaD": 0.9,
+      "vitaB6": 0,
+      "vitaB12": 0.4
+    }
+  },
+  "enoki-1": {
+    "nutritionId": "nutri-enoki-1",
+    "productId": "enoki-1",
+    "nutritionValue": {
+      "ca": 46.9,
+      "calo": 174,
+      "carbohydrat": 3.7,
+      "cholesterol": 73.6,
+      "fe": 45,
+      "ka": 22,
+      "lipid": 7.8,
+      "mg": 4.9,
+      "na": 16.4,
+      "protein": 40.4,
+      "vitaC": 0.61,
+      "vitaD": 0.4,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  },
+  "enoki-2": {
+    "nutritionId": "nutri-enoki-2",
+    "productId": "enoki-2",
+    "nutritionValue": {
+      "ca": 21.2,
+      "calo": 107,
+      "carbohydrat": 3.6,
+      "cholesterol": 83.2,
+      "fe": 39,
+      "ka": 30.7,
+      "lipid": 5.6,
+      "mg": 17.9,
+      "na": 8.3,
+      "protein": 44.2,
+      "vitaC": 0.71,
+      "vitaD": 0.5,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "enoki-3": {
+    "nutritionId": "nutri-enoki-3",
+    "productId": "enoki-3",
+    "nutritionValue": {
+      "ca": 37.8,
+      "calo": 163,
+      "carbohydrat": 5.9,
+      "cholesterol": 71.9,
+      "fe": 45.3,
+      "ka": 5.9,
+      "lipid": 6.6,
+      "mg": 19.7,
+      "na": 5.9,
+      "protein": 43.5,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "flour-wheat-1": {
+    "nutritionId": "nutri-flour-wheat-1",
+    "productId": "flour-wheat-1",
+    "nutritionValue": {
+      "ca": 42.7,
+      "calo": 173,
+      "carbohydrat": 1.5,
+      "cholesterol": 93.3,
+      "fe": 36.8,
+      "ka": 13.7,
+      "lipid": 9,
+      "mg": 34.6,
+      "na": 11.5,
+      "protein": 41.2,
+      "vitaC": 0,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.8
+    }
+  },
+  "flour-wheat-2": {
+    "nutritionId": "nutri-flour-wheat-2",
+    "productId": "flour-wheat-2",
+    "nutritionValue": {
+      "ca": 6,
+      "calo": 109,
+      "carbohydrat": 3.6,
+      "cholesterol": 65.6,
+      "fe": 7.9,
+      "ka": 39.5,
+      "lipid": 5.1,
+      "mg": 18.5,
+      "na": 44.8,
+      "protein": 45.9,
+      "vitaC": 0.61,
+      "vitaD": 0.4,
+      "vitaB6": 0.5,
+      "vitaB12": 0
+    }
+  },
+  "flour-wheat-3": {
+    "nutritionId": "nutri-flour-wheat-3",
+    "productId": "flour-wheat-3",
+    "nutritionValue": {
+      "ca": 6.5,
+      "calo": 110,
+      "carbohydrat": 5.9,
+      "cholesterol": 60.5,
+      "fe": 25.9,
+      "ka": 31,
+      "lipid": 6.9,
+      "mg": 10,
+      "na": 34.4,
+      "protein": 45.9,
+      "vitaC": 0.34,
+      "vitaD": 0.2,
+      "vitaB6": 0,
+      "vitaB12": 0
+    }
+  },
+  "garlic-powder-1": {
+    "nutritionId": "nutri-garlic-powder-1",
+    "productId": "garlic-powder-1",
+    "nutritionValue": {
+      "ca": 22.8,
+      "calo": 166,
+      "carbohydrat": 0.71,
+      "cholesterol": 76.8,
+      "fe": 23.2,
+      "ka": 27.8,
+      "lipid": 3.3,
+      "mg": 32.8,
+      "na": 47.7,
+      "protein": 48.3,
+      "vitaC": 0.8,
+      "vitaD": 0.9,
+      "vitaB6": 0.71,
+      "vitaB12": 0.34
+    }
+  },
+  "garlic-powder-2": {
+    "nutritionId": "nutri-garlic-powder-2",
+    "productId": "garlic-powder-2",
+    "nutritionValue": {
+      "ca": 38.4,
+      "calo": 118,
+      "carbohydrat": 1.8,
+      "cholesterol": 79.7,
+      "fe": 4.8,
+      "ka": 46.4,
+      "lipid": 5,
+      "mg": 10.1,
+      "na": 44.4,
+      "protein": 45.3,
+      "vitaC": 0.71,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.71
+    }
+  },
+  "grapefruit-1": {
+    "nutritionId": "nutri-grapefruit-1",
+    "productId": "grapefruit-1",
+    "nutritionValue": {
+      "ca": 28,
+      "calo": 178,
+      "carbohydrat": 4.2,
+      "cholesterol": 99.5,
+      "fe": 23.7,
+      "ka": 35.1,
+      "lipid": 9.1,
+      "mg": 6.8,
+      "na": 35.4,
+      "protein": 46.2,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0.2
+    }
+  },
+  "grapefruit-2": {
+    "nutritionId": "nutri-grapefruit-2",
+    "productId": "grapefruit-2",
+    "nutritionValue": {
+      "ca": 31.9,
+      "calo": 112,
+      "carbohydrat": 0.2,
+      "cholesterol": 50.1,
+      "fe": 9.6,
+      "ka": 8.4,
+      "lipid": 4.3,
+      "mg": 7.7,
+      "na": 43.2,
+      "protein": 45.5,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "grapefruit-3": {
+    "nutritionId": "nutri-grapefruit-3",
+    "productId": "grapefruit-3",
+    "nutritionValue": {
+      "ca": 48.4,
+      "calo": 115,
+      "carbohydrat": 3.3,
+      "cholesterol": 67.4,
+      "fe": 46.2,
+      "ka": 9.7,
+      "lipid": 2.2,
+      "mg": 46.1,
+      "na": 30.7,
+      "protein": 45,
+      "vitaC": 0.8,
+      "vitaD": 0.1,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  },
+  "grapes-1": {
+    "nutritionId": "nutri-grapes-1",
+    "productId": "grapes-1",
+    "nutritionValue": {
+      "ca": 7.9,
+      "calo": 105,
+      "carbohydrat": 1.8,
+      "cholesterol": 62,
+      "fe": 10.8,
+      "ka": 25.6,
+      "lipid": 4.4,
+      "mg": 43.9,
+      "na": 29.7,
+      "protein": 48.1,
+      "vitaC": 0.9,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.34
+    }
+  },
+  "grapes-2": {
+    "nutritionId": "nutri-grapes-2",
+    "productId": "grapes-2",
+    "nutritionValue": {
+      "ca": 24.2,
+      "calo": 148,
+      "carbohydrat": 4.6,
+      "cholesterol": 96.1,
+      "fe": 33.4,
+      "ka": 30.2,
+      "lipid": 7.5,
+      "mg": 11.7,
+      "na": 17,
+      "protein": 47.9,
+      "vitaC": 0.71,
+      "vitaD": 0.61,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "grapes-3": {
+    "nutritionId": "nutri-grapes-3",
+    "productId": "grapes-3",
+    "nutritionValue": {
+      "ca": 18.9,
+      "calo": 197,
+      "carbohydrat": 7.4,
+      "cholesterol": 66.1,
+      "fe": 31.6,
+      "ka": 10.6,
+      "lipid": 1.1,
+      "mg": 38.7,
+      "na": 37.4,
+      "protein": 40.6,
+      "vitaC": 0.4,
+      "vitaD": 0.8,
+      "vitaB6": 0.9,
+      "vitaB12": 0.4
+    }
+  },
+  "green-apple-1": {
+    "nutritionId": "nutri-green-apple-1",
+    "productId": "green-apple-1",
+    "nutritionValue": {
+      "ca": 36.1,
+      "calo": 182,
+      "carbohydrat": 2.8,
+      "cholesterol": 90.8,
+      "fe": 15.9,
+      "ka": 35.5,
+      "lipid": 7.8,
+      "mg": 43.9,
+      "na": 24.4,
+      "protein": 49.8,
+      "vitaC": 0.61,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "green-apple-2": {
+    "nutritionId": "nutri-green-apple-2",
+    "productId": "green-apple-2",
+    "nutritionValue": {
+      "ca": 9.6,
+      "calo": 197,
+      "carbohydrat": 5.3,
+      "cholesterol": 88.1,
+      "fe": 6.5,
+      "ka": 47.5,
+      "lipid": 7.6,
+      "mg": 16.5,
+      "na": 39.8,
+      "protein": 44.5,
+      "vitaC": 0.71,
+      "vitaD": 0.4,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "green-apple-3": {
+    "nutritionId": "nutri-green-apple-3",
+    "productId": "green-apple-3",
+    "nutritionValue": {
+      "ca": 33.4,
+      "calo": 193,
+      "carbohydrat": 7,
+      "cholesterol": 77.7,
+      "fe": 39.9,
+      "ka": 15.7,
+      "lipid": 9.2,
+      "mg": 18.6,
+      "na": 38.7,
+      "protein": 46.8,
+      "vitaC": 0.61,
+      "vitaD": 0.5,
+      "vitaB6": 0.71,
+      "vitaB12": 0.71
+    }
+  },
+  "hot-sauce-1": {
+    "nutritionId": "nutri-hot-sauce-1",
+    "productId": "hot-sauce-1",
+    "nutritionValue": {
+      "ca": 8,
+      "calo": 122,
+      "carbohydrat": 6.3,
+      "cholesterol": 63.2,
+      "fe": 15.8,
+      "ka": 48.7,
+      "lipid": 6.6,
+      "mg": 24.3,
+      "na": 29.4,
+      "protein": 49.6,
+      "vitaC": 0,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.34
+    }
+  },
+  "hot-sauce-2": {
+    "nutritionId": "nutri-hot-sauce-2",
+    "productId": "hot-sauce-2",
+    "nutritionValue": {
+      "ca": 34.1,
+      "calo": 166,
+      "carbohydrat": 6.9,
+      "cholesterol": 57.8,
+      "fe": 35.3,
+      "ka": 34,
+      "lipid": 8,
+      "mg": 17.9,
+      "na": 15.9,
+      "protein": 46,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.4,
+      "vitaB12": 0.71
+    }
+  },
+  "ketchup-1": {
+    "nutritionId": "nutri-ketchup-1",
+    "productId": "ketchup-1",
+    "nutritionValue": {
+      "ca": 3,
+      "calo": 181,
+      "carbohydrat": 0.8,
+      "cholesterol": 56.4,
+      "fe": 27.4,
+      "ka": 44.2,
+      "lipid": 0.1,
+      "mg": 6.1,
+      "na": 39,
+      "protein": 47.8,
+      "vitaC": 0.5,
+      "vitaD": 0.2,
+      "vitaB6": 0.61,
+      "vitaB12": 0.8
+    }
+  },
+  "ketchup-2": {
+    "nutritionId": "nutri-ketchup-2",
+    "productId": "ketchup-2",
+    "nutritionValue": {
+      "ca": 21.3,
+      "calo": 147,
+      "carbohydrat": 7.1,
+      "cholesterol": 92.7,
+      "fe": 49.3,
+      "ka": 19,
+      "lipid": 2,
+      "mg": 39.4,
+      "na": 19.8,
+      "protein": 40.6,
+      "vitaC": 0,
+      "vitaD": 0.9,
+      "vitaB6": 0.1,
+      "vitaB12": 0
+    }
+  },
+  "lemon-1": {
+    "nutritionId": "nutri-lemon-1",
+    "productId": "lemon-1",
+    "nutritionValue": {
+      "ca": 4.1,
+      "calo": 129,
+      "carbohydrat": 1.5,
+      "cholesterol": 83.2,
+      "fe": 30.3,
+      "ka": 9.4,
+      "lipid": 4.6,
+      "mg": 9.6,
+      "na": 7.6,
+      "protein": 40.5,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.2,
+      "vitaB12": 0.5
+    }
+  },
+  "lemon-2": {
+    "nutritionId": "nutri-lemon-2",
+    "productId": "lemon-2",
+    "nutritionValue": {
+      "ca": 12.7,
+      "calo": 124,
+      "carbohydrat": 2.3,
+      "cholesterol": 61.3,
+      "fe": 8,
+      "ka": 0.8,
+      "lipid": 3.4,
+      "mg": 16.7,
+      "na": 22.7,
+      "protein": 48,
+      "vitaC": 0.8,
+      "vitaD": 0.8,
+      "vitaB6": 0.61,
+      "vitaB12": 0.4
+    }
+  },
+  "lemon-3": {
+    "nutritionId": "nutri-lemon-3",
+    "productId": "lemon-3",
+    "nutritionValue": {
+      "ca": 42.3,
+      "calo": 158,
+      "carbohydrat": 0.34,
+      "cholesterol": 84.4,
+      "fe": 17,
+      "ka": 48.7,
+      "lipid": 7.1,
+      "mg": 25.7,
+      "na": 25.1,
+      "protein": 44.1,
+      "vitaC": 0.4,
+      "vitaD": 0.71,
+      "vitaB6": 0.2,
+      "vitaB12": 0.5
+    }
+  },
+  "lettuce-1": {
+    "nutritionId": "nutri-lettuce-1",
+    "productId": "lettuce-1",
+    "nutritionValue": {
+      "ca": 36,
+      "calo": 178,
+      "carbohydrat": 2.4,
+      "cholesterol": 96.5,
+      "fe": 41.1,
+      "ka": 18.3,
+      "lipid": 4.1,
+      "mg": 38.7,
+      "na": 3.4,
+      "protein": 43.2,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "lettuce-2": {
+    "nutritionId": "nutri-lettuce-2",
+    "productId": "lettuce-2",
+    "nutritionValue": {
+      "ca": 22.5,
+      "calo": 112,
+      "carbohydrat": 3.9,
+      "cholesterol": 80.3,
+      "fe": 6.4,
+      "ka": 3,
+      "lipid": 5.7,
+      "mg": 24.6,
+      "na": 29,
+      "protein": 45.8,
+      "vitaC": 0.71,
+      "vitaD": 0.2,
+      "vitaB6": 0.8,
+      "vitaB12": 0.71
+    }
+  },
+  "lettuce-3": {
+    "nutritionId": "nutri-lettuce-3",
+    "productId": "lettuce-3",
+    "nutritionValue": {
+      "ca": 39.9,
+      "calo": 120,
+      "carbohydrat": 3.3,
+      "cholesterol": 72,
+      "fe": 43.3,
+      "ka": 45.5,
+      "lipid": 5.8,
+      "mg": 8.6,
+      "na": 8.5,
+      "protein": 47,
+      "vitaC": 0.1,
+      "vitaD": 0.1,
+      "vitaB6": 0.34,
+      "vitaB12": 0.9
+    }
+  },
+  "lime-1": {
+    "nutritionId": "nutri-lime-1",
+    "productId": "lime-1",
+    "nutritionValue": {
+      "ca": 24.6,
+      "calo": 160,
+      "carbohydrat": 6.4,
+      "cholesterol": 78.5,
+      "fe": 48.6,
+      "ka": 14,
+      "lipid": 3.2,
+      "mg": 29.1,
+      "na": 18.6,
+      "protein": 41.1,
+      "vitaC": 0.61,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "lime-2": {
+    "nutritionId": "nutri-lime-2",
+    "productId": "lime-2",
+    "nutritionValue": {
+      "ca": 46.2,
+      "calo": 172,
+      "carbohydrat": 8.5,
+      "cholesterol": 75.7,
+      "fe": 40,
+      "ka": 4.6,
+      "lipid": 1.5,
+      "mg": 28.8,
+      "na": 16,
+      "protein": 49,
+      "vitaC": 0.2,
+      "vitaD": 0.9,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "lime-3": {
+    "nutritionId": "nutri-lime-3",
+    "productId": "lime-3",
+    "nutritionValue": {
+      "ca": 6,
+      "calo": 191,
+      "carbohydrat": 1.72,
+      "cholesterol": 81.6,
+      "fe": 22.8,
+      "ka": 20.2,
+      "lipid": 7.7,
+      "mg": 18.8,
+      "na": 44.7,
+      "protein": 44.7,
+      "vitaC": 0.5,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "lobster-1": {
+    "nutritionId": "nutri-lobster-1",
+    "productId": "lobster-1",
+    "nutritionValue": {
+      "ca": 3.7,
+      "calo": 193,
+      "carbohydrat": 8.8,
+      "cholesterol": 61.7,
+      "fe": 34,
+      "ka": 48.2,
+      "lipid": 7.9,
+      "mg": 22.4,
+      "na": 37.8,
+      "protein": 45.2,
+      "vitaC": 0.34,
+      "vitaD": 0.61,
+      "vitaB6": 0.2,
+      "vitaB12": 0.1
+    }
+  },
+  "lobster-2": {
+    "nutritionId": "nutri-lobster-2",
+    "productId": "lobster-2",
+    "nutritionValue": {
+      "ca": 24.8,
+      "calo": 118,
+      "carbohydrat": 8.9,
+      "cholesterol": 96.9,
+      "fe": 20.3,
+      "ka": 21.5,
+      "lipid": 2,
+      "mg": 1.9,
+      "na": 2.4,
+      "protein": 40.4,
+      "vitaC": 0.9,
+      "vitaD": 0.4,
+      "vitaB6": 0.1,
+      "vitaB12": 0.71
+    }
+  },
+  "lobster-3": {
+    "nutritionId": "nutri-lobster-3",
+    "productId": "lobster-3",
+    "nutritionValue": {
+      "ca": 14.3,
+      "calo": 172,
+      "carbohydrat": 8.6,
+      "cholesterol": 84.1,
+      "fe": 17.8,
+      "ka": 41,
+      "lipid": 7.3,
+      "mg": 4.1,
+      "na": 32.1,
+      "protein": 47,
+      "vitaC": 0.5,
+      "vitaD": 0,
+      "vitaB6": 0.71,
+      "vitaB12": 0.2
+    }
+  },
+  "mango-1": {
+    "nutritionId": "nutri-mango-1",
+    "productId": "mango-1",
+    "nutritionValue": {
+      "ca": 38.1,
+      "calo": 134,
+      "carbohydrat": 8.9,
+      "cholesterol": 91.3,
+      "fe": 35,
+      "ka": 0,
+      "lipid": 5.4,
+      "mg": 49.2,
+      "na": 24.5,
+      "protein": 40.6,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0.34,
+      "vitaB12": 0.2
+    }
+  },
+  "mango-2": {
+    "nutritionId": "nutri-mango-2",
+    "productId": "mango-2",
+    "nutritionValue": {
+      "ca": 40.5,
+      "calo": 195,
+      "carbohydrat": 9.3,
+      "cholesterol": 84.3,
+      "fe": 43.4,
+      "ka": 11.6,
+      "lipid": 0.71,
+      "mg": 46.3,
+      "na": 21.1,
+      "protein": 49.1,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.5,
+      "vitaB12": 0.4
+    }
+  },
+  "mango-3": {
+    "nutritionId": "nutri-mango-3",
+    "productId": "mango-3",
+    "nutritionValue": {
+      "ca": 15.6,
+      "calo": 180,
+      "carbohydrat": 1.5,
+      "cholesterol": 73.3,
+      "fe": 11.6,
+      "ka": 27.2,
+      "lipid": 7.9,
+      "mg": 35.6,
+      "na": 40.6,
+      "protein": 41.9,
+      "vitaC": 0.8,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0
+    }
+  },
+  "marlin-1": {
+    "nutritionId": "nutri-marlin-1",
+    "productId": "marlin-1",
+    "nutritionValue": {
+      "ca": 11.3,
+      "calo": 178,
+      "carbohydrat": 5.5,
+      "cholesterol": 83.8,
+      "fe": 49.7,
+      "ka": 20.3,
+      "lipid": 9.6,
+      "mg": 21.5,
+      "na": 49.4,
+      "protein": 43.9,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.9,
+      "vitaB12": 0.2
+    }
+  },
+  "marlin-2": {
+    "nutritionId": "nutri-marlin-2",
+    "productId": "marlin-2",
+    "nutritionValue": {
+      "ca": 25.3,
+      "calo": 136,
+      "carbohydrat": 2.4,
+      "cholesterol": 66.5,
+      "fe": 43.5,
+      "ka": 23.5,
+      "lipid": 5.5,
+      "mg": 26.4,
+      "na": 34,
+      "protein": 44.1,
+      "vitaC": 0.71,
+      "vitaD": 0.61,
+      "vitaB6": 0,
+      "vitaB12": 0.4
+    }
+  },
+  "marlin-3": {
+    "nutritionId": "nutri-marlin-3",
+    "productId": "marlin-3",
+    "nutritionValue": {
+      "ca": 28.8,
+      "calo": 114,
+      "carbohydrat": 0.71,
+      "cholesterol": 81.2,
+      "fe": 19.1,
+      "ka": 46.1,
+      "lipid": 0.1,
+      "mg": 48.9,
+      "na": 28.8,
+      "protein": 40.4,
+      "vitaC": 0,
+      "vitaD": 0.2,
+      "vitaB6": 0.5,
+      "vitaB12": 0.9
+    }
+  },
+  "melon-1": {
+    "nutritionId": "nutri-melon-1",
+    "productId": "melon-1",
+    "nutritionValue": {
+      "ca": 32.4,
+      "calo": 104,
+      "carbohydrat": 3.3,
+      "cholesterol": 61.9,
+      "fe": 29.7,
+      "ka": 44.3,
+      "lipid": 7.5,
+      "mg": 42.5,
+      "na": 14.8,
+      "protein": 49.7,
+      "vitaC": 0,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.5
+    }
+  },
+  "melon-2": {
+    "nutritionId": "nutri-melon-2",
+    "productId": "melon-2",
+    "nutritionValue": {
+      "ca": 19.6,
+      "calo": 144,
+      "carbohydrat": 3.7,
+      "cholesterol": 61.8,
+      "fe": 5.9,
+      "ka": 48.7,
+      "lipid": 8.9,
+      "mg": 45.8,
+      "na": 22.1,
+      "protein": 45.9,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.9,
+      "vitaB12": 0.34
+    }
+  },
+  "melon-3": {
+    "nutritionId": "nutri-melon-3",
+    "productId": "melon-3",
+    "nutritionValue": {
+      "ca": 18.8,
+      "calo": 157,
+      "carbohydrat": 6.5,
+      "cholesterol": 95.2,
+      "fe": 49.3,
+      "ka": 4.6,
+      "lipid": 6.6,
+      "mg": 17.4,
+      "na": 10.7,
+      "protein": 42.5,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.34,
+      "vitaB12": 0.8
+    }
+  },
+  "mushroom-1": {
+    "nutritionId": "nutri-mushroom-1",
+    "productId": "mushroom-1",
+    "nutritionValue": {
+      "ca": 12.3,
+      "calo": 185,
+      "carbohydrat": 8.8,
+      "cholesterol": 60.4,
+      "fe": 0.8,
+      "ka": 0.34,
+      "lipid": 4,
+      "mg": 44.5,
+      "na": 9.3,
+      "protein": 48.5,
+      "vitaC": 0.9,
+      "vitaD": 0.9,
+      "vitaB6": 0.34,
+      "vitaB12": 0.9
+    }
+  },
+  "mushroom-2": {
+    "nutritionId": "nutri-mushroom-2",
+    "productId": "mushroom-2",
+    "nutritionValue": {
+      "ca": 22.5,
+      "calo": 141,
+      "carbohydrat": 1.2,
+      "cholesterol": 75.3,
+      "fe": 21.6,
+      "ka": 8.5,
+      "lipid": 1.8,
+      "mg": 23.3,
+      "na": 8,
+      "protein": 40.8,
+      "vitaC": 0.5,
+      "vitaD": 0.8,
+      "vitaB6": 0.5,
+      "vitaB12": 0
+    }
+  },
+  "mushroom-3": {
+    "nutritionId": "nutri-mushroom-3",
+    "productId": "mushroom-3",
+    "nutritionValue": {
+      "ca": 45.4,
+      "calo": 198,
+      "carbohydrat": 9.4,
+      "cholesterol": 67.8,
+      "fe": 18.4,
+      "ka": 31,
+      "lipid": 6.1,
+      "mg": 2.5,
+      "na": 25.5,
+      "protein": 43.8,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "octopus-1": {
+    "nutritionId": "nutri-octopus-1",
+    "productId": "octopus-1",
+    "nutritionValue": {
+      "ca": 36.5,
+      "calo": 174,
+      "carbohydrat": 2.2,
+      "cholesterol": 69.1,
+      "fe": 46.7,
+      "ka": 44.3,
+      "lipid": 5.9,
+      "mg": 21.6,
+      "na": 34.6,
+      "protein": 45.4,
+      "vitaC": 0.34,
+      "vitaD": 0.34,
+      "vitaB6": 0.9,
+      "vitaB12": 0.71
+    }
+  },
+  "octopus-2": {
+    "nutritionId": "nutri-octopus-2",
+    "productId": "octopus-2",
+    "nutritionValue": {
+      "ca": 16,
+      "calo": 172,
+      "carbohydrat": 9.9,
+      "cholesterol": 65,
+      "fe": 12,
+      "ka": 47.8,
+      "lipid": 4.6,
+      "mg": 18,
+      "na": 18.6,
+      "protein": 49.5,
+      "vitaC": 0.61,
+      "vitaD": 0.71,
+      "vitaB6": 0.34,
+      "vitaB12": 0.1
+    }
+  },
+  "octopus-3": {
+    "nutritionId": "nutri-octopus-3",
+    "productId": "octopus-3",
+    "nutritionValue": {
+      "ca": 40.4,
+      "calo": 103,
+      "carbohydrat": 9,
+      "cholesterol": 51.4,
+      "fe": 47.8,
+      "ka": 1.5,
+      "lipid": 8,
+      "mg": 13.1,
+      "na": 9.9,
+      "protein": 40.5,
+      "vitaC": 0.71,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.2
+    }
+  },
+  "olive-oil-1": {
+    "nutritionId": "nutri-olive-oil-1",
+    "productId": "olive-oil-1",
+    "nutritionValue": {
+      "ca": 2.8,
+      "calo": 100,
+      "carbohydrat": 2.4,
+      "cholesterol": 94.3,
+      "fe": 6.8,
+      "ka": 22.7,
+      "lipid": 0.1,
+      "mg": 5.8,
+      "na": 12.1,
+      "protein": 46.4,
+      "vitaC": 0.2,
+      "vitaD": 0.8,
+      "vitaB6": 0.71,
+      "vitaB12": 0.4
+    }
+  },
+  "olive-oil-2": {
+    "nutritionId": "nutri-olive-oil-2",
+    "productId": "olive-oil-2",
+    "nutritionValue": {
+      "ca": 41.1,
+      "calo": 189,
+      "carbohydrat": 3.5,
+      "cholesterol": 98.9,
+      "fe": 16.1,
+      "ka": 32.6,
+      "lipid": 2.9,
+      "mg": 14.3,
+      "na": 26,
+      "protein": 47.4,
+      "vitaC": 0.34,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.71
+    }
+  },
+  "onion-1": {
+    "nutritionId": "nutri-onion-1",
+    "productId": "onion-1",
+    "nutritionValue": {
+      "ca": 19.9,
+      "calo": 163,
+      "carbohydrat": 0.5,
+      "cholesterol": 84.1,
+      "fe": 6.6,
+      "ka": 39.8,
+      "lipid": 1,
+      "mg": 45.8,
+      "na": 33.3,
+      "protein": 48.7,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.8,
+      "vitaB12": 0.1
+    }
+  },
+  "onion-2": {
+    "nutritionId": "nutri-onion-2",
+    "productId": "onion-2",
+    "nutritionValue": {
+      "ca": 28.6,
+      "calo": 127,
+      "carbohydrat": 8.5,
+      "cholesterol": 65,
+      "fe": 5.6,
+      "ka": 35.1,
+      "lipid": 0.8,
+      "mg": 21.1,
+      "na": 12.2,
+      "protein": 45.1,
+      "vitaC": 0.5,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "onion-3": {
+    "nutritionId": "nutri-onion-3",
+    "productId": "onion-3",
+    "nutritionValue": {
+      "ca": 16.8,
+      "calo": 147,
+      "carbohydrat": 4.2,
+      "cholesterol": 68.5,
+      "fe": 7.2,
+      "ka": 23.1,
+      "lipid": 2.3,
+      "mg": 36.8,
+      "na": 13.3,
+      "protein": 45.4,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.34,
+      "vitaB12": 0.61
+    }
+  },
+  "onion-powder-1": {
+    "nutritionId": "nutri-onion-powder-1",
+    "productId": "onion-powder-1",
+    "nutritionValue": {
+      "ca": 30.9,
+      "calo": 130,
+      "carbohydrat": 2.3,
+      "cholesterol": 56.2,
+      "fe": 43.3,
+      "ka": 37.6,
+      "lipid": 6.2,
+      "mg": 37.4,
+      "na": 15.3,
+      "protein": 45.7,
+      "vitaC": 0.61,
+      "vitaD": 0.61,
+      "vitaB6": 0.5,
+      "vitaB12": 0
+    }
+  },
+  "onion-powder-2": {
+    "nutritionId": "nutri-onion-powder-2",
+    "productId": "onion-powder-2",
+    "nutritionValue": {
+      "ca": 32.2,
+      "calo": 197,
+      "carbohydrat": 9,
+      "cholesterol": 62.3,
+      "fe": 5.2,
+      "ka": 36.1,
+      "lipid": 7.8,
+      "mg": 0.4,
+      "na": 15.3,
+      "protein": 41,
+      "vitaC": 0.4,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.9
+    }
+  },
+  "orange-1": {
+    "nutritionId": "nutri-orange-1",
+    "productId": "orange-1",
+    "nutritionValue": {
+      "ca": 22.3,
+      "calo": 180,
+      "carbohydrat": 4.2,
+      "cholesterol": 93.9,
+      "fe": 29.5,
+      "ka": 6.7,
+      "lipid": 7.9,
+      "mg": 40,
+      "na": 47.1,
+      "protein": 42.5,
+      "vitaC": 0.9,
+      "vitaD": 0.1,
+      "vitaB6": 0.34,
+      "vitaB12": 0.1
+    }
+  },
+  "orange-2": {
+    "nutritionId": "nutri-orange-2",
+    "productId": "orange-2",
+    "nutritionValue": {
+      "ca": 9.8,
+      "calo": 145,
+      "carbohydrat": 2.3,
+      "cholesterol": 95.7,
+      "fe": 28.3,
+      "ka": 19.2,
+      "lipid": 6.6,
+      "mg": 8.1,
+      "na": 33.7,
+      "protein": 45.9,
+      "vitaC": 0.8,
+      "vitaD": 0.1,
+      "vitaB6": 0.34,
+      "vitaB12": 0.9
+    }
+  },
+  "orange-3": {
+    "nutritionId": "nutri-orange-3",
+    "productId": "orange-3",
+    "nutritionValue": {
+      "ca": 36.6,
+      "calo": 198,
+      "carbohydrat": 8,
+      "cholesterol": 97.4,
+      "fe": 10.2,
+      "ka": 10.6,
+      "lipid": 9.5,
+      "mg": 13.2,
+      "na": 9.7,
+      "protein": 48.6,
+      "vitaC": 0.34,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.71
+    }
+  },
+  "orange-4": {
+    "nutritionId": "nutri-orange-4",
+    "productId": "orange-4",
+    "nutritionValue": {
+      "ca": 23.1,
+      "calo": 178,
+      "carbohydrat": 5.8,
+      "cholesterol": 68.6,
+      "fe": 0.8,
+      "ka": 9.5,
+      "lipid": 8.1,
+      "mg": 43,
+      "na": 17.5,
+      "protein": 46.2,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.2,
+      "vitaB12": 0.61
+    }
+  },
+  "paprika-1": {
+    "nutritionId": "nutri-paprika-1",
+    "productId": "paprika-1",
+    "nutritionValue": {
+      "ca": 34,
+      "calo": 186,
+      "carbohydrat": 9.5,
+      "cholesterol": 91.8,
+      "fe": 29.2,
+      "ka": 30.4,
+      "lipid": 5.1,
+      "mg": 40.3,
+      "na": 8.1,
+      "protein": 49.8,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0.4,
+      "vitaB12": 0.1
+    }
+  },
+  "paprika-2": {
+    "nutritionId": "nutri-paprika-2",
+    "productId": "paprika-2",
+    "nutritionValue": {
+      "ca": 8.8,
+      "calo": 173,
+      "carbohydrat": 7.5,
+      "cholesterol": 88.1,
+      "fe": 30.9,
+      "ka": 41.5,
+      "lipid": 7.3,
+      "mg": 1.3,
+      "na": 46.1,
+      "protein": 48,
+      "vitaC": 0.2,
+      "vitaD": 0.71,
+      "vitaB6": 0.5,
+      "vitaB12": 0.8
+    }
+  },
+  "pea-1": {
+    "nutritionId": "nutri-pea-1",
+    "productId": "pea-1",
+    "nutritionValue": {
+      "ca": 9.2,
+      "calo": 151,
+      "carbohydrat": 5.6,
+      "cholesterol": 85.9,
+      "fe": 35.8,
+      "ka": 41.4,
+      "lipid": 5.6,
+      "mg": 48.4,
+      "na": 22.8,
+      "protein": 46.5,
+      "vitaC": 0.5,
+      "vitaD": 0.34,
+      "vitaB6": 0.61,
+      "vitaB12": 0.5
+    }
+  },
+  "pea-2": {
+    "nutritionId": "nutri-pea-2",
+    "productId": "pea-2",
+    "nutritionValue": {
+      "ca": 3.1,
+      "calo": 112,
+      "carbohydrat": 5.9,
+      "cholesterol": 74.6,
+      "fe": 12,
+      "ka": 40,
+      "lipid": 3.8,
+      "mg": 49.5,
+      "na": 33.9,
+      "protein": 42.2,
+      "vitaC": 0.1,
+      "vitaD": 0.71,
+      "vitaB6": 0.5,
+      "vitaB12": 0.8
+    }
+  },
+  "pea-3": {
+    "nutritionId": "nutri-pea-3",
+    "productId": "pea-3",
+    "nutritionValue": {
+      "ca": 37.7,
+      "calo": 187,
+      "carbohydrat": 5.2,
+      "cholesterol": 51.9,
+      "fe": 41.4,
+      "ka": 2.8,
+      "lipid": 1.1,
+      "mg": 1.3,
+      "na": 21.2,
+      "protein": 45.8,
+      "vitaC": 0.34,
+      "vitaD": 0.8,
+      "vitaB6": 0.1,
+      "vitaB12": 0.9
+    }
+  },
+  "peach-1": {
+    "nutritionId": "nutri-peach-1",
+    "productId": "peach-1",
+    "nutritionValue": {
+      "ca": 14.6,
+      "calo": 172,
+      "carbohydrat": 0.8,
+      "cholesterol": 94.2,
+      "fe": 43.1,
+      "ka": 24.3,
+      "lipid": 5.5,
+      "mg": 33.3,
+      "na": 47,
+      "protein": 46.6,
+      "vitaC": 0.5,
+      "vitaD": 0.71,
+      "vitaB6": 0.61,
+      "vitaB12": 0.4
+    }
+  },
+  "peach-2": {
+    "nutritionId": "nutri-peach-2",
+    "productId": "peach-2",
+    "nutritionValue": {
+      "ca": 41.6,
+      "calo": 167,
+      "carbohydrat": 7,
+      "cholesterol": 59.2,
+      "fe": 20.3,
+      "ka": 34,
+      "lipid": 3.5,
+      "mg": 25.4,
+      "na": 11.7,
+      "protein": 40.8,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0.34,
+      "vitaB12": 0.2
+    }
+  },
+  "peach-3": {
+    "nutritionId": "nutri-peach-3",
+    "productId": "peach-3",
+    "nutritionValue": {
+      "ca": 47.3,
+      "calo": 155,
+      "carbohydrat": 3.3,
+      "cholesterol": 72,
+      "fe": 43.7,
+      "ka": 39.4,
+      "lipid": 3.2,
+      "mg": 41.6,
+      "na": 31.8,
+      "protein": 42.5,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.61,
+      "vitaB12": 0.34
+    }
+  },
+  "pear-1": {
+    "nutritionId": "nutri-pear-1",
+    "productId": "pear-1",
+    "nutritionValue": {
+      "ca": 25.2,
+      "calo": 106,
+      "carbohydrat": 1,
+      "cholesterol": 51.5,
+      "fe": 43.1,
+      "ka": 22.9,
+      "lipid": 6.3,
+      "mg": 10.5,
+      "na": 1.6,
+      "protein": 43.1,
+      "vitaC": 0.5,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.8
+    }
+  },
+  "pear-2": {
+    "nutritionId": "nutri-pear-2",
+    "productId": "pear-2",
+    "nutritionValue": {
+      "ca": 3.1,
+      "calo": 175,
+      "carbohydrat": 6.1,
+      "cholesterol": 93.7,
+      "fe": 33.3,
+      "ka": 20.1,
+      "lipid": 1.9,
+      "mg": 32.5,
+      "na": 22.9,
+      "protein": 46,
+      "vitaC": 0.1,
+      "vitaD": 0.61,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "pear-3": {
+    "nutritionId": "nutri-pear-3",
+    "productId": "pear-3",
+    "nutritionValue": {
+      "ca": 3.8,
+      "calo": 164,
+      "carbohydrat": 1.8,
+      "cholesterol": 61.3,
+      "fe": 16.8,
+      "ka": 48.9,
+      "lipid": 2.4,
+      "mg": 21.4,
+      "na": 43.7,
+      "protein": 49.3,
+      "vitaC": 0.34,
+      "vitaD": 0.9,
+      "vitaB6": 0.2,
+      "vitaB12": 0.71
+    }
+  },
+  "pineapple-1": {
+    "nutritionId": "nutri-pineapple-1",
+    "productId": "pineapple-1",
+    "nutritionValue": {
+      "ca": 25.9,
+      "calo": 199,
+      "carbohydrat": 1.2,
+      "cholesterol": 79.7,
+      "fe": 45.3,
+      "ka": 14.6,
+      "lipid": 7.3,
+      "mg": 9.6,
+      "na": 11.9,
+      "protein": 49,
+      "vitaC": 0.2,
+      "vitaD": 0.61,
+      "vitaB6": 0.8,
+      "vitaB12": 0
+    }
+  },
+  "pineapple-2": {
+    "nutritionId": "nutri-pineapple-2",
+    "productId": "pineapple-2",
+    "nutritionValue": {
+      "ca": 12,
+      "calo": 125,
+      "carbohydrat": 2.1,
+      "cholesterol": 77.6,
+      "fe": 12.2,
+      "ka": 49.7,
+      "lipid": 9,
+      "mg": 38.2,
+      "na": 32.8,
+      "protein": 41.2,
+      "vitaC": 0.2,
+      "vitaD": 0.71,
+      "vitaB6": 0.34,
+      "vitaB12": 0.5
+    }
+  },
+  "pineapple-3": {
+    "nutritionId": "nutri-pineapple-3",
+    "productId": "pineapple-3",
+    "nutritionValue": {
+      "ca": 39.2,
+      "calo": 168,
+      "carbohydrat": 9.5,
+      "cholesterol": 52.8,
+      "fe": 26.3,
+      "ka": 6.7,
+      "lipid": 0.4,
+      "mg": 34.6,
+      "na": 39.8,
+      "protein": 43.6,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.1,
+      "vitaB12": 0.8
+    }
+  },
+  "potato-1": {
+    "nutritionId": "nutri-potato-1",
+    "productId": "potato-1",
+    "nutritionValue": {
+      "ca": 20.7,
+      "calo": 131,
+      "carbohydrat": 6.7,
+      "cholesterol": 94.3,
+      "fe": 37.4,
+      "ka": 37.6,
+      "lipid": 3,
+      "mg": 23.8,
+      "na": 47.1,
+      "protein": 43.3,
+      "vitaC": 0.4,
+      "vitaD": 0,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "potato-2": {
+    "nutritionId": "nutri-potato-2",
+    "productId": "potato-2",
+    "nutritionValue": {
+      "ca": 12.1,
+      "calo": 141,
+      "carbohydrat": 6.2,
+      "cholesterol": 79.2,
+      "fe": 18.4,
+      "ka": 46.5,
+      "lipid": 1,
+      "mg": 19.2,
+      "na": 30.9,
+      "protein": 46.9,
+      "vitaC": 0.71,
+      "vitaD": 0.34,
+      "vitaB6": 0.4,
+      "vitaB12": 0
+    }
+  },
+  "potato-3": {
+    "nutritionId": "nutri-potato-3",
+    "productId": "potato-3",
+    "nutritionValue": {
+      "ca": 47.2,
+      "calo": 141,
+      "carbohydrat": 6.6,
+      "cholesterol": 96.1,
+      "fe": 21.7,
+      "ka": 9.5,
+      "lipid": 2.6,
+      "mg": 26.7,
+      "na": 46.3,
+      "protein": 40.6,
+      "vitaC": 0.9,
+      "vitaD": 0,
+      "vitaB6": 0.5,
+      "vitaB12": 0.8
+    }
+  },
+  "potato-4": {
+    "nutritionId": "nutri-potato-4",
+    "productId": "potato-4",
+    "nutritionValue": {
+      "ca": 40.8,
+      "calo": 190,
+      "carbohydrat": 0.9,
+      "cholesterol": 55.6,
+      "fe": 31.3,
+      "ka": 41.9,
+      "lipid": 9.6,
+      "mg": 9.8,
+      "na": 34.8,
+      "protein": 49,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.34,
+      "vitaB12": 0.9
+    }
+  },
+  "pumpkin-1": {
+    "nutritionId": "nutri-pumpkin-1",
+    "productId": "pumpkin-1",
+    "nutritionValue": {
+      "ca": 31.7,
+      "calo": 141,
+      "carbohydrat": 4.8,
+      "cholesterol": 72.2,
+      "fe": 18.5,
+      "ka": 41.3,
+      "lipid": 4.8,
+      "mg": 3.8,
+      "na": 13.8,
+      "protein": 41.4,
+      "vitaC": 0.2,
+      "vitaD": 0.71,
+      "vitaB6": 0,
+      "vitaB12": 0.2
+    }
+  },
+  "pumpkin-2": {
+    "nutritionId": "nutri-pumpkin-2",
+    "productId": "pumpkin-2",
+    "nutritionValue": {
+      "ca": 12.2,
+      "calo": 147,
+      "carbohydrat": 6.8,
+      "cholesterol": 99,
+      "fe": 4.4,
+      "ka": 14,
+      "lipid": 8.9,
+      "mg": 34.1,
+      "na": 12.4,
+      "protein": 49.2,
+      "vitaC": 0.61,
+      "vitaD": 0.61,
+      "vitaB6": 0.5,
+      "vitaB12": 0.1
+    }
+  },
+  "pumpkin-3": {
+    "nutritionId": "nutri-pumpkin-3",
+    "productId": "pumpkin-3",
+    "nutritionValue": {
+      "ca": 17.8,
+      "calo": 153,
+      "carbohydrat": 4.1,
+      "cholesterol": 84.7,
+      "fe": 35,
+      "ka": 33.3,
+      "lipid": 6.5,
+      "mg": 23.4,
+      "na": 25.4,
+      "protein": 47.1,
+      "vitaC": 0.8,
+      "vitaD": 0.5,
+      "vitaB6": 0.71,
+      "vitaB12": 0.34
+    }
+  },
+  "rice-1": {
+    "nutritionId": "nutri-rice-1",
+    "productId": "rice-1",
+    "nutritionValue": {
+      "ca": 45.9,
+      "calo": 163,
+      "carbohydrat": 7.2,
+      "cholesterol": 89.8,
+      "fe": 12.2,
+      "ka": 22.2,
+      "lipid": 6,
+      "mg": 46.2,
+      "na": 17.9,
+      "protein": 41.5,
+      "vitaC": 0.1,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.5
+    }
+  },
+  "rice-2": {
+    "nutritionId": "nutri-rice-2",
+    "productId": "rice-2",
+    "nutritionValue": {
+      "ca": 44.4,
+      "calo": 122,
+      "carbohydrat": 1.3,
+      "cholesterol": 57.8,
+      "fe": 48.9,
+      "ka": 35,
+      "lipid": 3.1,
+      "mg": 21.2,
+      "na": 38.2,
+      "protein": 40.4,
+      "vitaC": 0.9,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.61
+    }
+  },
+  "rice-3": {
+    "nutritionId": "nutri-rice-3",
+    "productId": "rice-3",
+    "nutritionValue": {
+      "ca": 17.5,
+      "calo": 138,
+      "carbohydrat": 1.6,
+      "cholesterol": 99.3,
+      "fe": 19.7,
+      "ka": 45.7,
+      "lipid": 2.5,
+      "mg": 33.5,
+      "na": 48.6,
+      "protein": 41.7,
+      "vitaC": 0.5,
+      "vitaD": 0.34,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  },
+  "rice-4": {
+    "nutritionId": "nutri-rice-4",
+    "productId": "rice-4",
+    "nutritionValue": {
+      "ca": 36.9,
+      "calo": 141,
+      "carbohydrat": 0.71,
+      "cholesterol": 57.6,
+      "fe": 38,
+      "ka": 19.5,
+      "lipid": 5.8,
+      "mg": 19.7,
+      "na": 23.6,
+      "protein": 44.7,
+      "vitaC": 0.8,
+      "vitaD": 0.9,
+      "vitaB6": 0.9,
+      "vitaB12": 0.1
+    }
+  },
+  "salmon-1": {
+    "nutritionId": "nutri-salmon-1",
+    "productId": "salmon-1",
+    "nutritionValue": {
+      "ca": 2.4,
+      "calo": 187,
+      "carbohydrat": 4.1,
+      "cholesterol": 87.7,
+      "fe": 22.2,
+      "ka": 15.3,
+      "lipid": 2.6,
+      "mg": 3.7,
+      "na": 24,
+      "protein": 44.9,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0.5,
+      "vitaB12": 0.2
+    }
+  },
+  "salmon-2": {
+    "nutritionId": "nutri-salmon-2",
+    "productId": "salmon-2",
+    "nutritionValue": {
+      "ca": 26.2,
+      "calo": 107,
+      "carbohydrat": 9.8,
+      "cholesterol": 50.5,
+      "fe": 30.3,
+      "ka": 2.2,
+      "lipid": 9,
+      "mg": 13.1,
+      "na": 3.2,
+      "protein": 45.1,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.2,
+      "vitaB12": 0.5
+    }
+  },
+  "salmon-3": {
+    "nutritionId": "nutri-salmon-3",
+    "productId": "salmon-3",
+    "nutritionValue": {
+      "ca": 18,
+      "calo": 194,
+      "carbohydrat": 2.2,
+      "cholesterol": 89.1,
+      "fe": 46.9,
+      "ka": 0.8,
+      "lipid": 8.8,
+      "mg": 28.2,
+      "na": 5.3,
+      "protein": 42.9,
+      "vitaC": 0.4,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0
+    }
+  },
+  "salt-1": {
+    "nutritionId": "nutri-salt-1",
+    "productId": "salt-1",
+    "nutritionValue": {
+      "ca": 1.9,
+      "calo": 194,
+      "carbohydrat": 5.4,
+      "cholesterol": 86.5,
+      "fe": 13.7,
+      "ka": 4.4,
+      "lipid": 4,
+      "mg": 7.3,
+      "na": 34.3,
+      "protein": 45,
+      "vitaC": 0.61,
+      "vitaD": 0.8,
+      "vitaB6": 0,
+      "vitaB12": 0.4
+    }
+  },
+  "salt-2": {
+    "nutritionId": "nutri-salt-2",
+    "productId": "salt-2",
+    "nutritionValue": {
+      "ca": 45.4,
+      "calo": 110,
+      "carbohydrat": 7,
+      "cholesterol": 53.4,
+      "fe": 8.3,
+      "ka": 25.6,
+      "lipid": 9.2,
+      "mg": 39.1,
+      "na": 37.1,
+      "protein": 47.3,
+      "vitaC": 0,
+      "vitaD": 0.8,
+      "vitaB6": 0.2,
+      "vitaB12": 0.5
+    }
+  },
+  "salt-3": {
+    "nutritionId": "nutri-salt-3",
+    "productId": "salt-3",
+    "nutritionValue": {
+      "ca": 31.2,
+      "calo": 150,
+      "carbohydrat": 8.9,
+      "cholesterol": 63.7,
+      "fe": 6.2,
+      "ka": 9.7,
+      "lipid": 5.9,
+      "mg": 12.1,
+      "na": 49.9,
+      "protein": 49.5,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.5,
+      "vitaB12": 0.2
+    }
+  },
+  "sapodilla-1": {
+    "nutritionId": "nutri-sapodilla-1",
+    "productId": "sapodilla-1",
+    "nutritionValue": {
+      "ca": 42.5,
+      "calo": 168,
+      "carbohydrat": 5.6,
+      "cholesterol": 75.9,
+      "fe": 49.4,
+      "ka": 24.5,
+      "lipid": 2.3,
+      "mg": 10.6,
+      "na": 22.1,
+      "protein": 45.4,
+      "vitaC": 0.61,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0.9
+    }
+  },
+  "sapodilla-2": {
+    "nutritionId": "nutri-sapodilla-2",
+    "productId": "sapodilla-2",
+    "nutritionValue": {
+      "ca": 0.1,
+      "calo": 113,
+      "carbohydrat": 0.2,
+      "cholesterol": 85,
+      "fe": 14.9,
+      "ka": 11.7,
+      "lipid": 9.8,
+      "mg": 38.7,
+      "na": 45.2,
+      "protein": 49,
+      "vitaC": 0.4,
+      "vitaD": 0.1,
+      "vitaB6": 0.9,
+      "vitaB12": 0.8
+    }
+  },
+  "sapodilla-3": {
+    "nutritionId": "nutri-sapodilla-3",
+    "productId": "sapodilla-3",
+    "nutritionValue": {
+      "ca": 34,
+      "calo": 184,
+      "carbohydrat": 2.5,
+      "cholesterol": 65.2,
+      "fe": 29.7,
+      "ka": 30,
+      "lipid": 7.1,
+      "mg": 41,
+      "na": 12.6,
+      "protein": 45.8,
+      "vitaC": 0.9,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0.5
+    }
+  },
+  "self-raising-flour-1": {
+    "nutritionId": "nutri-self-raising-flour-1",
+    "productId": "self-raising-flour-1",
+    "nutritionValue": {
+      "ca": 22.8,
+      "calo": 162,
+      "carbohydrat": 9.3,
+      "cholesterol": 52.9,
+      "fe": 42.1,
+      "ka": 11.9,
+      "lipid": 1.4,
+      "mg": 1.2,
+      "na": 43,
+      "protein": 43.5,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.71,
+      "vitaB12": 0
+    }
+  },
+  "self-raising-flour-2": {
+    "nutritionId": "nutri-self-raising-flour-2",
+    "productId": "self-raising-flour-2",
+    "nutritionValue": {
+      "ca": 6,
+      "calo": 114,
+      "carbohydrat": 0,
+      "cholesterol": 70.8,
+      "fe": 32,
+      "ka": 4.8,
+      "lipid": 7,
+      "mg": 28.5,
+      "na": 8.2,
+      "protein": 43.9,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "shark-1": {
+    "nutritionId": "nutri-shark-1",
+    "productId": "shark-1",
+    "nutritionValue": {
+      "ca": 15.4,
+      "calo": 144,
+      "carbohydrat": 5.5,
+      "cholesterol": 90,
+      "fe": 29.9,
+      "ka": 33.1,
+      "lipid": 9.6,
+      "mg": 47.2,
+      "na": 12.8,
+      "protein": 45.4,
+      "vitaC": 0,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "shark-2": {
+    "nutritionId": "nutri-shark-2",
+    "productId": "shark-2",
+    "nutritionValue": {
+      "ca": 16.8,
+      "calo": 147,
+      "carbohydrat": 3.6,
+      "cholesterol": 69.9,
+      "fe": 22.8,
+      "ka": 47.3,
+      "lipid": 0.61,
+      "mg": 46.7,
+      "na": 45,
+      "protein": 44.2,
+      "vitaC": 0.34,
+      "vitaD": 0.1,
+      "vitaB6": 0.61,
+      "vitaB12": 0.9
+    }
+  },
+  "shark-3": {
+    "nutritionId": "nutri-shark-3",
+    "productId": "shark-3",
+    "nutritionValue": {
+      "ca": 5.1,
+      "calo": 169,
+      "carbohydrat": 7.1,
+      "cholesterol": 82,
+      "fe": 19,
+      "ka": 18.4,
+      "lipid": 9.7,
+      "mg": 20.3,
+      "na": 23.4,
+      "protein": 49.8,
+      "vitaC": 0,
+      "vitaD": 0.1,
+      "vitaB6": 0.2,
+      "vitaB12": 0.61
+    }
+  },
+  "shrimp-1": {
+    "nutritionId": "nutri-shrimp-1",
+    "productId": "shrimp-1",
+    "nutritionValue": {
+      "ca": 15.1,
+      "calo": 143,
+      "carbohydrat": 4,
+      "cholesterol": 57.6,
+      "fe": 3.7,
+      "ka": 23.8,
+      "lipid": 6.1,
+      "mg": 37.4,
+      "na": 19.1,
+      "protein": 45.8,
+      "vitaC": 0.2,
+      "vitaD": 0.5,
+      "vitaB6": 0.2,
+      "vitaB12": 0.4
+    }
+  },
+  "shrimp-2": {
+    "nutritionId": "nutri-shrimp-2",
+    "productId": "shrimp-2",
+    "nutritionValue": {
+      "ca": 24.6,
+      "calo": 171,
+      "carbohydrat": 8.6,
+      "cholesterol": 68.7,
+      "fe": 10.6,
+      "ka": 44.7,
+      "lipid": 6.4,
+      "mg": 14.5,
+      "na": 22.9,
+      "protein": 41.1,
+      "vitaC": 0.71,
+      "vitaD": 0.8,
+      "vitaB6": 0.34,
+      "vitaB12": 0.1
+    }
+  },
+  "shrimp-3": {
+    "nutritionId": "nutri-shrimp-3",
+    "productId": "shrimp-3",
+    "nutritionValue": {
+      "ca": 40.6,
+      "calo": 109,
+      "carbohydrat": 4.7,
+      "cholesterol": 66.9,
+      "fe": 23.3,
+      "ka": 29.6,
+      "lipid": 3.7,
+      "mg": 30.1,
+      "na": 38.6,
+      "protein": 45.1,
+      "vitaC": 0.1,
+      "vitaD": 0.4,
+      "vitaB6": 0.71,
+      "vitaB12": 0.9
+    }
+  },
+  "shrimp-4": {
+    "nutritionId": "nutri-shrimp-4",
+    "productId": "shrimp-4",
+    "nutritionValue": {
+      "ca": 4.6,
+      "calo": 130,
+      "carbohydrat": 0.5,
+      "cholesterol": 70.7,
+      "fe": 24.3,
+      "ka": 4.9,
+      "lipid": 2.4,
+      "mg": 33.7,
+      "na": 8.9,
+      "protein": 47.7,
+      "vitaC": 0.4,
+      "vitaD": 0.34,
+      "vitaB6": 0.5,
+      "vitaB12": 0.61
+    }
+  },
+  "shrimp-5": {
+    "nutritionId": "nutri-shrimp-5",
+    "productId": "shrimp-5",
+    "nutritionValue": {
+      "ca": 48,
+      "calo": 105,
+      "carbohydrat": 7.2,
+      "cholesterol": 90.6,
+      "fe": 28.7,
+      "ka": 18.7,
+      "lipid": 4.1,
+      "mg": 36.4,
+      "na": 19.7,
+      "protein": 43.6,
+      "vitaC": 0.71,
+      "vitaD": 0,
+      "vitaB6": 0.71,
+      "vitaB12": 0
+    }
+  },
+  "soy-sauce-1": {
+    "nutritionId": "nutri-soy-sauce-1",
+    "productId": "soy-sauce-1",
+    "nutritionValue": {
+      "ca": 4.6,
+      "calo": 198,
+      "carbohydrat": 8.6,
+      "cholesterol": 69.5,
+      "fe": 22.6,
+      "ka": 39.9,
+      "lipid": 0.34,
+      "mg": 40.5,
+      "na": 19.7,
+      "protein": 46.3,
+      "vitaC": 0.2,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0.4
+    }
+  },
+  "soy-sauce-2": {
+    "nutritionId": "nutri-soy-sauce-2",
+    "productId": "soy-sauce-2",
+    "nutritionValue": {
+      "ca": 20.5,
+      "calo": 156,
+      "carbohydrat": 2,
+      "cholesterol": 70.4,
+      "fe": 13.4,
+      "ka": 10.5,
+      "lipid": 3.7,
+      "mg": 46.7,
+      "na": 27.7,
+      "protein": 46.8,
+      "vitaC": 0.8,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.71
+    }
+  },
+  "spinach-1": {
+    "nutritionId": "nutri-spinach-1",
+    "productId": "spinach-1",
+    "nutritionValue": {
+      "ca": 49.8,
+      "calo": 108,
+      "carbohydrat": 8.8,
+      "cholesterol": 91.5,
+      "fe": 32.7,
+      "ka": 47.8,
+      "lipid": 0.1,
+      "mg": 6.8,
+      "na": 44.9,
+      "protein": 41.5,
+      "vitaC": 0.8,
+      "vitaD": 0.61,
+      "vitaB6": 0.61,
+      "vitaB12": 0.8
+    }
+  },
+  "spinach-2": {
+    "nutritionId": "nutri-spinach-2",
+    "productId": "spinach-2",
+    "nutritionValue": {
+      "ca": 35.6,
+      "calo": 119,
+      "carbohydrat": 7,
+      "cholesterol": 51.7,
+      "fe": 12.3,
+      "ka": 15.2,
+      "lipid": 7.8,
+      "mg": 23.8,
+      "na": 14,
+      "protein": 41.8,
+      "vitaC": 0.5,
+      "vitaD": 0.8,
+      "vitaB6": 0.71,
+      "vitaB12": 0.4
+    }
+  },
+  "spinach-3": {
+    "nutritionId": "nutri-spinach-3",
+    "productId": "spinach-3",
+    "nutritionValue": {
+      "ca": 26.3,
+      "calo": 194,
+      "carbohydrat": 3.2,
+      "cholesterol": 78.6,
+      "fe": 10.2,
+      "ka": 2.6,
+      "lipid": 8.8,
+      "mg": 22.3,
+      "na": 34.5,
+      "protein": 43.5,
+      "vitaC": 0.34,
+      "vitaD": 0.1,
+      "vitaB6": 0.1,
+      "vitaB12": 0
+    }
+  },
+  "spring-onion-1": {
+    "nutritionId": "nutri-spring-onion-1",
+    "productId": "spring-onion-1",
+    "nutritionValue": {
+      "ca": 23.1,
+      "calo": 114,
+      "carbohydrat": 0.1,
+      "cholesterol": 79.8,
+      "fe": 42.4,
+      "ka": 5.6,
+      "lipid": 4.2,
+      "mg": 18.5,
+      "na": 2,
+      "protein": 42.1,
+      "vitaC": 0.9,
+      "vitaD": 0.71,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "spring-onion-2": {
+    "nutritionId": "nutri-spring-onion-2",
+    "productId": "spring-onion-2",
+    "nutritionValue": {
+      "ca": 43.2,
+      "calo": 128,
+      "carbohydrat": 1.3,
+      "cholesterol": 95.5,
+      "fe": 48.4,
+      "ka": 18.2,
+      "lipid": 0.1,
+      "mg": 15.7,
+      "na": 28.3,
+      "protein": 48.8,
+      "vitaC": 0.71,
+      "vitaD": 0,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "squid-1": {
+    "nutritionId": "nutri-squid-1",
+    "productId": "squid-1",
+    "nutritionValue": {
+      "ca": 27.4,
+      "calo": 114,
+      "carbohydrat": 3.7,
+      "cholesterol": 96.8,
+      "fe": 2.4,
+      "ka": 38.9,
+      "lipid": 8,
+      "mg": 28.8,
+      "na": 41.9,
+      "protein": 47.6,
+      "vitaC": 0.71,
+      "vitaD": 0.5,
+      "vitaB6": 0.1,
+      "vitaB12": 0.9
+    }
+  },
+  "squid-2": {
+    "nutritionId": "nutri-squid-2",
+    "productId": "squid-2",
+    "nutritionValue": {
+      "ca": 42.6,
+      "calo": 160,
+      "carbohydrat": 9.9,
+      "cholesterol": 52.9,
+      "fe": 5.7,
+      "ka": 37.6,
+      "lipid": 0,
+      "mg": 27.2,
+      "na": 8.7,
+      "protein": 48.1,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "squid-3": {
+    "nutritionId": "nutri-squid-3",
+    "productId": "squid-3",
+    "nutritionValue": {
+      "ca": 22,
+      "calo": 190,
+      "carbohydrat": 6.7,
+      "cholesterol": 88,
+      "fe": 32,
+      "ka": 11.9,
+      "lipid": 3.7,
+      "mg": 19.8,
+      "na": 29.2,
+      "protein": 49.2,
+      "vitaC": 0.71,
+      "vitaD": 0.5,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "strawberries-1": {
+    "nutritionId": "nutri-strawberries-1",
+    "productId": "strawberries-1",
+    "nutritionValue": {
+      "ca": 21.4,
+      "calo": 166,
+      "carbohydrat": 6.7,
+      "cholesterol": 87,
+      "fe": 17.6,
+      "ka": 42.8,
+      "lipid": 2.4,
+      "mg": 6.7,
+      "na": 25.2,
+      "protein": 42.8,
+      "vitaC": 0.8,
+      "vitaD": 0.2,
+      "vitaB6": 0.5,
+      "vitaB12": 0.61
+    }
+  },
+  "strawberries-2": {
+    "nutritionId": "nutri-strawberries-2",
+    "productId": "strawberries-2",
+    "nutritionValue": {
+      "ca": 4,
+      "calo": 183,
+      "carbohydrat": 3.3,
+      "cholesterol": 70.7,
+      "fe": 0.8,
+      "ka": 46.5,
+      "lipid": 6.1,
+      "mg": 5.6,
+      "na": 27.6,
+      "protein": 44.8,
+      "vitaC": 0.9,
+      "vitaD": 0,
+      "vitaB6": 0.2,
+      "vitaB12": 0.2
+    }
+  },
+  "strawberries-3": {
+    "nutritionId": "nutri-strawberries-3",
+    "productId": "strawberries-3",
+    "nutritionValue": {
+      "ca": 48.2,
+      "calo": 195,
+      "carbohydrat": 3.2,
+      "cholesterol": 84.3,
+      "fe": 9.5,
+      "ka": 33.6,
+      "lipid": 3.9,
+      "mg": 42,
+      "na": 37.8,
+      "protein": 47.4,
+      "vitaC": 0.5,
+      "vitaD": 0.9,
+      "vitaB6": 0,
+      "vitaB12": 0.34
+    }
+  },
+  "sugar-1": {
+    "nutritionId": "nutri-sugar-1",
+    "productId": "sugar-1",
+    "nutritionValue": {
+      "ca": 28.1,
+      "calo": 122,
+      "carbohydrat": 4.6,
+      "cholesterol": 75.8,
+      "fe": 3.5,
+      "ka": 6.5,
+      "lipid": 9.9,
+      "mg": 43.8,
+      "na": 11.4,
+      "protein": 48.8,
+      "vitaC": 0.61,
+      "vitaD": 0.34,
+      "vitaB6": 0.4,
+      "vitaB12": 0.5
+    }
+  },
+  "sugar-2": {
+    "nutritionId": "nutri-sugar-2",
+    "productId": "sugar-2",
+    "nutritionValue": {
+      "ca": 10.3,
+      "calo": 173,
+      "carbohydrat": 0.5,
+      "cholesterol": 54.3,
+      "fe": 29,
+      "ka": 12.7,
+      "lipid": 7.3,
+      "mg": 47.1,
+      "na": 42.3,
+      "protein": 49.4,
+      "vitaC": 0.1,
+      "vitaD": 0.8,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "sugar-3": {
+    "nutritionId": "nutri-sugar-3",
+    "productId": "sugar-3",
+    "nutritionValue": {
+      "ca": 33.4,
+      "calo": 159,
+      "carbohydrat": 8.6,
+      "cholesterol": 73.6,
+      "fe": 5.4,
+      "ka": 10,
+      "lipid": 0.5,
+      "mg": 29.8,
+      "na": 44.7,
+      "protein": 41.5,
+      "vitaC": 0.1,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.4
+    }
+  },
+  "sweet-potato-1": {
+    "nutritionId": "nutri-sweet-potato-1",
+    "productId": "sweet-potato-1",
+    "nutritionValue": {
+      "ca": 23.4,
+      "calo": 183,
+      "carbohydrat": 8.8,
+      "cholesterol": 57.9,
+      "fe": 42.4,
+      "ka": 44.2,
+      "lipid": 8.1,
+      "mg": 22.2,
+      "na": 39.7,
+      "protein": 47.8,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.1,
+      "vitaB12": 0.2
+    }
+  },
+  "sweet-potato-2": {
+    "nutritionId": "nutri-sweet-potato-2",
+    "productId": "sweet-potato-2",
+    "nutritionValue": {
+      "ca": 18.4,
+      "calo": 125,
+      "carbohydrat": 3.4,
+      "cholesterol": 98.5,
+      "fe": 24.5,
+      "ka": 40.1,
+      "lipid": 0.4,
+      "mg": 32,
+      "na": 31.2,
+      "protein": 40.3,
+      "vitaC": 0.61,
+      "vitaD": 0.34,
+      "vitaB6": 0.4,
+      "vitaB12": 0.8
+    }
+  },
+  "sweet-potato-3": {
+    "nutritionId": "nutri-sweet-potato-3",
+    "productId": "sweet-potato-3",
+    "nutritionValue": {
+      "ca": 42.5,
+      "calo": 112,
+      "carbohydrat": 3.4,
+      "cholesterol": 75.6,
+      "fe": 16.1,
+      "ka": 37.6,
+      "lipid": 4.9,
+      "mg": 31.1,
+      "na": 46.8,
+      "protein": 45.8,
+      "vitaC": 0.34,
+      "vitaD": 0.8,
+      "vitaB6": 0.71,
+      "vitaB12": 0.8
+    }
+  },
+  "tangerine-1": {
+    "nutritionId": "nutri-tangerine-1",
+    "productId": "tangerine-1",
+    "nutritionValue": {
+      "ca": 13.5,
+      "calo": 190,
+      "carbohydrat": 6.2,
+      "cholesterol": 52.3,
+      "fe": 37.1,
+      "ka": 16.6,
+      "lipid": 6.4,
+      "mg": 8.6,
+      "na": 7.5,
+      "protein": 48.8,
+      "vitaC": 0.1,
+      "vitaD": 0.1,
+      "vitaB6": 0.5,
+      "vitaB12": 0.4
+    }
+  },
+  "tangerine-2": {
+    "nutritionId": "nutri-tangerine-2",
+    "productId": "tangerine-2",
+    "nutritionValue": {
+      "ca": 37.1,
+      "calo": 195,
+      "carbohydrat": 7.4,
+      "cholesterol": 76,
+      "fe": 28.2,
+      "ka": 48.4,
+      "lipid": 9.1,
+      "mg": 7.3,
+      "na": 10.4,
+      "protein": 40.9,
+      "vitaC": 0.34,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0.8
+    }
+  },
+  "thai-powder-1": {
+    "nutritionId": "nutri-thai-powder-1",
+    "productId": "thai-powder-1",
+    "nutritionValue": {
+      "ca": 28.7,
+      "calo": 183,
+      "carbohydrat": 7.5,
+      "cholesterol": 51.4,
+      "fe": 38.2,
+      "ka": 15.6,
+      "lipid": 0.5,
+      "mg": 19.1,
+      "na": 14.1,
+      "protein": 48.3,
+      "vitaC": 0.5,
+      "vitaD": 0.5,
+      "vitaB6": 0.9,
+      "vitaB12": 0.1
+    }
+  },
+  "thai-powder-2": {
+    "nutritionId": "nutri-thai-powder-2",
+    "productId": "thai-powder-2",
+    "nutritionValue": {
+      "ca": 18.6,
+      "calo": 180,
+      "carbohydrat": 8.1,
+      "cholesterol": 75.2,
+      "fe": 9.2,
+      "ka": 30.1,
+      "lipid": 6.7,
+      "mg": 40.9,
+      "na": 30.3,
+      "protein": 47.8,
+      "vitaC": 0.2,
+      "vitaD": 0.34,
+      "vitaB6": 0.8,
+      "vitaB12": 0.4
+    }
+  },
+  "tikka-masala-1": {
+    "nutritionId": "nutri-tikka-masala-1",
+    "productId": "tikka-masala-1",
+    "nutritionValue": {
+      "ca": 0.4,
+      "calo": 189,
+      "carbohydrat": 1.9,
+      "cholesterol": 86.3,
+      "fe": 44.3,
+      "ka": 16.3,
+      "lipid": 0.4,
+      "mg": 49.8,
+      "na": 40.6,
+      "protein": 46.6,
+      "vitaC": 0.5,
+      "vitaD": 0.4,
+      "vitaB6": 0.2,
+      "vitaB12": 0.4
+    }
+  },
+  "tikka-masala-2": {
+    "nutritionId": "nutri-tikka-masala-2",
+    "productId": "tikka-masala-2",
+    "nutritionValue": {
+      "ca": 49.6,
+      "calo": 134,
+      "carbohydrat": 4.8,
+      "cholesterol": 85.2,
+      "fe": 24.3,
+      "ka": 31.4,
+      "lipid": 8.8,
+      "mg": 46.8,
+      "na": 35,
+      "protein": 48,
+      "vitaC": 0.71,
+      "vitaD": 0,
+      "vitaB6": 0.8,
+      "vitaB12": 0.2
+    }
+  },
+  "tilapia-1": {
+    "nutritionId": "nutri-tilapia-1",
+    "productId": "tilapia-1",
+    "nutritionValue": {
+      "ca": 22.9,
+      "calo": 103,
+      "carbohydrat": 9.5,
+      "cholesterol": 88.4,
+      "fe": 8.9,
+      "ka": 5.3,
+      "lipid": 7,
+      "mg": 3.3,
+      "na": 14.9,
+      "protein": 46.5,
+      "vitaC": 0.2,
+      "vitaD": 0.8,
+      "vitaB6": 0.8,
+      "vitaB12": 0.9
+    }
+  },
+  "tilapia-2": {
+    "nutritionId": "nutri-tilapia-2",
+    "productId": "tilapia-2",
+    "nutritionValue": {
+      "ca": 13.6,
+      "calo": 178,
+      "carbohydrat": 4.8,
+      "cholesterol": 53.9,
+      "fe": 41.7,
+      "ka": 40.4,
+      "lipid": 4.3,
+      "mg": 40.1,
+      "na": 29.4,
+      "protein": 45.1,
+      "vitaC": 0.5,
+      "vitaD": 0.71,
+      "vitaB6": 0.1,
+      "vitaB12": 0.5
+    }
+  },
+  "tilapia-3": {
+    "nutritionId": "nutri-tilapia-3",
+    "productId": "tilapia-3",
+    "nutritionValue": {
+      "ca": 10.4,
+      "calo": 173,
+      "carbohydrat": 0.71,
+      "cholesterol": 78.9,
+      "fe": 35,
+      "ka": 7.1,
+      "lipid": 4.2,
+      "mg": 44.2,
+      "na": 47.1,
+      "protein": 44.1,
+      "vitaC": 0,
+      "vitaD": 0.61,
+      "vitaB6": 0.9,
+      "vitaB12": 0.8
+    }
+  },
+  "tilapia-4": {
+    "nutritionId": "nutri-tilapia-4",
+    "productId": "tilapia-4",
+    "nutritionValue": {
+      "ca": 34.7,
+      "calo": 157,
+      "carbohydrat": 7.7,
+      "cholesterol": 75.8,
+      "fe": 24,
+      "ka": 32.8,
+      "lipid": 8.7,
+      "mg": 32.1,
+      "na": 25.2,
+      "protein": 40.9,
+      "vitaC": 0.61,
+      "vitaD": 0,
+      "vitaB6": 0,
+      "vitaB12": 0.5
+    }
+  },
+  "tomato-1": {
+    "nutritionId": "nutri-tomato-1",
+    "productId": "tomato-1",
+    "nutritionValue": {
+      "ca": 12.8,
+      "calo": 137,
+      "carbohydrat": 1.5,
+      "cholesterol": 55.4,
+      "fe": 20.1,
+      "ka": 35,
+      "lipid": 9.5,
+      "mg": 44.3,
+      "na": 25,
+      "protein": 44.7,
+      "vitaC": 0.8,
+      "vitaD": 0.34,
+      "vitaB6": 0.71,
+      "vitaB12": 0.71
+    }
+  },
+  "tomato-2": {
+    "nutritionId": "nutri-tomato-2",
+    "productId": "tomato-2",
+    "nutritionValue": {
+      "ca": 18.6,
+      "calo": 139,
+      "carbohydrat": 6.9,
+      "cholesterol": 61.5,
+      "fe": 30,
+      "ka": 31.9,
+      "lipid": 1.9,
+      "mg": 35.3,
+      "na": 3,
+      "protein": 47.6,
+      "vitaC": 0,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.5
+    }
+  },
+  "tomato-3": {
+    "nutritionId": "nutri-tomato-3",
+    "productId": "tomato-3",
+    "nutritionValue": {
+      "ca": 33.3,
+      "calo": 112,
+      "carbohydrat": 4.5,
+      "cholesterol": 83,
+      "fe": 35.7,
+      "ka": 21.2,
+      "lipid": 6.6,
+      "mg": 31.5,
+      "na": 13.8,
+      "protein": 48.4,
+      "vitaC": 0.34,
+      "vitaD": 0.9,
+      "vitaB6": 0.4,
+      "vitaB12": 0.9
+    }
+  },
+  "trout-1": {
+    "nutritionId": "nutri-trout-1",
+    "productId": "trout-1",
+    "nutritionValue": {
+      "ca": 26.9,
+      "calo": 110,
+      "carbohydrat": 2.7,
+      "cholesterol": 94.6,
+      "fe": 15.2,
+      "ka": 8.6,
+      "lipid": 0.2,
+      "mg": 30.9,
+      "na": 10.3,
+      "protein": 49.3,
+      "vitaC": 0.71,
+      "vitaD": 0.4,
+      "vitaB6": 0.9,
+      "vitaB12": 0.5
+    }
+  },
+  "trout-2": {
+    "nutritionId": "nutri-trout-2",
+    "productId": "trout-2",
+    "nutritionValue": {
+      "ca": 47.7,
+      "calo": 191,
+      "carbohydrat": 3.1,
+      "cholesterol": 81.6,
+      "fe": 21.4,
+      "ka": 12.6,
+      "lipid": 6.6,
+      "mg": 37,
+      "na": 12.9,
+      "protein": 42.2,
+      "vitaC": 0.5,
+      "vitaD": 0,
+      "vitaB6": 0.9,
+      "vitaB12": 0.4
+    }
+  },
+  "trout-3": {
+    "nutritionId": "nutri-trout-3",
+    "productId": "trout-3",
+    "nutritionValue": {
+      "ca": 16.6,
+      "calo": 166,
+      "carbohydrat": 4.6,
+      "cholesterol": 95.5,
+      "fe": 33.9,
+      "ka": 18.8,
+      "lipid": 4.8,
+      "mg": 25.7,
+      "na": 15.8,
+      "protein": 41.3,
+      "vitaC": 0.1,
+      "vitaD": 0.34,
+      "vitaB6": 0.8,
+      "vitaB12": 0.5
+    }
+  },
+  "tuna-1": {
+    "nutritionId": "nutri-tuna-1",
+    "productId": "tuna-1",
+    "nutritionValue": {
+      "ca": 37.5,
+      "calo": 147,
+      "carbohydrat": 2.7,
+      "cholesterol": 78,
+      "fe": 45.2,
+      "ka": 2.7,
+      "lipid": 3.5,
+      "mg": 14.4,
+      "na": 27.9,
+      "protein": 41.4,
+      "vitaC": 0.5,
+      "vitaD": 0.71,
+      "vitaB6": 0.5,
+      "vitaB12": 0.34
+    }
+  },
+  "tuna-2": {
+    "nutritionId": "nutri-tuna-2",
+    "productId": "tuna-2",
+    "nutritionValue": {
+      "ca": 20.1,
+      "calo": 186,
+      "carbohydrat": 6.7,
+      "cholesterol": 84.5,
+      "fe": 35.2,
+      "ka": 37.3,
+      "lipid": 3.9,
+      "mg": 38.8,
+      "na": 26.3,
+      "protein": 42.1,
+      "vitaC": 0.9,
+      "vitaD": 0.9,
+      "vitaB6": 0.5,
+      "vitaB12": 0.61
+    }
+  },
+  "tuna-3": {
+    "nutritionId": "nutri-tuna-3",
+    "productId": "tuna-3",
+    "nutritionValue": {
+      "ca": 27.6,
+      "calo": 196,
+      "carbohydrat": 6.2,
+      "cholesterol": 62.2,
+      "fe": 19.6,
+      "ka": 34.5,
+      "lipid": 8.9,
+      "mg": 0.5,
+      "na": 12.8,
+      "protein": 40.5,
+      "vitaC": 0.5,
+      "vitaD": 0.2,
+      "vitaB6": 0.2,
+      "vitaB12": 0
+    }
+  },
+  "watermelon-1": {
+    "nutritionId": "nutri-watermelon-1",
+    "productId": "watermelon-1",
+    "nutritionValue": {
+      "ca": 7.7,
+      "calo": 170,
+      "carbohydrat": 3.4,
+      "cholesterol": 54,
+      "fe": 10.3,
+      "ka": 1.4,
+      "lipid": 8.9,
+      "mg": 4.4,
+      "na": 11,
+      "protein": 41.3,
+      "vitaC": 0,
+      "vitaD": 0.5,
+      "vitaB6": 0.9,
+      "vitaB12": 0
+    }
+  },
+  "watermelon-2": {
+    "nutritionId": "nutri-watermelon-2",
+    "productId": "watermelon-2",
+    "nutritionValue": {
+      "ca": 45,
+      "calo": 143,
+      "carbohydrat": 1.4,
+      "cholesterol": 87.9,
+      "fe": 11.1,
+      "ka": 25.2,
+      "lipid": 3.2,
+      "mg": 33.7,
+      "na": 11.8,
+      "protein": 47.6,
+      "vitaC": 0.71,
+      "vitaD": 0.5,
+      "vitaB6": 0.4,
+      "vitaB12": 0.2
+    }
+  },
+  "watermelon-3": {
+    "nutritionId": "nutri-watermelon-3",
+    "productId": "watermelon-3",
+    "nutritionValue": {
+      "ca": 37,
+      "calo": 146,
+      "carbohydrat": 1,
+      "cholesterol": 56,
+      "fe": 18.4,
+      "ka": 49.7,
+      "lipid": 2,
+      "mg": 29.3,
+      "na": 5.3,
+      "protein": 40.3,
+      "vitaC": 0.1,
+      "vitaD": 0,
+      "vitaB6": 0.5,
+      "vitaB12": 0.2
+    }
+  },
+  "watermelon-4": {
+    "nutritionId": "nutri-watermelon-4",
+    "productId": "watermelon-4",
+    "nutritionValue": {
+      "ca": 8.1,
+      "calo": 151,
+      "carbohydrat": 6.3,
+      "cholesterol": 90.9,
+      "fe": 37.7,
+      "ka": 2.3,
+      "lipid": 2.3,
+      "mg": 30.5,
+      "na": 20.3,
+      "protein": 43.3,
+      "vitaC": 0.4,
+      "vitaD": 0.5,
+      "vitaB6": 0.61,
+      "vitaB12": 0.4
+    }
+  },
+  "zucchini-1": {
+    "nutritionId": "nutri-zucchini-1",
+    "productId": "zucchini-1",
+    "nutritionValue": {
+      "ca": 1.4,
+      "calo": 174,
+      "carbohydrat": 0.5,
+      "cholesterol": 57.2,
+      "fe": 1.4,
+      "ka": 24.6,
+      "lipid": 5.4,
+      "mg": 6.8,
+      "na": 35.8,
+      "protein": 42.2,
+      "vitaC": 0.2,
+      "vitaD": 0,
+      "vitaB6": 0.8,
+      "vitaB12": 0.71
+    }
+  },
+  "zucchini-2": {
+    "nutritionId": "nutri-zucchini-2",
+    "productId": "zucchini-2",
+    "nutritionValue": {
+      "ca": 0.5,
+      "calo": 145,
+      "carbohydrat": 9.1,
+      "cholesterol": 50.5,
+      "fe": 2.2,
+      "ka": 37.3,
+      "lipid": 0.4,
+      "mg": 44.4,
+      "na": 25.7,
+      "protein": 47.5,
+      "vitaC": 0.71,
+      "vitaD": 0.1,
+      "vitaB6": 0.8,
+      "vitaB12": 0
+    }
+  },
+  "zucchini-3": {
+    "nutritionId": "nutri-zucchini-3",
+    "productId": "zucchini-3",
+    "nutritionValue": {
+      "ca": 45.3,
+      "calo": 165,
+      "carbohydrat": 9.7,
+      "cholesterol": 79.7,
+      "fe": 35.5,
+      "ka": 13.5,
+      "lipid": 3.1,
+      "mg": 49.2,
+      "na": 8.1,
+      "protein": 48.3,
+      "vitaC": 0.5,
+      "vitaD": 0.71,
+      "vitaB6": 0.61,
+      "vitaB12": 0
+    }
+  }
+}

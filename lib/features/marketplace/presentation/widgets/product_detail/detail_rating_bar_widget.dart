@@ -59,6 +59,7 @@ class DetailRatingBarWidget extends StatelessWidget {
             alignment: Alignment.center,
             child: Text(
               value.toInt().toString(),
+              textAlign: TextAlign.end,
             ),
           ),
         )

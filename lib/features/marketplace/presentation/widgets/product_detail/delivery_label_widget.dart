@@ -9,10 +9,11 @@ class DeliveryLabelWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ListTile(
       minVerticalPadding: 0,
-      horizontalTitleGap: 0,
-      title: Row(
-        children: [Icon(Icons.delivery_dining), Text('Can Delivery Today')],
-      ),
+      horizontalTitleGap: 8,
+      minLeadingWidth: 20,
+      contentPadding: EdgeInsets.symmetric(horizontal: 8.0),
+      leading: Icon(Icons.delivery_dining_sharp),
+      title: Text('Can Delivery Today'),
       subtitle: Text('Discount Up To 70% With Membership'),
     );
   }

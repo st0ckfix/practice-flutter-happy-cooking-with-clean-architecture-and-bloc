@@ -1,26 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/bloc/cart_item/cart_item_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/bloc/in_buying/in_buying_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/bottom_app_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/cost_review_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/delivery_address_widget.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/delivery_method_and_product_summary_widget.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/discount_options_widget.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/delivery_option_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/invoice_details_widget.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/payment_options_widget.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/product_confirm_delivery_bottom_widget.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/list_select_widget.dart';
 
-import '../cubit/product_manager_cubit.dart';
+import '../widgets/product_confirm_delivery/discount_option_widget.dart';
+import '../widgets/product_confirm_delivery/payment_option_widget.dart';
 
 class ProductConfirmDeliveryPage extends StatelessWidget {
-  const ProductConfirmDeliveryPage({super.key, this.select});
-  final int? select;
+  const ProductConfirmDeliveryPage({super.key});
   @override
   Widget build(BuildContext context) {
+    final cartItems = context.read<InBuyingBloc>().state.getListItems;
+    final listWidgets = [
+      const DeliveryAddressWidget(),
+      const DeliveryOptionWidget(),
+      ListSelectWidget(cartItems: cartItems),
+      const DiscountOptionWidget(),
+      const PaymentOptionWidget(),
+      const InvoiceDetailsWidget(),
+      const CostReviewWidget(),
+    ];
     return PopScope(
-      onPopInvoked: (didPop) {
-        if (select != null) {
-          context.read<InSelectListProductCubit>().removeListProducts();
-        }
-      },
+      onPopInvoked: (didPop) => context.read<InBuyingBloc>().add(RemoveMultiItem()),
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Confirm Your Order'),
@@ -29,29 +36,21 @@ class ProductConfirmDeliveryPage extends StatelessWidget {
         body: Stack(
           children: [
             Positioned(
-              bottom: 130,
+              bottom: 120,
               top: 0,
               left: 0,
               right: 0,
-              child: ListView(children: [
-                const DeliveryAddressWidget(),
-                const Divider(thickness: 5, height: 2),
-                DeliveryMethodAndProductSummaryWidget(select: select),
-                const Divider(thickness: 5, height: 2),
-                const DiscountOptionsWidget(),
-                const Divider(thickness: 5, height: 2),
-                const PaymentOptionsWidget(),
-                const Divider(thickness: 5, height: 2),
-                const InvoiceDetailsWidget(),
-                const Divider(thickness: 5, height: 2),
-                const CostReviewWidget(),
-              ]),
+              child: ListView.separated(
+                itemCount: listWidgets.length,
+                itemBuilder: (_, index) => listWidgets[index],
+                separatorBuilder: (_, __) => const Divider(thickness: 2, height: 5),
+              ),
             ),
             const Positioned(
               bottom: 0,
               left: 0,
               right: 0,
-              child: ProductConfirmDeliveryBottomWidget(inCart: false),
+              child: BottomAppWidget(),
             )
           ],
         ),

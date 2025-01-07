@@ -78,6 +78,9 @@ dependencies:
   percent_indicator: ^4.2.3
   add_to_cart_animation: ^2.0.3
   coupon_uikit: ^0.2.1
+  easy_stepper: ^0.8.5+1
+  uuid: ^4.5.1
+  flutter_slidable: ^3.1.2
 
 dev_dependencies:
   flutter_test:
@@ -111,23 +114,108 @@ flutter:
           weight: 300
   
   assets:
+    - assets/file/
     - assets/images/
     - assets/images/market/
-    - assets/images/marketplace/
+    - assets/images/banner/
+    - assets/images/icon/
+    - assets/images/review/
+    
+    - assets/images/marketplace/beef/
+    - assets/images/marketplace/beef/bone/
+    - assets/images/marketplace/beef/brisket/
+    - assets/images/marketplace/beef/chuck/
+    - assets/images/marketplace/beef/diced/
+    - assets/images/marketplace/beef/flank/
+    - assets/images/marketplace/beef/ground/
+    - assets/images/marketplace/beef/plate/
+    - assets/images/marketplace/beef/rib/
+    - assets/images/marketplace/beef/shabu-shabu/
+    - assets/images/marketplace/beef/steak/
+    - assets/images/marketplace/beef/tbone/
+    - assets/images/marketplace/beef/tenderloin/
 
-    - assets/images/cate_detail/cate_beef/
-    - assets/images/cate_detail/cate_chicken/
-    - assets/images/cate_detail/cate_crab/
-    - assets/images/cate_detail/cate_detail/
-    - assets/images/cate_detail/cate_egg/
-    - assets/images/cate_detail/cate_fish/
-    - assets/images/cate_detail/cate_fruit/
-    - assets/images/cate_detail/cate_mushroom/
-    - assets/images/cate_detail/cate_pork/
-    - assets/images/cate_detail/cate_powder/
-    - assets/images/cate_detail/cate_seafood/
-    - assets/images/cate_detail/cate_seasoning/
-    - assets/images/cate_detail/cate_vegetable/
+    - assets/images/marketplace/chicken/
+    - assets/images/marketplace/chicken/bone/
+    - assets/images/marketplace/chicken/breast/
+    - assets/images/marketplace/chicken/drumstick/
+    - assets/images/marketplace/chicken/ground/
+    - assets/images/marketplace/chicken/thigh/
+    - assets/images/marketplace/chicken/whole/
+    - assets/images/marketplace/chicken/wing/
+
+    - assets/images/marketplace/dry/
+    - assets/images/marketplace/dry/flour/
+    - assets/images/marketplace/dry/rice/
+
+    - assets/images/marketplace/egg/
+    - assets/images/marketplace/egg/chicken/
+    - assets/images/marketplace/egg/duck/
+    - assets/images/marketplace/egg/quail/
+
+    - assets/images/marketplace/fish/
+    - assets/images/marketplace/fish/catfish/
+    - assets/images/marketplace/fish/marlin/
+    - assets/images/marketplace/fish/salmon/
+    - assets/images/marketplace/fish/shark/
+    - assets/images/marketplace/fish/tilapia/
+    - assets/images/marketplace/fish/trout/
+    - assets/images/marketplace/fish/tuna/
+
+    - assets/images/marketplace/fruit/
+    - assets/images/marketplace/fruit/berry/
+    - assets/images/marketplace/fruit/drupe/
+    - assets/images/marketplace/fruit/hesperidium/
+    - assets/images/marketplace/fruit/pome/
+    - assets/images/marketplace/fruit/repo/
+
+    - assets/images/marketplace/mushroom/
+    - assets/images/marketplace/mushroom/enoki/
+    - assets/images/marketplace/mushroom/mushroom/
+
+    - assets/images/marketplace/pork/
+    - assets/images/marketplace/pork/belly/
+    - assets/images/marketplace/pork/ground/
+    - assets/images/marketplace/pork/ham/
+    - assets/images/marketplace/pork/lean/
+    - assets/images/marketplace/pork/rib/
+    - assets/images/marketplace/pork/tray/
+
+    - assets/images/marketplace/seafood/
+    - assets/images/marketplace/seafood/caviar/
+    - assets/images/marketplace/seafood/clam/
+    - assets/images/marketplace/seafood/crab/
+    - assets/images/marketplace/seafood/lobster/
+    - assets/images/marketplace/seafood/octopus/
+    - assets/images/marketplace/seafood/shrimp/
+    - assets/images/marketplace/seafood/squid/
+    - assets/images/marketplace/seafood/unagi/
+
+    - assets/images/marketplace/seasoning/
+    - assets/images/marketplace/seasoning/grain/
+    - assets/images/marketplace/seasoning/liquid/
+    - assets/images/marketplace/seasoning/sauce/
+
+    - assets/images/marketplace/vegetable/
+    - assets/images/marketplace/vegetable/bean-pea/
+    - assets/images/marketplace/vegetable/dark-green/
+    - assets/images/marketplace/vegetable/red-orange/
+    - assets/images/marketplace/vegetable/others/
+    
+    - assets/images/recipes/
+
+    - assets/images/cate-detail/cate-beef/
+    - assets/images/cate-detail/cate-chicken/
+    - assets/images/cate-detail/cate-detail/
+    - assets/images/cate-detail/cate-egg/
+    - assets/images/cate-detail/cate-fish/
+    - assets/images/cate-detail/cate-fruit/
+    - assets/images/cate-detail/cate-mushroom/
+    - assets/images/cate-detail/cate-pork/
+    - assets/images/cate-detail/cate-dry/
+    - assets/images/cate-detail/cate-seafood/
+    - assets/images/cate-detail/cate-seasoning/
+    - assets/images/cate-detail/cate-vegetable/
     
 
 flutter_native_splash:

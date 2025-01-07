@@ -1,11 +1,10 @@
 part of 'coupon_cubit.dart';
 
 abstract class CouponState extends Equatable {
-  final (List<CouponDeliveryEntity>, List<CouponProductEntity>)? list;
-  const CouponState({this.list});
+  const CouponState();
 
   @override
-  List<Object> get props => [list!];
+  List<Object> get props => [];
 }
 
 final class AppCouponInitial extends CouponState {
@@ -17,7 +16,7 @@ final class AppCouponLoading extends CouponState {
 }
 
 final class AppCouponLoaded extends CouponState {
-  const AppCouponLoaded((List<CouponDeliveryEntity>, List<CouponProductEntity>) list) : super(list: list);
+  const AppCouponLoaded() : super();
 }
 
 final class AppCouponException extends CouponState {

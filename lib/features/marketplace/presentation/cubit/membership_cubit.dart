@@ -1,7 +1,18 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/main.dart';
 
 class MembershipCubit extends Cubit<Membership> {
-  MembershipCubit(super.initialState);
+  MembershipCubit(super.initialState) {
+    logg('Membership', 'Initial', state.memberType.toString());
+  }
+
+  String membershipDiscountLabel() {
+    return '${state.deliveryDiscount.toStringAsFixed(2)}\$';
+  }
+
+  String membershipTokenBonusLabel() {
+    return 'x${state.tokenScale}';
+  }
 }
 
 enum MemberType { none, gold, platinum, diamond }

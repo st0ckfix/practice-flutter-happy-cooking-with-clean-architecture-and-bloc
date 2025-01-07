@@ -4,11 +4,12 @@ import 'package:happy_cooking/features/marketplace/domain/repositories/product_r
 
 import '../entities/product_entity.dart';
 
-class ProductUseCase extends UseCase<Either<String, List<ProductEntity>>, String> {
+
+class ProductUseCase extends UseCase<Either<String, Map<String, ProductEntity>>, String> {
   final ProductRepository productRepository;
-  ProductUseCase(this.productRepository);
+  ProductUseCase({required this.productRepository});
   @override
-  Future<Either<String, List<ProductEntity>>> call({String? params}) {
-    return productRepository.getProduct(params!);
+  Future<Either<String, Map<String, ProductEntity>>> call({void params}) {
+    return productRepository.getProduct();
   }
 }

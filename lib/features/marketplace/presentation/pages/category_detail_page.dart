@@ -1,116 +1,104 @@
-import 'package:chips_choice/chips_choice.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
-import 'package:happy_cooking/features/marketplace/domain/entities/category_detail_entity.dart';
-import 'package:happy_cooking/features/marketplace/presentation/bloc/category_detail/category_detail_bloc.dart';
-import 'package:happy_cooking/features/marketplace/presentation/bloc/category_detail_item/category_detail_item_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/category_detail/category_detail_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/category_detail_item/category_detail_item_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/pages/product_filter_page.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/common/select_list_widget.dart';
 
-class CategoryDetailPage extends StatefulWidget {
+class CategoryDetailPage extends StatelessWidget {
   const CategoryDetailPage({super.key});
-
-  @override
-  State<CategoryDetailPage> createState() => _CategoryDetailPageState();
-}
-
-class _CategoryDetailPageState extends State<CategoryDetailPage> {
-  @override
-  void initState() {
-    super.initState();
-    context.read<CategoryDetailBloc>().add(const CategoryDetailEvent());
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Text('Categories'),
+        centerTitle: true,
+      ),
       body: LayoutBuilder(
         builder: (context, constraints) {
           return Row(
             children: [
               SizedBox(
                 width: constraints.maxWidth * .3,
-                child: BlocListener<CategoryDetailBloc, CategoryDetailState>(
-                  listener: (context, state) {
-                    if (state is CategoryDetailLoaded) {
-                      context.read<CategoryDetailItemBloc>().add(CategoryDetailItemEvent(state.listCategoryDetails!.first.id));
+                child: BlocBuilder<CategoryDetailCubit, CategoryDetailState>(
+                  builder: (context, state) {
+                    if (state is CategoryDetailLoading) {
+                      return const Center(
+                        child: CircularProgressIndicator(),
+                      );
                     }
-                  },
-                  child: BlocBuilder<CategoryDetailBloc, CategoryDetailState>(
-                    builder: (context, state) {
-                      if (state is CategoryDetailLoading) {
+                    if (state is CategoryDetailLoaded) {
+                      final list = state.listCategoryDetails;
+                      if (list!.isEmpty) {
                         return const Center(
-                          child: CircularProgressIndicator(),
+                          child: Text('Empty Data'),
                         );
                       }
-                      if (state is CategoryDetailLoaded) {
-                        final list = state.listCategoryDetails!;
-                        String valueItem = list.first.id;
-                        return StatefulBuilder(builder: (context, stateful) {
-                          return ChipsChoice<String>.single(
-                            direction: Axis.vertical,
-                            value: valueItem,
-                            onChanged: (value) {
-                              stateful(() {
-                                context.read<CategoryDetailItemBloc>().add(CategoryDetailItemEvent(value));
-                                valueItem = value;
-                              });
-                            },
-                            choiceCheckmark: true,
-                            choiceItems: C2Choice.listFrom<String, CategoryDetailEntity>(
-                              source: state.listCategoryDetails!,
-                              value: (index, item) => item.id,
-                              label: (index, item) => '',
-                              avatarImage: (index, item) => AssetImage(item.image),
-                              avatarText: (index, item) => Stack(
-                                children: [
-                                  Positioned.fill(
-                                    child: Image.asset(
-                                      item.image,
-                                      fit: BoxFit.cover,
-                                    ),
+
+                      return SelectListWidget(
+                        onSelect: (pos, {selectList}) {
+                          context.read<CategoryDetailItemCubit>().fetchData(list[pos].id);
+                        },
+                        layoutBuilder: (context, index, _) {
+                          final item = list[index];
+                          return Stack(
+                            children: [
+                              Positioned.fill(
+                                child: Hero(
+                                  tag: item.id,
+                                  child: Stack(
+                                    children: [
+                                      Positioned.fill(
+                                        child: Image.asset(
+                                          item.image,
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                      const Positioned.fill(
+                                        child: DecoratedBox(
+                                          decoration: BoxDecoration(gradient: LinearGradient(colors: [Colors.transparent, Colors.black87], stops: [.4, 1], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                  Positioned.fill(
-                                    child: Container(
-                                      decoration: const BoxDecoration(gradient: LinearGradient(colors: [Colors.transparent, Colors.black87], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
-                                    ),
-                                  ),
-                                  Positioned(
-                                    bottom: 5,
-                                    left: 5,
-                                    right: 5,
-                                    child: Text(
-                                      item.label,
-                                      style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
-                                      maxLines: 2,
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                              style: (index, item) => const C2ChipStyle(
-                                avatarSize: Size(96, 96),
-                                overlayColor: Colors.black45,
-                                avatarBorderRadius: BorderRadius.all(Radius.circular(8)),
-                                height: 100,
-                                checkmarkSize: 32.0,
-                                checkmarkWeight: 8.0,
-                                elevation: 5.0,
-                                padding: EdgeInsets.all(2.0),
-                                borderColor: Colors.white,
+                              Positioned(
+                                bottom: 5,
+                                left: 5,
+                                right: 5,
+                                child: Text(
+                                  item.label,
+                                  style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                                  maxLines: 2,
+                                ),
                               ),
-                            ),
+                            ],
                           );
-                        });
-                      }
-                      return const SizedBox.shrink();
-                    },
-                  ),
+                        },
+                        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 1,
+                          childAspectRatio: 3 / 2,
+                          mainAxisSpacing: 5,
+                          crossAxisSpacing: 10,
+                        ),
+                        itemCount: list.length,
+                        selectMode: SelectMode.single,
+                        itemInit: const [0],
+                        axis: Axis.vertical,
+                        padding: const EdgeInsets.all(2),
+                        addOnCheck: AddOnCheck.empty,
+                      );
+                    }
+                    return const SizedBox.shrink();
+                  },
                 ),
               ),
               SizedBox(
                 width: constraints.maxWidth * .7,
-                child: BlocBuilder<CategoryDetailItemBloc, CategoryDetailItemState>(
+                child: BlocBuilder<CategoryDetailItemCubit, CategoryDetailItemState>(
                   builder: (context, state) {
                     if (state is CategoryDetailItemLoading) {
                       return const Center(
@@ -125,7 +113,12 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
                           final item = state.listCategoryDetailItems![index];
                           return InkWell(
                             onTap: () {
-                              Get.to(() => ProductFilterPage(tagFilter: item.id));
+                              Get.to(
+                                () => ProductFilterPage(
+                                  title: item.label,
+                                  foodType: item.id,
+                                ),
+                              );
                             },
                             child: Container(
                               margin: const EdgeInsets.all(5),
@@ -139,7 +132,7 @@ class _CategoryDetailPageState extends State<CategoryDetailPage> {
                                   ),
                                   Positioned.fill(
                                     child: Container(
-                                      decoration: const BoxDecoration(gradient: LinearGradient(colors: [Colors.transparent, Colors.black87], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
+                                      decoration: const BoxDecoration(gradient: LinearGradient(colors: [Colors.transparent, Colors.black87], stops: [.4, 1], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
                                     ),
                                   ),
                                   Positioned(

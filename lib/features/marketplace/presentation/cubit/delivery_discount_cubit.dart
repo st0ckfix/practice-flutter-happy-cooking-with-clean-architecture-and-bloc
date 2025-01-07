@@ -1,36 +1,26 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/coupon_discount_cubit.dart';
 import 'package:happy_cooking/features/marketplace/presentation/cubit/membership_cubit.dart';
 
-import '../../domain/entities/coupon_entity.dart';
-
 class DeliveryDiscountCubit extends Cubit<double> {
-  late StreamSubscription membershipStream;
-  late StreamSubscription couponDeliveryStream;
-
+  StreamSubscription? membershipStream;
   final MembershipCubit membershipCubit;
-  final CouponDeliveryDiscountCubit couponDeliveryDiscountCubit;
   DeliveryDiscountCubit({
     required this.membershipCubit,
-    required this.couponDeliveryDiscountCubit,
-  }) : super(0.0) {
-    updateDiscount(membershipCubit.state, couponDeliveryDiscountCubit.state);
-    membershipStream = membershipCubit.stream.listen(
+  }) : super(.0) {
+    updateDiscount(membershipCubit.state.deliveryDiscount);
+    membershipStream ??= membershipCubit.stream.listen(
       (membership) {
-        final coupon = couponDeliveryDiscountCubit.state;
-        updateDiscount(membership, coupon);
-      },
-    );
-    couponDeliveryStream = couponDeliveryDiscountCubit.stream.listen(
-      (coupon) {
-        final membership = membershipCubit.state;
-        updateDiscount(membership, coupon);
+        updateDiscount(membership.deliveryDiscount);
       },
     );
   }
 
-  void updateDiscount(Membership membership, CouponDeliveryEntity? coupon) {
-    emit(membership.deliveryDiscount + (coupon?.couponValue ?? .0));
+  void updateDiscount(double discount) {
+    emit(discount);
+  }
+
+  Future<void> onClear() async {
+    membershipStream?.cancel();
   }
 }

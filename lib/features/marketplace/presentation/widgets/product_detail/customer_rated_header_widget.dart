@@ -1,74 +1,65 @@
 import 'package:custom_rating_bar/custom_rating_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/common/expandable_list_widget.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/common/title_widget.dart';
 import 'package:happy_cooking/features/marketplace/presentation/widgets/product_detail/detail_rating_full_widget.dart';
 
-class CustomerRatedHeaderWidget extends StatefulWidget {
-  const CustomerRatedHeaderWidget({
-    super.key,
-  });
+import '../../cubit/review/review_cubit.dart';
 
-  @override
-  State<CustomerRatedHeaderWidget> createState() => _CustomerRatedHeaderWidgetState();
-}
+class CustomerRatedHeaderWidget extends StatelessWidget {
+  const CustomerRatedHeaderWidget({super.key});
 
-class _CustomerRatedHeaderWidgetState extends State<CustomerRatedHeaderWidget> {
-  bool isOpen = false;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8.0),
-      child: ListTile(
-        title: Text(
-          'Customers Rated',
-          style: Theme.of(context).textTheme.titleMedium!.copyWith(fontWeight: FontWeight.bold),
-        ),
-        subtitle: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Text(
-                  '4.5',
-                  style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold, fontSize: 22),
+    return ListTile(
+      title: const TitleWidget('Customers Rated'),
+      subtitle: BlocBuilder<ReviewCubit, ReviewState>(
+        builder: (context, state) {
+          if (state is ReviewLoading) {
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
+          } else if (state is ReviewError) {
+            return const Center(
+              child: Text('Getting Data Error'),
+            );
+          } else if (state is ReviewData) {
+            final listReviews = state.listReviews;
+            final ratingAverage = (listReviews?.map((e) => e.reviewValue).reduce((value, element) => value + element) ?? 0) / (listReviews?.length ?? 1);
+            return ExpandableListWidget(
+              listWidget: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      ratingAverage.toStringAsFixed(1),
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold, fontSize: 22),
+                    ),
+                    Text('•', style: Theme.of(context).textTheme.titleLarge),
+                    RatingBar.readOnly(
+                      filledIcon: Icons.star,
+                      emptyIcon: Icons.star_border,
+                      isHalfAllowed: true,
+                      halfFilledIcon: Icons.star_half,
+                      initialRating: ratingAverage,
+                      maxRating: 5,
+                      size: 26,
+                    ),
+                    Text('•', style: Theme.of(context).textTheme.titleLarge),
+                    Text('${listReviews?.length ?? 0} rated'),
+                  ],
                 ),
-                const SizedBox(width: 5),
-                const RatingBar.readOnly(
-                  filledIcon: Icons.star,
-                  emptyIcon: Icons.star_border,
-                  isHalfAllowed: true,
-                  halfFilledIcon: Icons.star_half,
-                  initialRating: 4.5,
-                  maxRating: 5,
-                  size: 26,
-                ),
-                const SizedBox(width: 15),
-                const Text('45 rated'),
-                SizedBox(
-                  width: 24,
-                  height: 24,
-                  child: IconButton(
-                      padding: EdgeInsets.zero,
-                      constraints: const BoxConstraints(),
-                      onPressed: () {
-                        setState(() {
-                          isOpen = !isOpen;
-                        });
-                      },
-                      icon: Icon(isOpen ? Icons.arrow_drop_up_outlined : Icons.arrow_drop_down_outlined)),
-                )
+                
+                DetailRatingFullWidget(listReviews: listReviews),
+                const SizedBox(height: 15),
               ],
-            ),
-            if (isOpen)
-              const Align(
-                alignment: Alignment.center,
-                child: DetailRatingFullWidget(),
-              )
-          ],
-        ),
+              collapsePositions: const [0, 2],
+            );
+          }
+          return const SizedBox.shrink();
+        },
       ),
     );
   }

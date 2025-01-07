@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:happy_cooking/core/common_widget/custom_button.dart';
 
 class ProviderWidget extends StatelessWidget {
-  const ProviderWidget({super.key});
+  const ProviderWidget({super.key, required this.provider});
+
+  final String provider;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +20,7 @@ class ProviderWidget extends StatelessWidget {
               height: 60,
               width: 60,
             ),
-            title: const Text('Provider: SP-AL'),
+            title: Text('Provided by $provider'),
             subtitle: const Row(
               children: [
                 Text('4.5', style: TextStyle(fontSize: 16)),

@@ -1,9 +1,13 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:happy_cooking/main.dart';
 
 class DeliveryCostCubit extends Cubit<DeliveryOption> {
-  DeliveryCostCubit() : super(DeliveryOption.today());
+  DeliveryCostCubit() : super(DeliveryOption.today()) {
+    logg('Delivery Cost', 'init', '${state.label} : ${state.cost}');
+  }
 
   void updateDelivery(DeliveryOption deliveryOption) {
+    logg('Delivery Cost', 'update', '${state.label} : ${state.cost}');
     emit(deliveryOption);
   }
 }

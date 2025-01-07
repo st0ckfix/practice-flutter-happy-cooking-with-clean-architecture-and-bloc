@@ -6,10 +6,10 @@ import '../entities/category_detail_item_entity.dart';
 
 class CategoryDetailItemUseCase<T> extends UseCase<Either<String, List<CategoryDetailItemEntity>>, String> {
   final CategoryDetailItemRepository categoryDetailItemRepository;
-  CategoryDetailItemUseCase(this.categoryDetailItemRepository);
+  CategoryDetailItemUseCase({required this.categoryDetailItemRepository});
 
   @override
   Future<Either<String, List<CategoryDetailItemEntity>>> call({String? params}) {
-    return categoryDetailItemRepository.getCategoryDetailItem(params!);
+    return categoryDetailItemRepository.getCategoryDetailItem(params);
   }
 }

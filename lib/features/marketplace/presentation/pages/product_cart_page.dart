@@ -1,215 +1,278 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:get/get.dart';
-import 'package:happy_cooking/features/marketplace/presentation/cubit/total_cost_cubit.dart';
-import 'package:happy_cooking/features/marketplace/presentation/pages/product_filter_page.dart';
-import 'package:happy_cooking/features/marketplace/presentation/widgets/product_confirm_delivery/product_confirm_delivery_bottom_widget.dart';
+import 'package:happy_cooking/features/marketplace/domain/entities/cart_item.dart';
+import 'package:happy_cooking/features/marketplace/presentation/bloc/cart_item/cart_item_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/bloc/in_buying/in_buying_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/bloc/in_queue/in_queue_bloc.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/cost/in_queue_cost_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/cost/product_cost_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product/product_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/cubit/product_select_cubit.dart';
+import 'package:happy_cooking/features/marketplace/presentation/pages/product_confirm_delivery_page.dart';
+import 'package:happy_cooking/features/marketplace/presentation/pages/product_detail_page.dart';
+import 'package:happy_cooking/features/marketplace/presentation/widgets/common/in_queue_product_widget.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 
-import '../cubit/product_manager_cubit.dart';
+import '../../../../core/common_widget/custom_button.dart';
 
 class ProductCartPage extends StatelessWidget {
   const ProductCartPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final InSelectListProductCubit inSelectProductCubit = context.read<InSelectListProductCubit>();
+    final inQueueBloc = context.read<InQueueBloc>();
+    final productCubit = context.read<ProductCubit>();
+
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.clear)),
+        elevation: 1,
+        leading: IconButton(
+            onPressed: () => Get.back(),
+            icon: const Icon(
+              Icons.arrow_back_ios,
+            )),
         title: const Text('Shopping Cart'),
-        centerTitle: true,
-      ),
-      body: BlocBuilder<InQueueListProductCubit<InQueueProduct>, List<InQueueProduct>>(
-        builder: (context, queueShoppingList) {
-          return Stack(
-            children: [
-              Positioned(
-                top: 0,
-                left: 15,
-                right: 15,
-                height: 40,
-                child: Row(
-                  children: [
-                    queueShoppingList.isEmpty
-                        ? Checkbox(value: false, onChanged: (value) {})
-                        : BlocBuilder<InSelectListProductCubit, List<String>>(
-                            builder: (context, listSelect) {
-                              return Checkbox(
-                                value: queueShoppingList.length == listSelect.length,
-                                onChanged: (value) {
-                                  if (value!) {
-                                    inSelectProductCubit.insertListProducts();
-                                  } else {
-                                    inSelectProductCubit.removeListProducts();
-                                  }
-                                },
-                              );
-                            },
-                          ),
-                    Text(
-                      'All products (${queueShoppingList.length})',
-                      style: Theme.of(context).textTheme.titleMedium,
+        actions: [
+          BlocSelector<InQueueBloc, CartState, bool>(
+            selector: (state) {
+              return state.isAllSelected;
+            },
+            builder: (context, isSelectedAll) {
+              return Checkbox(
+                value: isSelectedAll,
+                onChanged: (value) {
+                  final event = value! ? const SelectAll() : const UnselectAll();
+                  inQueueBloc.add(event);
+                },
+              );
+            },
+          ),
+          IconButton(
+            onPressed: () {
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: const Text('Do you want to clear all items in cart?'),
+                  actions: [
+                    TextButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      child: const Text('Cancel'),
                     ),
-                    const Spacer(),
-                    IconButton(onPressed: () {}, icon: const Icon(LineAwesomeIcons.trash_alt)),
+                    TextButton(
+                      onPressed: () {
+                        inQueueBloc.add(
+                          RemoveMultiItem(),
+                        );
+                        Navigator.pop(context);
+                      },
+                      child: const Text('Clear'),
+                    ),
                   ],
                 ),
-              ),
-              const Positioned(
-                top: 45,
-                left: 0,
-                right: 0,
-                child: Divider(thickness: 2, height: 1),
-              ),
-              Positioned(
-                top: 50,
-                left: 0,
-                right: 0,
-                bottom: 150,
-                child: queueShoppingList.isEmpty
-                    ? const Center(
-                        child: Text('Empty Shopping Cart'),
-                      )
-                    : Builder(
-                        builder: (context) {
-                          return BlocBuilder<InSelectListProductCubit, List<String>>(
-                            builder: (context, listSelect) {
-                              return ListView.separated(
-                                itemCount: queueShoppingList.length,
-                                itemBuilder: (context, index) {
-                                  final queue = queueShoppingList[index];
-                                  final product = listProduct.firstWhereOrNull((element) => element.productId == queue.productId);
+              );
+            },
+            icon: const Icon(
+              LineAwesomeIcons.trash_alt,
+            ),
+          ),
+        ],
+      ),
+      body: Stack(
+        children: [
+          Positioned(
+            top: 10,
+            left: 0,
+            right: 0,
+            bottom: 70,
+            child: BlocSelector<InQueueBloc, CartState, int>(
+              selector: (state) {
+                return state.getListItems.length;
+              },
+              builder: (context, itemCount) {
+                if (itemCount == 0) {
+                  return const Center(child: Text('No items in cart'));
+                }
+                return ListView.separated(
+                  itemBuilder: (context, index) {
+                    return BlocSelector<InQueueBloc, CartState, CartItem>(
+                      selector: (state) {
+                        return state.getListItems[index];
+                      },
+                      builder: (context, cartItem) {
+                        final productEntity = productCubit.getProductByFoodId(foodId: cartItem.foodId)!;
 
-                                  if (product == null) {
-                                    return const Text('Some product has not been found');
-                                  }
-
-                                  final classification = product.listClassification[queue.select];
-                                  final hasDiscount = product.discountPercent != .0;
-                                  final perValueDiscount = product.discountPercent * classification.cost;
-                                  final isCheck = listSelect.contains(queue.id);
-
-                                  return Column(
-                                    children: [
-                                      Row(
-                                        children: [
-                                          Checkbox(
-                                            value: isCheck,
-                                            onChanged: (value) {
-                                              if (value!) {
-                                                inSelectProductCubit.insertProduct(queue.id);
-                                              } else {
-                                                inSelectProductCubit.removeProduct(queue.id);
-                                              }
-                                            },
-                                          ),
-                                          Container(
-                                            margin: const EdgeInsets.only(right: 10),
-                                            height: 100,
-                                            width: 100,
-                                            color: Colors.red,
-                                          ),
-                                          Expanded(
-                                            child: Column(
-                                              crossAxisAlignment: CrossAxisAlignment.start,
-                                              mainAxisAlignment: MainAxisAlignment.center,
-                                              children: [
-                                                Text(product.label, maxLines: 2, overflow: TextOverflow.ellipsis),
-                                                Text(classification.label),
-                                                Row(
-                                                  children: [
-                                                    Text(
-                                                      '${(classification.cost - perValueDiscount).toStringAsFixed(2)}\$',
-                                                      style: TextStyle(
-                                                        color: hasDiscount ? Colors.red : Colors.black,
-                                                        fontSize: 16,
-                                                      ),
-                                                    ),
-                                                    if (hasDiscount)
-                                                      Row(
-                                                        children: [
-                                                          Container(
-                                                            margin: const EdgeInsets.symmetric(horizontal: 10),
-                                                            padding: const EdgeInsets.symmetric(horizontal: 5),
-                                                            decoration: BoxDecoration(
-                                                              borderRadius: BorderRadius.circular(5),
-                                                              color: Colors.grey.withOpacity(.5),
-                                                            ),
-                                                            child: Text(
-                                                              '-${(product.discountPercent * 100).toStringAsFixed(0)}%',
-                                                              style: const TextStyle(
-                                                                fontSize: 12,
-                                                              ),
-                                                            ),
-                                                          ),
-                                                          const SizedBox(width: 5),
-                                                          Text(
-                                                            '${classification.cost.toStringAsFixed(2)}\$',
-                                                            style: const TextStyle(decoration: TextDecoration.lineThrough, fontSize: 12),
-                                                          ),
-                                                        ],
-                                                      ),
-                                                  ],
-                                                ),
-                                                Row(
-                                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                                  children: [
-                                                    IconButton(
-                                                      onPressed: () {
-                                                        context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity - 1);
-                                                        if (isCheck) {
-                                                          context.read<TotalCostCubit>().updateList();
-                                                        }
-                                                      },
-                                                      icon: const Icon(
-                                                        Icons.remove,
-                                                      ),
-                                                    ),
-                                                    Text(queue.quantity.toString()),
-                                                    IconButton(
-                                                      onPressed: () {
-                                                        context.read<InQueueListProductCubit<InQueueProduct>>().changeQuantity(queue.id, queue.quantity + 1);
-                                                        if (isCheck) {
-                                                          context.read<TotalCostCubit>().updateList();
-                                                        }
-                                                      },
-                                                      icon: const Icon(
-                                                        Icons.add,
-                                                      ),
-                                                    ),
-                                                  ],
-                                                )
-                                              ],
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
-                                  );
+                        return Slidable(
+                          key: const ValueKey(0),
+                          startActionPane: ActionPane(
+                            motion: const ScrollMotion(),
+                            dismissible: DismissiblePane(onDismissed: () {}),
+                            children: const [],
+                          ),
+                          endActionPane: ActionPane(
+                            motion: const ScrollMotion(),
+                            children: [
+                              SlidableAction(
+                                onPressed: (context) => actionDialog(context, inQueueBloc, cartItem),
+                                backgroundColor: const Color(0xFFFE4A49),
+                                foregroundColor: Colors.white,
+                                icon: Icons.delete,
+                                label: 'Remove',
+                              ),
+                              SlidableAction(
+                                onPressed: (context) {},
+                                backgroundColor: const Color(0xFF21B7CA),
+                                foregroundColor: Colors.white,
+                                icon: Icons.share,
+                                label: 'Favorite',
+                              ),
+                            ],
+                          ),
+                          child: Row(
+                            children: [
+                              Checkbox(
+                                value: cartItem.isSelect,
+                                onChanged: (value) {
+                                  final event = value! ? SelectSingle(cartId: cartItem.cartId) : UnselectSingle(cartId: cartItem.cartId);
+                                  inQueueBloc.add(event);
                                 },
-                                separatorBuilder: (context, index) {
-                                  return const Padding(
-                                    padding: EdgeInsets.symmetric(horizontal: 5.0),
-                                    child: Divider(height: 15, thickness: 1),
-                                  );
-                                },
-                              );
-                            },
-                          );
-                        },
-                      ),
-              ),
-              const Positioned(
-                left: 0,
-                right: 0,
-                bottom: 0,
-                child: ProductConfirmDeliveryBottomWidget(inCart: true),
-              ),
-            ],
-          );
-        },
+                              ),
+                              Expanded(
+                                child: InQueueProductWidget(
+                                  productEntity: productEntity,
+                                  cartItem: cartItem,
+                                  isBestSeller: false,
+                                  updateProduct: () {
+                                    context.read<ProductSelectCubit>().updateProduct(productEntity.productId);
+                                    Get.to(() => const ProductDetailPage(), duration: const Duration(milliseconds: 500), curve: Curves.easeInOut);
+                                  },
+                                  updateOption: (option) {
+                                    inQueueBloc.add(UpdateOption(cartId: cartItem.cartId, foodId: cartItem.foodId, option: option));
+                                  },
+                                  increaseQuantity: () {
+                                    inQueueBloc.add(IncreaseQuantity(cartId: cartItem.cartId));
+                                  },
+                                  decreaseQuantity: () {
+                                    if (cartItem.quantity == 1) {
+                                      actionDialog(context, inQueueBloc, cartItem);
+                                    } else {
+                                      inQueueBloc.add(DecreaseQuantity(cartId: cartItem.cartId));
+                                    }
+                                  },
+                                ),
+                              ),
+                            ],
+                          ),
+                        );
+                      },
+                    );
+                  },
+                  separatorBuilder: (context, index) {
+                    return const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 15),
+                      child: Divider(height: 10, thickness: 1),
+                    );
+                  },
+                  itemCount: itemCount,
+                );
+              },
+            ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: _bottomReview(context),
+          ),
+        ],
       ),
     );
   }
+
+  Future actionDialog(BuildContext context, InQueueBloc inQueueBloc, CartItem cartItem) {
+    return showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Do you want to remove item'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text('Cancel'),
+            ),
+            TextButton(
+              onPressed: () {
+                inQueueBloc.add(RemoveItem(cartId: cartItem.cartId));
+                Navigator.pop(context);
+              },
+              child: const Text('Remove'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+}
+
+Widget _bottomReview(BuildContext context) {
+  return Container(
+    color: Colors.white,
+    padding: const EdgeInsets.all(5),
+    child: Card(
+      elevation: 1,
+      child: ListTile(
+        title: BlocBuilder<InQueueCostCubit, ProductCost>(
+          builder: (context, state) {
+            return Row(
+              children: [
+                const Text('Subtotal'),
+                const Spacer(),
+                Text.rich(
+                  TextSpan(
+                    text: state.subtotal.toStringAsFixed(2),
+                    style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.red,
+                        ),
+                    children: [
+                      TextSpan(
+                        text: '\$',
+                        style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.red,
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            );
+          },
+        ),
+        subtitle: CustomButton(
+          padding: const EdgeInsets.symmetric(vertical: 10),
+          title: 'Order',
+          isOutlined: false,
+          fontColor: Colors.white,
+          onClick: () {
+            context.read<InBuyingBloc>().add(
+                  AddMultiItem(
+                    cartItems: context.read<InQueueBloc>().state.getSelectedItems,
+                  ),
+                );
+            Get.to(
+              () => const ProductConfirmDeliveryPage(),
+              duration: const Duration(milliseconds: 500),
+              curve: Curves.easeInOut,
+            );
+          },
+        ),
+      ),
+    ),
+  );
 }
